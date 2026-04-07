@@ -1,24 +1,31 @@
-// Footer Component
-// Company info, links, and social media
-
+// Footer Component — premium design, no broken image imports
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>ABOUT COMPANY</h3>
+          <h3>ShopAnon</h3>
+          <p>Premium fashion & lifestyle products delivered to your door. Quality you can trust, prices you'll love.</p>
+        </div>
+
+        <div className="footer-section">
+          <h3>Shop</h3>
           <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#careers">Careers</a></li>
-            <li><a href="#press">Press</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><Link to="/category/Men's">Men's</Link></li>
+            <li><Link to="/category/Women's">Women's</Link></li>
+            <li><Link to="/category/Footwear">Footwear</Link></li>
+            <li><Link to="/category/Jewelry">Jewelry</Link></li>
+            <li><Link to="/products">All Products</Link></li>
           </ul>
         </div>
-        
+
         <div className="footer-section">
-          <h3>SUPPORT</h3>
+          <h3>Support</h3>
           <ul>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -28,30 +35,26 @@ export const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h3>CONTACT</h3>
-          <p>📍 123 Fashion Street, NY 10001</p>
-          <p>📧 support@anon.com</p>
-          <p>📞 1-800-ANON-123</p>
-        </div>
-
-        <div className="footer-section">
-          <h3>FOLLOW US</h3>
-          <div className="social-links">
-            <a href="#facebook">f</a>
-            <a href="#twitter">𝕏</a>
-            <a href="#instagram">📷</a>
-            <a href="#linkedin">in</a>
+          <h3>Connect</h3>
+          <p>📧 support@shopanon.com</p>
+          <p>📞 1-800-SHOP-123</p>
+          <div className="social-links" style={{ marginTop: '12px' }}>
+            <a href="#facebook" aria-label="Facebook">f</a>
+            <a href="#twitter" aria-label="Twitter">𝕏</a>
+            <a href="#instagram" aria-label="Instagram">📷</a>
+            <a href="#linkedin" aria-label="LinkedIn">in</a>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 Anon Store. All Rights Reserved.</p>
+        <p>© {year} ShopAnon. All Rights Reserved.</p>
         <div className="payment-methods">
-          <img src="/images/visa.png" alt="Visa" />
-          <img src="/images/mastercard.png" alt="Mastercard" />
-          <img src="/images/paypal.png" alt="PayPal" />
-          <img src="/images/amex.png" alt="Amex" />
+          <span>We Accept: </span>
+          <span className="payment-pill">Visa</span>
+          <span className="payment-pill">Mastercard</span>
+          <span className="payment-pill">PayPal</span>
+          <span className="payment-pill">Stripe</span>
         </div>
       </div>
     </footer>

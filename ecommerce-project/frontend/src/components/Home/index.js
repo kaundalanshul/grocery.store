@@ -13,10 +13,10 @@ import { Testimonials } from './Testimonials';
 import { Footer } from './Footer';
 import '../../styles/home.css';
 
-export const HomePage = () => {
+export const HomePage = ({ theme, onToggleTheme }) => {
   return (
     <div className="home-page">
-      <NavigationBar />
+      <NavigationBar theme={theme} onToggleTheme={onToggleTheme} />
       
       <div className="home-container">
         <CategorySidebar />

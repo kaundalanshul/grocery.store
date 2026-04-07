@@ -1,72 +1,83 @@
-// New Products Component
-// Grid display of latest products with quick actions
+// New Products Component — API fetched + Add to Cart
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
+import { useCart } from '../../context/CartContext';
 
-import React from 'react';
+const FALLBACK = 'https://via.placeholder.com/300x240?text=No+Image';
 
 export const NewProducts = () => {
-  const newProducts = [
-    { 
-      id: 1, 
-      name: 'Winter Leather Jacket', 
-      price: '$89.00', 
-      originalPrice: '$120.00',
-      rating: 4.5,
-      discount: '25%',
-      image: '/images/winter-jacket.jpg'
-    },
-    { 
-      id: 2, 
-      name: 'Camel Wool Coat', 
-      price: '$145.00', 
-      originalPrice: '$200.00',
-      rating: 4.6,
-      discount: '27%',
-      image: '/images/wool-coat.jpg'
-    },
-    { 
-      id: 3, 
-      name: 'Black Leather Blazer', 
-      price: '$125.00', 
-      originalPrice: '$180.00',
-      rating: 4.7,
-      discount: '30%',
-      image: '/images/blazer.jpg'
-    },
-    { 
-      id: 4, 
-      name: 'Navy Blue Dress Shirt', 
-      price: '$65.00', 
-      originalPrice: '$95.00',
-      rating: 4.4,
-      discount: '31%',
-      image: '/images/dress-shirt.jpg'
-    },
-  ];
+  const { addToCart } = useCart();
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [addedId, setAddedId] = useState(null);
+
+  useEffect(() => {
+    axios.get('/api/products', { params: { limit: 8 } })
+      .then(({ data }) => {
+        const all = data.products || [];
+        setProducts(all.slice(4));
+      })
+      .catch(() => setProducts([]))
+      .finally(() => setLoading(false));
+  }, []);
+
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    setAddedId(product._id);
+    setTimeout(() => setAddedId(null), 1500);
+  };
+
+  const formatPrice = (p) => typeof p === 'number' ? `₹${(p * 83).toFixed(0)}` : p;
+
+  if (loading) return <section className="new-products"><h2>New Products</h2><p>Loading...</p></section>;
 
   return (
     <section className="new-products">
       <h2>New Products</h2>
       <div className="products-grid">
-        {newProducts.map((product) => (
-          <div key={product.id} className="product-card">
+        {products.map((product) => (
+          <div key={product._id} className="product-card">
             <div className="product-image-wrapper">
-              <img src={product.image} alt={product.name} className="product-image" />
-              <span className="discount-badge">{product.discount}</span>
+              <Link to={`/products/${product._id}`}>
+                <img
+                  src={product.image || FALLBACK}
+                  alt={product.name}
+                  className="product-image"
+                  onError={(e) => { e.target.onerror = null; e.target.src = FALLBACK; }}
+                />
+              </Link>
+              {product.discount && (
+                <span className="discount-badge">{product.discount}</span>
+              )}
               <div className="quick-actions">
-                <button className="action-btn" title="Add to Cart">🛒</button>
-                <button className="action-btn" title="Add to Wishlist">❤️</button>
-                <button className="action-btn" title="Compare">⚖️</button>
+                <button
+                  className={`action-btn${addedId === product._id ? ' added' : ''}`}
+                  title="Add to Cart"
+                  onClick={() => handleAddToCart(product)}
+                >
+                  {addedId === product._id ? '✓' : '🛒'}
+                </button>
+                <Link className="action-btn" title="View Details" to={`/products/${product._id}`}>
+                  👁️
+                </Link>
               </div>
             </div>
             <div className="product-details">
-              <h3>{product.name}</h3>
+              <h3>
+                <Link className="product-link" to={`/products/${product._id}`}>
+                  {product.name}
+                </Link>
+              </h3>
               <div className="rating-section">
                 <span className="stars">★★★★☆</span>
                 <span className="rating-value">{product.rating}</span>
               </div>
               <div className="pricing-section">
-                <span className="price">{product.price}</span>
-                <span className="original-price">{product.originalPrice}</span>
+                <span className="price">{formatPrice(product.price)}</span>
+                {product.originalPrice && (
+                  <span className="original-price">{formatPrice(product.originalPrice)}</span>
+                )}
               </div>
             </div>
           </div>
