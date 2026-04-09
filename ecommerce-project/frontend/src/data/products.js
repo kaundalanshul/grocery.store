@@ -26,7 +26,7 @@ export const products = [
   {
     id: '3',
     name: 'Black Leather Boots',
-    price: '₹1,499',
+    price: '₹499',
     originalPrice: '₹7,498',
     rating: 4.6,
     sold: 189,
