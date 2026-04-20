@@ -55,14 +55,6 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
         <div className="navbar-actions">
           <button
             className="action-icon"
-            title="Change Language"
-            onClick={toggleLanguage}
-            type="button"
-          >
-            {language === 'en' ? '🇮🇳 हिंदी' : '🇬🇧 EN'}
-          </button>
-          <button
-            className="action-icon"
             title="Toggle theme"
             onClick={onToggleTheme}
             type="button"

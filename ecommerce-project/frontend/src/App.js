@@ -10,6 +10,7 @@ import CategoryProducts from './pages/CategoryProducts';
 import Cart from './pages/Cart';
 import { CartProvider } from './context/CartContext';
 import { LanguageProvider } from './context/LanguageContext';
+import CornerAnimation from './components/CornerAnimation';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <LanguageProvider>
       <CartProvider>
         <BrowserRouter>
+          <CornerAnimation />
           <div className="App">
           <Routes>
             <Route path="/" element={<Home theme={theme} onToggleTheme={toggleTheme} />} />
