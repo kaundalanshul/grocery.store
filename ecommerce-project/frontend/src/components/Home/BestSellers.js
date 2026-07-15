@@ -3,11 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useCart } from '../../context/CartContext';
+import { useWishlist } from '../../context/WishlistContext';
 
 const FALLBACK = 'https://via.placeholder.com/300x200?text=No+Image';
 
 export const BestSellers = () => {
   const { addToCart } = useCart();
+  const { toggleWishlist, isInWishlist } = useWishlist();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [addedId, setAddedId] = useState(null);
@@ -35,7 +37,19 @@ export const BestSellers = () => {
       <div className="sellers-grid">
         {products.map((product) => (
           <div key={product._id} className="seller-card">
-            <div className="product-image">
+            <div className="product-image" style={{ position: 'relative' }}>
+              <button 
+                onClick={(e) => { e.preventDefault(); toggleWishlist(product._id); }}
+                style={{
+                  position: 'absolute', top: '10px', right: '10px', zIndex: 2,
+                  background: 'rgba(255,255,255,0.8)', border: 'none', borderRadius: '50%',
+                  width: '32px', height: '32px', cursor: 'pointer', fontSize: '1.2rem',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
+                }}
+              >
+                {isInWishlist(product._id) ? '❤️' : '🤍'}
+              </button>
               <Link to={`/products/${product._id}`}>
                 <img
                   src={product.image || FALLBACK}

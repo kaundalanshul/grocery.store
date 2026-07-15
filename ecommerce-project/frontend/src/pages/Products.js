@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import { useCart } from '../context/CartContext';
+import { useWishlist } from '../context/WishlistContext';
 import '../styles/home.css';
 import '../App.css';
 
@@ -11,6 +12,7 @@ const FALLBACK = 'https://via.placeholder.com/300x300?text=No+Image';
 const Products = ({ theme, onToggleTheme }) => {
   const navigate = useNavigate();
   const { addToCart } = useCart();
+  const { toggleWishlist, isInWishlist } = useWishlist();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -126,7 +128,19 @@ const Products = ({ theme, onToggleTheme }) => {
         {!loading && !error && products.length > 0 && (
           <div className="products-list-grid">
             {products.map((product) => (
-              <article key={product._id} className="products-list-card">
+              <article key={product._id} className="products-list-card" style={{ position: 'relative' }}>
+                <button 
+                  onClick={(e) => { e.preventDefault(); toggleWishlist(product._id); }}
+                  style={{
+                    position: 'absolute', top: '10px', right: '10px', zIndex: 2,
+                    background: 'rgba(255,255,255,0.8)', border: 'none', borderRadius: '50%',
+                    width: '32px', height: '32px', cursor: 'pointer', fontSize: '1.2rem',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
+                  }}
+                >
+                  {isInWishlist(product._id) ? '❤️' : '🤍'}
+                </button>
                 <div
                   className="products-list-image-wrap"
                   onClick={() => navigate(`/products/${product._id}`)}

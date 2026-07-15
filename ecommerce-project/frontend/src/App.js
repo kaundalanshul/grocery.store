@@ -10,6 +10,8 @@ import CategoryProducts from './pages/CategoryProducts';
 import Cart from './pages/Cart';
 import { CartProvider } from './context/CartContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { WishlistProvider } from './context/WishlistContext';
+import Wishlist from './pages/Wishlist';
 import CornerAnimation from './components/CornerAnimation';
 import './App.css';
 
@@ -27,24 +29,27 @@ function App() {
 
   return (
     <LanguageProvider>
-      <CartProvider>
-        <BrowserRouter>
-          <CornerAnimation />
-          <div className="App">
-          <Routes>
-            <Route path="/" element={<Home theme={theme} onToggleTheme={toggleTheme} />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/order-tracking" element={<OrderTracking />} />
-            <Route path="/products" element={<Products theme={theme} onToggleTheme={toggleTheme} />} />
-            <Route path="/products/:productId" element={<ProductDetails theme={theme} onToggleTheme={toggleTheme} />} />
-            <Route path="/category/:categoryName" element={<CategoryProducts theme={theme} onToggleTheme={toggleTheme} />} />
-            <Route path="/cart" element={<Cart theme={theme} onToggleTheme={toggleTheme} />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </div>
-        </BrowserRouter>
-      </CartProvider>
+      <WishlistProvider>
+        <CartProvider>
+          <BrowserRouter>
+            <CornerAnimation />
+            <div className="App">
+            <Routes>
+              <Route path="/" element={<Home theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/order-tracking" element={<OrderTracking />} />
+              <Route path="/products" element={<Products theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="/products/:productId" element={<ProductDetails theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="/category/:categoryName" element={<CategoryProducts theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="/cart" element={<Cart theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="/wishlist" element={<Wishlist theme={theme} onToggleTheme={toggleTheme} />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </div>
+          </BrowserRouter>
+        </CartProvider>
+      </WishlistProvider>
     </LanguageProvider>
   );
 }

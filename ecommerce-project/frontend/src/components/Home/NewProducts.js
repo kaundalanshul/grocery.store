@@ -3,11 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useCart } from '../../context/CartContext';
+import { useWishlist } from '../../context/WishlistContext';
 
 const FALLBACK = 'https://via.placeholder.com/300x240?text=No+Image';
 
 export const NewProducts = () => {
   const { addToCart } = useCart();
+  const { toggleWishlist, isInWishlist } = useWishlist();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [addedId, setAddedId] = useState(null);
@@ -51,6 +53,13 @@ export const NewProducts = () => {
                 <span className="discount-badge">{product.discount}</span>
               )}
               <div className="quick-actions">
+                <button
+                  className="action-btn"
+                  title="Wishlist"
+                  onClick={(e) => { e.preventDefault(); toggleWishlist(product._id); }}
+                >
+                  {isInWishlist(product._id) ? '❤️' : '🤍'}
+                </button>
                 <button
                   className={`action-btn${addedId === product._id ? ' added' : ''}`}
                   title="Add to Cart"

@@ -89,6 +89,10 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
             🛒{' '}
             {cartCount > 0 && <span className="badge">{cartCount}</span>}
           </Link>
+
+          <Link className="action-icon" to="/wishlist" title="Wishlist">
+            ❤️
+          </Link>
         </div>
       </div>
 
