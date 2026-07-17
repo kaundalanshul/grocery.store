@@ -12,7 +12,7 @@ const Cart = ({ theme, onToggleTheme }) => {
   const { items, cartTotal, updateQuantity, removeFromCart, clearCart } = useCart();
 
   const formatPrice = (price) =>
-    typeof price === 'number' ? `$${price.toFixed(2)}` : price;
+    typeof price === 'number' ? `₹${price.toFixed(2)}` : price;
 
   if (items.length === 0) {
     return (

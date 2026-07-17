@@ -27,7 +27,7 @@ export const BestSellers = () => {
     setTimeout(() => setAddedId(null), 1500);
   };
 
-  const formatPrice = (p) => typeof p === 'number' ? `₹${(p * 83).toFixed(0)}` : p;
+  const formatPrice = (p) => typeof p === 'number' ? `₹${p.toFixed(2)}` : p;
 
   if (loading) return <section className="best-sellers"><h2>BEST SELLERS</h2><p>Loading...</p></section>;
 

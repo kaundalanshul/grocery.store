@@ -38,7 +38,7 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
       <div className="navbar-container">
         <div className="logo">
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <h1>ShopAnon</h1>
+            <h1>MegaMart</h1>
           </Link>
         </div>
 
@@ -100,11 +100,12 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
         <ul className="nav-links">
           <li><Link to="/">{t('home')}</Link></li>
           <li><Link to="/products">{t('allProducts')}</Link></li>
-          <li><Link to="/category/Men's">{t('mens')}</Link></li>
-          <li><Link to="/category/Women's">{t('womens')}</Link></li>
-          <li><Link to="/category/Jewelry">{t('jewelry')}</Link></li>
-          <li><Link to="/category/Footwear">{t('footwear')}</Link></li>
-          <li><Link to="/category/Accessories">{t('accessories')}</Link></li>
+          <li><Link to="/category/Grocery">{t('grocery')}</Link></li>
+          <li><Link to="/category/Apparel">{t('apparel')}</Link></li>
+          <li><Link to="/category/Shoes">{t('shoes')}</Link></li>
+          <li><Link to="/category/Furniture">{t('furniture')}</Link></li>
+          <li><Link to="/category/Books">{t('books')}</Link></li>
+          <li><Link to="/category/Sports">{t('sports')}</Link></li>
           <li><Link to="/cart">{t('cart')} {cartCount > 0 && `(${cartCount})`}</Link></li>
         </ul>
       </div>

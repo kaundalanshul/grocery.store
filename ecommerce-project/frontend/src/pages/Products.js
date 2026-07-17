@@ -53,7 +53,7 @@ const Products = ({ theme, onToggleTheme }) => {
   };
 
   const formatPrice = (price) =>
-    typeof price === 'number' ? `₹${(price * 83).toFixed(0)}` : price;
+    typeof price === 'number' ? `₹${price.toFixed(2)}` : price;
 
   return (
     <div className="page-wrapper">

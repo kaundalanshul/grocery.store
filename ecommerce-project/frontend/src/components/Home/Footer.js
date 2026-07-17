@@ -9,17 +9,17 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>ShopAnon</h3>
-          <p>Premium fashion & lifestyle products delivered to your door. Quality you can trust, prices you'll love.</p>
+          <h3>MegaMart</h3>
+          <p>The ultimate multi-category marketplace. From groceries to furniture, everything you need delivered to your door.</p>
         </div>
 
         <div className="footer-section">
           <h3>Shop</h3>
           <ul>
-            <li><Link to="/category/Men's">Men's</Link></li>
-            <li><Link to="/category/Women's">Women's</Link></li>
-            <li><Link to="/category/Footwear">Footwear</Link></li>
-            <li><Link to="/category/Jewelry">Jewelry</Link></li>
+            <li><Link to="/category/Grocery">Grocery</Link></li>
+            <li><Link to="/category/Apparel">Apparel</Link></li>
+            <li><Link to="/category/Furniture">Furniture</Link></li>
+            <li><Link to="/category/Books">Books</Link></li>
             <li><Link to="/products">All Products</Link></li>
           </ul>
         </div>
@@ -36,8 +36,8 @@ export const Footer = () => {
 
         <div className="footer-section">
           <h3>Connect</h3>
-          <p>📧 support@shopanon.com</p>
-          <p>📞 1-800-SHOP-123</p>
+          <p>📧 support@megamart.com</p>
+          <p>📞 1-800-MEGAMART</p>
           <div className="social-links" style={{ marginTop: '12px' }}>
             <a href="#facebook" aria-label="Facebook">f</a>
             <a href="#twitter" aria-label="Twitter">𝕏</a>
@@ -48,7 +48,7 @@ export const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {year} ShopAnon. All Rights Reserved.</p>
+        <p>© {year} MegaMart. All Rights Reserved.</p>
         <div className="payment-methods">
           <span>We Accept: </span>
           <span className="payment-pill">Visa</span>

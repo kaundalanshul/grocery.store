@@ -1,6 +1,12 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose');
 const User = require('../models/User');
+const mockData = require('../utils/mockData');
+
+const isMongoConnected = () => {
+  return mongoose.connection.readyState === 1;
+};
 
 const generateToken = (userId) => {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: '7d' });
@@ -14,28 +20,53 @@ const registerUser = async (req, res) => {
       return res.status(400).json({ message: 'Name, email, and password are required.' });
     }
 
-    const existingUser = await User.findOne({ email: email.toLowerCase() });
-    if (existingUser) {
-      return res.status(409).json({ message: 'User already exists.' });
+    if (isMongoConnected()) {
+      const existingUser = await User.findOne({ email: email.toLowerCase() });
+      if (existingUser) {
+        return res.status(409).json({ message: 'User already exists.' });
+      }
+
+      const hashedPassword = await bcrypt.hash(password, 10);
+
+      const user = await User.create({
+        name,
+        email: email.toLowerCase(),
+        password: hashedPassword,
+      });
+
+      return res.status(201).json({
+        message: 'Registration successful.',
+        user: {
+          id: user._id,
+          name: user.name,
+          email: user.email,
+        },
+        token: generateToken(user._id),
+      });
+    } else {
+      const existingUser = mockData.findUserByEmail(email);
+      if (existingUser) {
+        return res.status(409).json({ message: 'User already exists.' });
+      }
+
+      const hashedPassword = await bcrypt.hash(password, 10);
+
+      const user = mockData.addUser({
+        name,
+        email: email.toLowerCase(),
+        password: hashedPassword,
+      });
+
+      return res.status(201).json({
+        message: 'Registration successful.',
+        user: {
+          id: user._id,
+          name: user.name,
+          email: user.email,
+        },
+        token: generateToken(user._id),
+      });
     }
-
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    const user = await User.create({
-      name,
-      email: email.toLowerCase(),
-      password: hashedPassword,
-    });
-
-    return res.status(201).json({
-      message: 'Registration successful.',
-      user: {
-        id: user._id,
-        name: user.name,
-        email: user.email,
-      },
-      token: generateToken(user._id),
-    });
   } catch (error) {
     return res.status(500).json({ message: 'Registration failed.', error: error.message });
   }
@@ -49,7 +80,13 @@ const loginUser = async (req, res) => {
       return res.status(400).json({ message: 'Email and password are required.' });
     }
 
-    const user = await User.findOne({ email: email.toLowerCase() });
+    let user;
+    if (isMongoConnected()) {
+      user = await User.findOne({ email: email.toLowerCase() });
+    } else {
+      user = mockData.findUserByEmail(email);
+    }
+
     if (!user) {
       return res.status(401).json({ message: 'Invalid email or password.' });
     }
@@ -75,7 +112,16 @@ const loginUser = async (req, res) => {
 
 const getProfile = async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password');
+    let user;
+    if (isMongoConnected()) {
+      user = await User.findById(req.user.id).select('-password');
+    } else {
+      user = mockData.findUserById(req.user.id);
+      if (user) {
+        const { password, ...userWithoutPassword } = user;
+        user = userWithoutPassword;
+      }
+    }
 
     if (!user) {
       return res.status(404).json({ message: 'User not found.' });
@@ -94,20 +140,36 @@ const toggleWishlist = async (req, res) => {
       return res.status(400).json({ message: 'Product ID is required.' });
     }
 
-    const user = await User.findById(req.user.id);
-    if (!user) {
-      return res.status(404).json({ message: 'User not found.' });
-    }
+    if (isMongoConnected()) {
+      const user = await User.findById(req.user.id);
+      if (!user) {
+        return res.status(404).json({ message: 'User not found.' });
+      }
 
-    const index = user.wishlist.indexOf(productId);
-    if (index > -1) {
-      user.wishlist.splice(index, 1);
+      const index = user.wishlist.indexOf(productId);
+      if (index > -1) {
+        user.wishlist.splice(index, 1);
+      } else {
+        user.wishlist.push(productId);
+      }
+
+      await user.save();
+      return res.status(200).json({ wishlist: user.wishlist });
     } else {
-      user.wishlist.push(productId);
-    }
+      const user = mockData.findUserById(req.user.id);
+      if (!user) {
+        return res.status(404).json({ message: 'User not found.' });
+      }
 
-    await user.save();
-    return res.status(200).json({ wishlist: user.wishlist });
+      const index = user.wishlist.indexOf(productId);
+      if (index > -1) {
+        user.wishlist.splice(index, 1);
+      } else {
+        user.wishlist.push(productId);
+      }
+
+      return res.status(200).json({ wishlist: user.wishlist });
+    }
   } catch (error) {
     return res.status(500).json({ message: 'Failed to update wishlist.', error: error.message });
   }
@@ -115,12 +177,19 @@ const toggleWishlist = async (req, res) => {
 
 const getWishlist = async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).populate('wishlist');
+    let user;
+    if (isMongoConnected()) {
+      user = await User.findById(req.user.id).populate('wishlist');
+    } else {
+      user = mockData.findUserById(req.user.id);
+    }
+
     if (!user) {
       return res.status(404).json({ message: 'User not found.' });
     }
 
-    return res.status(200).json({ wishlist: user.wishlist });
+    const wishlist = user.wishlist.map(id => mockData.findProductById(id)).filter(Boolean);
+    return res.status(200).json({ wishlist });
   } catch (error) {
     return res.status(500).json({ message: 'Failed to fetch wishlist.', error: error.message });
   }

@@ -48,7 +48,7 @@ const CategoryProducts = ({ theme, onToggleTheme }) => {
   };
 
   const formatPrice = (price) =>
-    typeof price === 'number' ? `$${price.toFixed(2)}` : price;
+    typeof price === 'number' ? `₹${price.toFixed(2)}` : price;
 
   return (
     <div className="page-wrapper">

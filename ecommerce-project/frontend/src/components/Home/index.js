@@ -9,7 +9,6 @@ import { BestSellers } from './BestSellers';
 import { DealOfTheDay } from './DealOfTheDay';
 import { NewProducts } from './NewProducts';
 import { ServicesSection } from './ServicesSection';
-import { Testimonials } from './Testimonials';
 import { Footer } from './Footer';
 import '../../styles/home.css';
 
@@ -27,7 +26,6 @@ export const HomePage = ({ theme, onToggleTheme }) => {
           <DealOfTheDay />
           <NewProducts />
           <ServicesSection />
-          <Testimonials />
         </main>
       </div>
       

@@ -4,14 +4,14 @@ import { useCart } from '../../context/CartContext';
 
 const dealProduct = {
   _id: 'deal-001',
-  name: 'Premium Shampoo, Conditioner & Face Wash Pack',
+  name: 'Ergonomic Office Chair – Pro Edition',
   description:
-    'Complete hair and skincare combo with premium ingredients. Sulfate-free formula for all hair types. Dermatologically tested and approved.',
-  price: 150.00,
-  originalPrice: 200.00,
-  discount: '25%',
-  image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&q=80',
-  category: 'Cosmetics',
+    'Adjustable lumbar support, breathable mesh back, and 360° swivel. Enhance your productivity and comfort while working from home.',
+  price: 9999.00,
+  originalPrice: 14999.00,
+  discount: '33%',
+  image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80',
+  category: 'Furniture',
   stock: 40,
   sold: 30,
 };
@@ -56,8 +56,8 @@ export const DealOfTheDay = () => {
           <h3>{dealProduct.name}</h3>
           <p className="description">{dealProduct.description}</p>
           <div className="pricing">
-            <span className="discount-price">${dealProduct.price.toFixed(2)}</span>
-            <span className="original-price">${dealProduct.originalPrice.toFixed(2)}</span>
+            <span className="discount-price">₹{dealProduct.price.toFixed(2)}</span>
+            <span className="original-price">₹{dealProduct.originalPrice.toFixed(2)}</span>
             <span className="discount-badge">-{dealProduct.discount}</span>
           </div>
           <div className="countdown">

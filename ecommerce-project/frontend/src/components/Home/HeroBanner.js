@@ -8,26 +8,26 @@ export const HeroBanner = () => {
   return (
     <section className="hero-banner">
       <div className="hero-content">
-        <p className="hero-tag">✨ New Collection 2025</p>
-        <h2>Trending Accessories</h2>
-        <h1>MODERN<br />SUNGLASSES</h1>
-        <p>Elevate your style with premium eyewear — starting at <strong>$19.00</strong></p>
+        <p className="hero-tag">✨ Everything You Need</p>
+        <h2>The Ultimate Marketplace</h2>
+        <h1>SHOP<br />SMARTER</h1>
+        <p>Explore thousands of products across <strong>Grocery, Fashion, Electronics, & More</strong></p>
         <div className="hero-actions">
-          <button className="shop-btn" onClick={() => navigate('/category/Accessories')}>
+          <button className="shop-btn" onClick={() => navigate('/products')}>
             SHOP NOW →
           </button>
-          <button className="shop-btn-outline" onClick={() => navigate('/products')}>
-            All Products
+          <button className="shop-btn-outline" onClick={() => navigate('/category/Grocery')}>
+            Daily Essentials
           </button>
         </div>
       </div>
       <div className="hero-image">
         <img
-          src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&q=80"
-          alt="Modern Sunglasses"
+          src="https://images.unsplash.com/photo-1607082349566-187342175e2f?w=600&q=80"
+          alt="MegaMart Marketplace"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = 'https://via.placeholder.com/400x300?text=Sunglasses';
+            e.target.src = 'https://via.placeholder.com/600x400?text=Marketplace';
           }}
         />
       </div>
