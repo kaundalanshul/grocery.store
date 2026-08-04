@@ -145,7 +145,7 @@ const Payment = ({ theme, onToggleTheme }) => {
             <p className="qr-helper-text">Scan this QR code using any UPI App (Google Pay, PhonePe, Paytm, BHIM, etc.)</p>
             <div className="qr-image-wrapper">
               <img
-                src="/images/upi_qr.jpg"
+                src={`${process.env.PUBLIC_URL}/images/upi_qr.jpg`}
                 alt="UPI Google Pay QR Scanner"
                 className="upi-qr-image"
               />
