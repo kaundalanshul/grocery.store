@@ -4,17 +4,22 @@ import axios from '../api/axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
+import { products as fallbackProducts } from '../data/products';
 import '../styles/home.css';
 import '../App.css';
 
 const FALLBACK = 'https://via.placeholder.com/300x300?text=No+Image';
+const INITIAL_PRODUCTS = (fallbackProducts || []).map((product) => ({
+  ...product,
+  _id: product._id || product.id,
+}));
 
 const Products = ({ theme, onToggleTheme }) => {
   const navigate = useNavigate();
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [products, setProducts] = useState(INITIAL_PRODUCTS);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [search, setSearch] = useState('');
   const [searchInput, setSearchInput] = useState('');
@@ -23,15 +28,18 @@ const Products = ({ theme, onToggleTheme }) => {
 
   const fetchProducts = useCallback(async () => {
     try {
-      setLoading(true);
       setError('');
       const params = {};
       if (search) params.search = search;
       if (sortBy) params.sort = sortBy;
       const { data } = await axios.get('/api/products', { params });
-      setProducts(data.products || []);
+      const fetchedProducts = Array.isArray(data.products) && data.products.length > 0
+        ? data.products.map((product) => ({ ...product, _id: product._id || product.id }))
+        : INITIAL_PRODUCTS;
+      setProducts(fetchedProducts);
     } catch (err) {
-      setError('Failed to load products. Please try again.');
+      setProducts(INITIAL_PRODUCTS);
+      setError('');
     } finally {
       setLoading(false);
     }

@@ -1,40 +1,38 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import axios from '../api/axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import { useCart } from '../context/CartContext';
+import { products as fallbackProducts } from '../data/products';
 import '../styles/home.css';
 import '../App.css';
 
 const FALLBACK = 'https://via.placeholder.com/400x400?text=No+Image';
+const INITIAL_PRODUCTS = (fallbackProducts || []).map((product) => ({
+  ...product,
+  _id: product._id || product.id,
+}));
 
 const ProductDetails = ({ theme, onToggleTheme }) => {
   const { productId } = useParams();
   const navigate = useNavigate();
   const { addToCart } = useCart();
-  const [product, setProduct] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const fallbackProduct = useMemo(() => INITIAL_PRODUCTS.find((item) => item._id === productId || item.id === productId), [productId]);
+  const [product, setProduct] = useState(fallbackProduct || null);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
 
-  // Check user
-  const user = (() => {
-    try {
-      const stored = localStorage.getItem('authUser');
-      return stored ? JSON.parse(stored) : null;
-    } catch { return null; }
-  })();
-
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        setLoading(true);
         setError('');
         const { data } = await axios.get(`/api/products/${productId}`);
-        setProduct(data.product);
+        setProduct(data.product || fallbackProduct || null);
       } catch (err) {
-        setError('Product not found or failed to load.');
+        setProduct(fallbackProduct || null);
+        setError('');
       } finally {
         setLoading(false);
       }

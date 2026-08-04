@@ -4,20 +4,30 @@ import { Link } from 'react-router-dom';
 import axios from '../../api/axios';
 import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
+import { products as fallbackProducts } from '../../data/products';
 
 const FALLBACK = 'https://via.placeholder.com/300x200?text=No+Image';
+const INITIAL_PRODUCTS = (fallbackProducts || []).slice(0, 4).map((product) => ({
+  ...product,
+  _id: product._id || product.id,
+}));
 
 export const BestSellers = () => {
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [products, setProducts] = useState(INITIAL_PRODUCTS);
+  const [loading, setLoading] = useState(false);
   const [addedId, setAddedId] = useState(null);
 
   useEffect(() => {
     axios.get('/api/products', { params: { sort: 'popular', limit: 4 } })
-      .then(({ data }) => setProducts(data.products || []))
-      .catch(() => setProducts([]))
+      .then(({ data }) => {
+        const fetchedProducts = Array.isArray(data.products) && data.products.length > 0
+          ? data.products.map((product) => ({ ...product, _id: product._id || product.id }))
+          : INITIAL_PRODUCTS;
+        setProducts(fetchedProducts.slice(0, 4));
+      })
+      .catch(() => setProducts(INITIAL_PRODUCTS))
       .finally(() => setLoading(false));
   }, []);
 

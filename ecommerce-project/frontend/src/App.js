@@ -14,7 +14,6 @@ import { WishlistProvider } from './context/WishlistContext';
 import Wishlist from './pages/Wishlist';
 import Checkout from './pages/Checkout';
 import Payment from './pages/Payment';
-import CornerAnimation from './components/CornerAnimation';
 import './App.css';
 
 // Helper component for protecting routes that require authentication
@@ -52,7 +51,6 @@ function App() {
       <WishlistProvider>
         <CartProvider>
           <BrowserRouter>
-            <CornerAnimation />
             <div className="App">
             <Routes>
               <Route path="/" element={<ProtectedRoute><Home theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
