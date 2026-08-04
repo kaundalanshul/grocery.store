@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from 'react';
-import axios from 'axios';
+import axios from '../api/axios';
 import { Link, useNavigate } from 'react-router-dom';
 
-const Register = () => {
+const Register = ({ theme, onToggleTheme }) => {
   const navigate = useNavigate();
   const [form, setForm] = useState({ name: '', email: '', password: '', confirmPassword: '' });
   const [loading, setLoading] = useState(false);
@@ -61,6 +61,23 @@ const Register = () => {
 
   return (
     <div className="auth-page">
+      {/* Floating theme toggle button */}
+      <button
+        onClick={onToggleTheme}
+        title="Toggle dark/light theme"
+        style={{
+          position: 'fixed', top: '20px', right: '20px',
+          width: '44px', height: '44px', borderRadius: '50%',
+          border: '2px solid var(--border)',
+          background: 'var(--bg-white)',
+          fontSize: '20px', cursor: 'pointer',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          boxShadow: 'var(--card-shadow)', zIndex: 1000,
+          transition: 'all 0.2s ease',
+        }}
+      >
+        {theme === 'dark' ? '☀️' : '🌙'}
+      </button>
       <div className="auth-card">
         <h1>Create Account</h1>
         <p className="auth-subtitle">Join us and start shopping today.</p>

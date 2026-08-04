@@ -11,6 +11,10 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showUserMenu, setShowUserMenu] = useState(false);
 
+  // BigBasket Style States
+  const [showLocationMenu, setShowLocationMenu] = useState(false);
+  const [city, setCity] = useState(localStorage.getItem('selectedCity') || 'Bangalore');
+
   const user = useMemo(() => {
     try {
       const storedUser = localStorage.getItem('authUser');
@@ -33,13 +37,39 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
     }
   };
 
+  const handleCitySelect = (cityName) => {
+    setCity(cityName);
+    localStorage.setItem('selectedCity', cityName);
+    setShowLocationMenu(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo">
-          <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <h1>MegaMart</h1>
-          </Link>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <div className="logo">
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <span style={{ color: 'var(--text-dark)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mega</span>
+              <span style={{ color: 'var(--primary)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mart</span>
+              <span style={{ fontSize: '20px' }}>🌿</span>
+            </Link>
+          </div>
+
+          {/* Location Selector */}
+          <div className="location-selector">
+            <button type="button" className="location-btn" onClick={() => setShowLocationMenu(!showLocationMenu)}>
+              📍 {city} ▾
+            </button>
+            {showLocationMenu && (
+              <div className="location-dropdown">
+                {['Bangalore', 'Mumbai', 'Delhi', 'Hyderabad', 'Pune', 'Chennai', 'Kolkata'].map((cityName) => (
+                  <button type="button" key={cityName} onClick={() => handleCitySelect(cityName)}>
+                    {cityName}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         <form className="search-container" onSubmit={handleSearch}>
@@ -69,7 +99,7 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
                 onClick={() => setShowUserMenu(!showUserMenu)}
                 title="Account"
               >
-                👤 {user.name.split(' ')[0]}
+                👤 <span className="nav-action-text">{user.name.split(' ')[0]}</span>
               </button>
               {showUserMenu && (
                 <div className="user-dropdown">
@@ -81,7 +111,7 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
             </div>
           ) : (
             <Link className="action-icon" to="/login" title="Sign In">
-              👤 {t('signIn')}
+              👤 <span className="nav-action-text">{t('signIn')}</span>
             </Link>
           )}
 

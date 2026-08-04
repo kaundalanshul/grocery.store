@@ -115,6 +115,18 @@ const getProfile = async (req, res) => {
     let user;
     if (isMongoConnected()) {
       user = await User.findById(req.user.id).select('-password');
+      if (!user && global.isInMemoryDB) {
+        // Auto-create user in the in-memory database to prevent token invalidation on db restart
+        const hashedPassword = await bcrypt.hash('password123', 10);
+        const newUserObj = await User.create({
+          _id: req.user.id,
+          name: 'anshul',
+          email: 'anshul@example.com',
+          password: hashedPassword,
+        });
+        user = newUserObj.toObject();
+        delete user.password;
+      }
     } else {
       user = mockData.findUserById(req.user.id);
       if (user) {

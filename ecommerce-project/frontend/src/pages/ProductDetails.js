@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import axios from 'axios';
+import { Link, useParams, useNavigate } from 'react-router-dom';
+import axios from '../api/axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import { useCart } from '../context/CartContext';
 import '../styles/home.css';
@@ -10,6 +10,7 @@ const FALLBACK = 'https://via.placeholder.com/400x400?text=No+Image';
 
 const ProductDetails = ({ theme, onToggleTheme }) => {
   const { productId } = useParams();
+  const navigate = useNavigate();
   const { addToCart } = useCart();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -46,6 +47,17 @@ const ProductDetails = ({ theme, onToggleTheme }) => {
     for (let i = 0; i < quantity; i++) addToCart(product);
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
+  };
+
+  const handleBuyNow = () => {
+    navigate('/checkout', {
+      state: {
+        checkoutItems: [{
+          ...product,
+          quantity: quantity
+        }]
+      }
+    });
   };
 
   const formatPrice = (price) =>
@@ -167,6 +179,13 @@ const ProductDetails = ({ theme, onToggleTheme }) => {
                 disabled={product.stock === 0}
               >
                 {added ? '✓ Added to Cart!' : '🛒 Add to Cart'}
+              </button>
+              <button
+                className="detail-buy-now-btn"
+                onClick={handleBuyNow}
+                disabled={product.stock === 0}
+              >
+                ⚡ Buy Now
               </button>
               <Link className="detail-view-cart-btn" to="/cart">View Cart</Link>
             </div>

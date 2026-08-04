@@ -2,6 +2,9 @@
   "name": "ecommerce-backend",
   "version": "1.0.0",
   "description": "Backend API for ecommerce platform",
+  "engines": {
+    "node": ">=18"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -26,6 +29,7 @@
     "stripe": "^11.1.0"
   },
   "devDependencies": {
+    "mongodb-memory-server": "^11.2.0",
     "nodemon": "^3.1.14"
   }
 }

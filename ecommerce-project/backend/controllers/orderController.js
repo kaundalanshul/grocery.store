@@ -9,8 +9,17 @@ const createOrder = async (req, res) => {
       return res.status(400).json({ success: false, message: 'No items in order.' });
     }
 
+    // Safely get user id — may be ObjectId or string
+    let userId = null;
+    if (req.user && req.user.id) {
+      const mongoose = require('mongoose');
+      userId = mongoose.Types.ObjectId.isValid(req.user.id)
+        ? req.user.id
+        : null;
+    }
+
     const order = await Order.create({
-      user: req.user?.id || null,
+      user: userId,
       items,
       totalAmount,
       shippingAddress,
@@ -19,7 +28,8 @@ const createOrder = async (req, res) => {
 
     return res.status(201).json({ success: true, order });
   } catch (error) {
-    return res.status(500).json({ success: false, message: 'Failed to create order.', error: error.message });
+    console.error('❌ Order creation error:', error.message, error);
+    return res.status(500).json({ success: false, message: error.message || 'Failed to create order.' });
   }
 };
 
@@ -60,4 +70,29 @@ const updateOrderStatus = async (req, res) => {
   }
 };
 
-module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus };
+// PUT /api/orders/:id/payment — submit payment confirmation reference
+const submitOrderPayment = async (req, res) => {
+  try {
+    const { paymentReference } = req.body;
+    if (!paymentReference) {
+      return res.status(400).json({ success: false, message: 'Payment reference is required.' });
+    }
+
+    const order = await Order.findById(req.params.id);
+    if (!order) {
+      return res.status(404).json({ success: false, message: 'Order not found.' });
+    }
+
+    // Update payment status to paid, save the UPI transaction reference in notes
+    order.paymentStatus = 'paid';
+    order.orderStatus = 'confirmed'; // Automatically confirm since payment is received
+    order.notes = `UPI Reference: ${paymentReference}`;
+    await order.save();
+
+    return res.status(200).json({ success: true, order });
+  } catch (error) {
+    return res.status(500).json({ success: false, message: 'Failed to submit payment reference.', error: error.message });
+  }
+};
+
+module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus, submitOrderPayment };

@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const Product  = require('./models/Product');
 
 // ── Directly use mongoose (same as server) ────────────────────────
-const MONGO_URI = process.env.MONGODB_URI;
+const MONGO_URI = process.env.MONGODB_URL || process.env.MONGODB_URI;
 
 const products = [
   // ════════════════════ MEN'S ════════════════════

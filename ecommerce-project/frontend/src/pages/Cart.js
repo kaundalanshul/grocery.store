@@ -95,7 +95,7 @@ const Cart = ({ theme, onToggleTheme }) => {
             </div>
             <button
               className="cart-checkout-btn"
-              onClick={() => navigate('/order-tracking')}
+              onClick={() => navigate('/checkout')}
             >
               Proceed to Checkout
             </button>

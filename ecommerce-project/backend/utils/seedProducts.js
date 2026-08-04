@@ -247,7 +247,7 @@ const sampleProducts = [
 
 const seedDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URL || process.env.MONGODB_URI);
     console.log('✅ MongoDB connected');
 
     await Product.deleteMany({});
@@ -265,4 +265,8 @@ const seedDB = async () => {
   }
 };
 
-seedDB();
+if (require.main === module) {
+  seedDB();
+}
+
+module.exports = { sampleProducts, seedDB };
