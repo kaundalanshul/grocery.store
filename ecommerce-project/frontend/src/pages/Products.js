@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from '../api/axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import { useCart } from '../context/CartContext';
@@ -16,6 +16,7 @@ const INITIAL_PRODUCTS = (fallbackProducts || []).map((product) => ({
 
 const Products = ({ theme, onToggleTheme }) => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
   const [products, setProducts] = useState(INITIAL_PRODUCTS);
@@ -25,13 +26,35 @@ const Products = ({ theme, onToggleTheme }) => {
   const [searchInput, setSearchInput] = useState('');
   const [sortBy, setSortBy] = useState('');
   const [addedId, setAddedId] = useState(null);
+  const [categoryFilter, setCategoryFilter] = useState('all');
+  const [availabilityFilter, setAvailabilityFilter] = useState('all');
+  const [featuredFilter, setFeaturedFilter] = useState('all');
+  const [compareIds, setCompareIds] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem('compareProducts') || '[]');
+    } catch (_) {
+      return [];
+    }
+  });
+  const [showCompare, setShowCompare] = useState(true);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const query = params.get('search') || '';
+    if (query) {
+      setSearchInput(query);
+      setSearch(query);
+    }
+  }, [location.search]);
 
   const fetchProducts = useCallback(async () => {
     try {
+      setLoading(true);
       setError('');
       const params = {};
       if (search) params.search = search;
       if (sortBy) params.sort = sortBy;
+      params.limit = 200;
       const { data } = await axios.get('/api/products', { params });
       const fetchedProducts = Array.isArray(data.products) && data.products.length > 0
         ? data.products.map((product) => ({ ...product, _id: product._id || product.id }))
@@ -59,6 +82,51 @@ const Products = ({ theme, onToggleTheme }) => {
     setAddedId(product._id);
     setTimeout(() => setAddedId(null), 1500);
   };
+
+  const toggleCompare = (productId) => {
+    setCompareIds((current) => {
+      const next = current.includes(productId)
+        ? current.filter((id) => id !== productId)
+        : [...current, productId].slice(0, 3);
+      localStorage.setItem('compareProducts', JSON.stringify(next));
+      return next;
+    });
+  };
+
+  useEffect(() => {
+    localStorage.setItem('compareProducts', JSON.stringify(compareIds));
+  }, [compareIds]);
+
+  const filteredProducts = useMemo(() => {
+    let next = [...products];
+
+    if (categoryFilter !== 'all') {
+      next = next.filter((product) => product.category === categoryFilter);
+    }
+
+    if (availabilityFilter === 'in-stock') {
+      next = next.filter((product) => Number(product.stock || 0) > 0);
+    }
+
+    if (availabilityFilter === 'out-of-stock') {
+      next = next.filter((product) => Number(product.stock || 0) <= 0);
+    }
+
+    if (featuredFilter === 'featured') {
+      next = next.filter((product) => product.featured);
+    }
+
+    if (featuredFilter === 'new') {
+      next = next.filter((product) => product.isNew);
+    }
+
+    return next;
+  }, [products, categoryFilter, availabilityFilter, featuredFilter]);
+
+  const compareProducts = useMemo(
+    () => products.filter((product) => compareIds.includes(product._id)),
+    [products, compareIds]
+  );
 
   const formatPrice = (price) =>
     typeof price === 'number' ? `₹${price.toFixed(2)}` : price;
@@ -106,6 +174,31 @@ const Products = ({ theme, onToggleTheme }) => {
           </select>
         </div>
 
+        <div className="products-filter-row">
+          <select value={categoryFilter} onChange={(e) => setCategoryFilter(e.target.value)}>
+            <option value="all">All Categories</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Books">Books</option>
+            <option value="Sports">Sports</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Stationery">Stationery</option>
+            <option value="Plants">Plants</option>
+            <option value="Bakery">Bakery</option>
+          </select>
+          <select value={availabilityFilter} onChange={(e) => setAvailabilityFilter(e.target.value)}>
+            <option value="all">Any Availability</option>
+            <option value="in-stock">In Stock</option>
+            <option value="out-of-stock">Out of Stock</option>
+          </select>
+          <select value={featuredFilter} onChange={(e) => setFeaturedFilter(e.target.value)}>
+            <option value="all">All Picks</option>
+            <option value="featured">Featured Only</option>
+            <option value="new">New Arrivals</option>
+          </select>
+        </div>
+
         {search && (
           <p className="products-result-info">
             Showing results for: <strong>"{search}"</strong> — {products.length} item(s) found
@@ -135,7 +228,7 @@ const Products = ({ theme, onToggleTheme }) => {
         {/* Grid */}
         {!loading && !error && products.length > 0 && (
           <div className="products-list-grid">
-            {products.map((product) => (
+            {filteredProducts.map((product) => (
               <article key={product._id} className="products-list-card" style={{ position: 'relative' }}>
                 <button 
                   onClick={(e) => { e.preventDefault(); toggleWishlist(product._id); }}
@@ -148,6 +241,18 @@ const Products = ({ theme, onToggleTheme }) => {
                   }}
                 >
                   {isInWishlist(product._id) ? '❤️' : '🤍'}
+                </button>
+                <button
+                  onClick={(e) => { e.preventDefault(); toggleCompare(product._id); }}
+                  className={`compare-pill${compareIds.includes(product._id) ? ' active' : ''}`}
+                  style={{
+                    position: 'absolute', top: '50px', right: '10px', zIndex: 2,
+                    background: 'rgba(255,255,255,0.9)', border: '1px solid var(--border)', borderRadius: '999px',
+                    padding: '6px 10px', cursor: 'pointer', fontSize: '0.75rem', fontWeight: 700,
+                    boxShadow: '0 2px 5px rgba(0,0,0,0.12)'
+                  }}
+                >
+                  {compareIds.includes(product._id) ? '✓ Compare' : 'Compare'}
                 </button>
                 <div
                   className="products-list-image-wrap"
@@ -195,6 +300,39 @@ const Products = ({ theme, onToggleTheme }) => {
               </article>
             ))}
           </div>
+        )}
+
+        {compareProducts.length > 0 && (
+          <section className="compare-tray">
+            <div className="compare-tray-header">
+              <div>
+                <h2>Compare Products</h2>
+                <p>Up to 3 items can be compared side by side</p>
+              </div>
+              <div className="compare-tray-actions">
+                <button type="button" onClick={() => setShowCompare((value) => !value)}>
+                  {showCompare ? 'Hide' : 'Show'}
+                </button>
+                <button type="button" onClick={() => setCompareIds([])}>Clear</button>
+              </div>
+            </div>
+
+            {showCompare && (
+              <div className="compare-grid">
+                {compareProducts.map((product) => (
+                  <article key={product._id} className="compare-card">
+                    <img src={product.image || FALLBACK} alt={product.name} onError={(e) => { e.target.onerror = null; e.target.src = FALLBACK; }} />
+                    <h3>{product.name}</h3>
+                    <p>{formatPrice(product.price)}</p>
+                    <span>⭐ {product.rating}</span>
+                    <span>{product.category}</span>
+                    <span>{product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}</span>
+                    <button type="button" onClick={() => toggleCompare(product._id)}>Remove</button>
+                  </article>
+                ))}
+              </div>
+            )}
+          </section>
         )}
       </div>
     </div>

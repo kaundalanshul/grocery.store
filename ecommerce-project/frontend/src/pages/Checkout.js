@@ -5,7 +5,15 @@ import { useCart } from '../context/CartContext';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import '../styles/checkout.css';
 
+const COUPONS = {
+  SAVE10: { label: '10% off', type: 'percent', value: 10 },
+  WELCOME50: { label: '₹50 off', type: 'flat', value: 50 },
+  FESTIVE15: { label: '15% off', type: 'percent', value: 15 },
+};
+
 const FALLBACK = 'https://via.placeholder.com/80x80?text=No+Image';
+
+const resolveProductId = (item) => item?._id || item?.id || item?.product?._id || item?.product || item?.sku || null;
 
 const Checkout = ({ theme, onToggleTheme }) => {
   const location = useLocation();
@@ -15,8 +23,11 @@ const Checkout = ({ theme, onToggleTheme }) => {
   // Checkout items can come from ProductDetails "Buy Now" state, or fallback to cart items
   const checkoutItems = location.state?.checkoutItems || cartItems;
   const isDirectBuy = !!location.state?.checkoutItems;
+  const normalizedCheckoutItems = checkoutItems
+    .map((item) => ({ ...item, _id: resolveProductId(item) }))
+    .filter((item) => item._id);
   
-  const totalAmount = checkoutItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const subtotal = normalizedCheckoutItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const [form, setForm] = useState({
     name: '',
@@ -30,10 +41,38 @@ const Checkout = ({ theme, onToggleTheme }) => {
   const [paymentMethod, setPaymentMethod] = useState('upi');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [couponInput, setCouponInput] = useState('');
+  const [appliedCoupon, setAppliedCoupon] = useState(null);
+
+  const discountAmount = appliedCoupon
+    ? Math.min(subtotal, appliedCoupon.type === 'percent'
+      ? (subtotal * appliedCoupon.value) / 100
+      : appliedCoupon.value)
+    : 0;
+
+  const totalAmount = Math.max(0, subtotal - discountAmount);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setForm(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleApplyCoupon = () => {
+    const code = couponInput.trim().toUpperCase();
+    if (!code) {
+      setError('Enter a coupon code first.');
+      return;
+    }
+
+    const coupon = COUPONS[code];
+    if (!coupon) {
+      setAppliedCoupon(null);
+      setError('Invalid coupon code. Try SAVE10, WELCOME50, or FESTIVE15.');
+      return;
+    }
+
+    setError('');
+    setAppliedCoupon({ code, ...coupon });
   };
 
   const handlePlaceOrder = async (e) => {
@@ -45,12 +84,17 @@ const Checkout = ({ theme, onToggleTheme }) => {
       return;
     }
 
+    if (normalizedCheckoutItems.length === 0) {
+      setError('Your cart contains items without valid product data. Please remove and add them again.');
+      return;
+    }
+
     try {
       setLoading(true);
       const token = localStorage.getItem('authToken');
       
       const orderData = {
-        items: checkoutItems.map(item => ({
+        items: normalizedCheckoutItems.map(item => ({
           product: item._id,
           name: item.name,
           image: item.image,
@@ -58,6 +102,8 @@ const Checkout = ({ theme, onToggleTheme }) => {
           quantity: item.quantity,
         })),
         totalAmount,
+        discountAmount,
+        couponCode: appliedCoupon?.code || '',
         shippingAddress: form,
         paymentMethod,
       };
@@ -249,8 +295,33 @@ const Checkout = ({ theme, onToggleTheme }) => {
           <div className="checkout-summary-section">
             <div className="checkout-card summary-card">
               <h2>Order Summary</h2>
+              <div className="coupon-box">
+                <label htmlFor="couponCode">Coupon Code</label>
+                <div className="coupon-row">
+                  <input
+                    id="couponCode"
+                    type="text"
+                    placeholder="Try SAVE10"
+                    value={couponInput}
+                    onChange={(e) => setCouponInput(e.target.value)}
+                  />
+                  <button type="button" className="coupon-apply-btn" onClick={handleApplyCoupon}>
+                    Apply
+                  </button>
+                </div>
+                <div className="coupon-hints">
+                  <span>SAVE10</span>
+                  <span>WELCOME50</span>
+                  <span>FESTIVE15</span>
+                </div>
+                {appliedCoupon && (
+                  <p className="coupon-success">
+                    Applied {appliedCoupon.code} - {appliedCoupon.label}
+                  </p>
+                )}
+              </div>
               <div className="summary-items">
-                {checkoutItems.map((item) => (
+                {normalizedCheckoutItems.map((item) => (
                   <div key={item._id} className="summary-item">
                     <img
                       src={item.image || FALLBACK}
@@ -268,8 +339,14 @@ const Checkout = ({ theme, onToggleTheme }) => {
               <div className="summary-divider" />
               <div className="summary-row">
                 <span>Items Subtotal</span>
-                <span>{formatPrice(totalAmount)}</span>
+                <span>{formatPrice(subtotal)}</span>
               </div>
+              {discountAmount > 0 && (
+                <div className="summary-row discount-row">
+                  <span>Coupon Discount</span>
+                  <span>-{formatPrice(discountAmount)}</span>
+                </div>
+              )}
               <div className="summary-row">
                 <span>Shipping</span>
                 <span className="free-shipping">FREE</span>

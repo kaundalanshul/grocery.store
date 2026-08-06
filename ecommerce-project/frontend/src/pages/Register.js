@@ -49,6 +49,7 @@ const Register = ({ theme, onToggleTheme }) => {
       setSuccess('Registration successful! Redirecting to login...');
       localStorage.setItem('authToken', response.data.token);
       localStorage.setItem('authUser', JSON.stringify(response.data.user));
+      window.dispatchEvent(new Event('auth-change'));
       setTimeout(() => {
         navigate('/');
       }, 1500);

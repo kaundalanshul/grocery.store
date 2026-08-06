@@ -13,6 +13,8 @@ const orderSchema = new mongoose.Schema(
     user: { type: mongoose.Schema.Types.Mixed },
     items: [orderItemSchema],
     totalAmount: { type: Number, required: true },
+    discountAmount: { type: Number, default: 0 },
+    couponCode: { type: String, default: '' },
     shippingAddress: {
       name: String,
       address: String,
@@ -30,6 +32,8 @@ const orderSchema = new mongoose.Schema(
     },
     trackingNumber: { type: String },
     notes: { type: String },
+    cancellationReason: { type: String, default: '' },
+    cancelledAt: { type: Date },
   },
   { timestamps: true }
 );

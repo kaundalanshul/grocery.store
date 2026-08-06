@@ -1,5 +1,5 @@
 // Navigation Bar Component — connected to CartContext, working search
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 import { useLanguage } from '../../context/LanguageContext';
@@ -7,25 +7,47 @@ import { useLanguage } from '../../context/LanguageContext';
 export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   const navigate = useNavigate();
   const { cartCount } = useCart();
-  const { language, toggleLanguage, t } = useLanguage();
+  const { t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [showUserMenu, setShowUserMenu] = useState(false);
+  const [user, setUser] = useState(null);
 
   // BigBasket Style States
   const [showLocationMenu, setShowLocationMenu] = useState(false);
   const [city, setCity] = useState(localStorage.getItem('selectedCity') || 'Bangalore');
 
-  const user = useMemo(() => {
+  useEffect(() => {
     try {
       const storedUser = localStorage.getItem('authUser');
-      return storedUser ? JSON.parse(storedUser) : null;
-    } catch (_) { return null; }
+      setUser(storedUser ? JSON.parse(storedUser) : null);
+    } catch (_) {
+      setUser(null);
+    }
+  }, []);
+
+  useEffect(() => {
+    const syncUser = () => {
+      try {
+        const storedUser = localStorage.getItem('authUser');
+        setUser(storedUser ? JSON.parse(storedUser) : null);
+      } catch (_) {
+        setUser(null);
+      }
+    };
+
+    window.addEventListener('auth-change', syncUser);
+    window.addEventListener('storage', syncUser);
+    return () => {
+      window.removeEventListener('auth-change', syncUser);
+      window.removeEventListener('storage', syncUser);
+    };
   }, []);
 
   const handleLogout = () => {
     localStorage.removeItem('authToken');
     localStorage.removeItem('authUser');
     setShowUserMenu(false);
+    window.dispatchEvent(new Event('auth-change'));
     navigate('/');
   };
 

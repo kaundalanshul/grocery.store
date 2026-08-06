@@ -35,6 +35,7 @@ const Login = ({ theme, onToggleTheme }) => {
 
       localStorage.setItem('authToken', response.data.token);
       localStorage.setItem('authUser', JSON.stringify(response.data.user));
+      window.dispatchEvent(new Event('auth-change'));
       navigate('/');
     } catch (apiError) {
       setError(apiError.response?.data?.message || 'Login failed. Please try again.');

@@ -1,11 +1,9 @@
 import React from 'react';
 import { useWishlist } from '../context/WishlistContext';
 import { Link } from 'react-router-dom';
-import { useLanguage } from '../context/LanguageContext';
 
 const Wishlist = ({ theme }) => {
   const { wishlist, loading, toggleWishlist } = useWishlist();
-  const { t } = useLanguage();
 
   if (loading) {
     return <div className="loading">Loading wishlist...</div>;

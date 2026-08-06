@@ -15,6 +15,13 @@ const OrderTracking = () => {
 		fetchMyOrders();
 	}, []);
 
+	const getOrderItemId = (item) => {
+		if (item?.product && typeof item.product === 'object') {
+			return item.product._id || item.product.id || item.product;
+		}
+		return item?.product || item?._id || item?.id;
+	};
+
 	const fetchMyOrders = async () => {
 		try {
 			setLoading(true);
@@ -53,7 +60,7 @@ const OrderTracking = () => {
 		// Add all items from the order to cart
 		order.items.forEach(item => {
 			addToCart({
-				_id: item.product,
+				_id: getOrderItemId(item),
 				name: item.name,
 				image: item.image,
 				price: item.price,
@@ -67,7 +74,7 @@ const OrderTracking = () => {
 		// Add all items from the order to cart
 		order.items.forEach(item => {
 			addToCart({
-				_id: item.product,
+				_id: getOrderItemId(item),
 				name: item.name,
 				image: item.image,
 				price: item.price,
@@ -76,6 +83,31 @@ const OrderTracking = () => {
 		});
 		// Immediately redirect to checkout
 		navigate('/checkout');
+	};
+
+	const handleCancelOrder = async (orderId) => {
+		const reason = window.prompt('Enter cancellation reason (optional):', 'Customer requested cancellation') || 'Customer requested cancellation';
+		try {
+			const token = localStorage.getItem('authToken');
+			const response = await fetch(`/api/orders/${orderId}/cancel`, {
+				method: 'PUT',
+				headers: {
+					'Authorization': `Bearer ${token}`,
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ reason }),
+			});
+
+			const data = await response.json();
+			if (!response.ok || !data.success) {
+				throw new Error(data.message || 'Failed to cancel order');
+			}
+
+			setOrders((prev) => prev.map((order) => (order._id === orderId ? data.order : order)));
+			setExpandedOrder(null);
+		} catch (cancelError) {
+			alert(cancelError.message || 'Unable to cancel order right now.');
+		}
 	};
 
 	const getStatusColor = (status) => {
@@ -89,6 +121,8 @@ const OrderTracking = () => {
 		};
 		return statusMap[status] || '#666';
 	};
+
+	const isCancellable = (status) => !['delivered', 'cancelled'].includes(status);
 
 	if (loading) {
 		return (
@@ -190,6 +224,14 @@ const OrderTracking = () => {
 											>
 												🛒 Buy Again
 											</button>
+											{isCancellable(order.orderStatus) && (
+												<button
+													className="cancel-order-btn"
+													onClick={() => handleCancelOrder(order._id)}
+												>
+													✖ Cancel Order
+												</button>
+											)}
 											<Link
 												to={`/payment?orderId=${order._id}`}
 												className="view-invoice-btn"

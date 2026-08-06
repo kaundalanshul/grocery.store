@@ -3,6 +3,10 @@ import axios from '../api/axios';
 
 export const WishlistContext = createContext();
 
+const normalizeWishlist = (items = []) => items
+  .map((item) => (typeof item === 'string' ? item : item?._id || item?.id || item))
+  .filter(Boolean);
+
 export const useWishlist = () => {
   return useContext(WishlistContext);
 };
@@ -10,15 +14,7 @@ export const useWishlist = () => {
 export const WishlistProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([]);
   const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    const token = localStorage.getItem('authToken');
-    if (token) {
-      fetchWishlist();
-    }
-  }, []);
-
-  const fetchWishlist = async () => {
+  const fetchWishlist = React.useCallback(async () => {
     const token = localStorage.getItem('authToken');
     if (!token) return;
 
@@ -29,13 +25,33 @@ export const WishlistProvider = ({ children }) => {
           Authorization: `Bearer ${token}`,
         },
       });
-      setWishlist(response.data.wishlist || []);
+      setWishlist(normalizeWishlist(response.data.wishlist || []));
     } catch (error) {
       console.error('Error fetching wishlist:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    const syncWishlist = () => {
+      const token = localStorage.getItem('authToken');
+      if (token) {
+        fetchWishlist();
+      } else {
+        setWishlist([]);
+      }
+    };
+
+    syncWishlist();
+    window.addEventListener('auth-change', syncWishlist);
+    window.addEventListener('storage', syncWishlist);
+
+    return () => {
+      window.removeEventListener('auth-change', syncWishlist);
+      window.removeEventListener('storage', syncWishlist);
+    };
+  }, [fetchWishlist]);
 
   const toggleWishlist = async (productId) => {
     const token = localStorage.getItem('authToken');
@@ -51,9 +67,7 @@ export const WishlistProvider = ({ children }) => {
       
       let newWishlist;
       if (isFavourited) {
-        newWishlist = wishlist.filter(item => 
-          (typeof item === 'string' ? item : item._id) !== productId
-        );
+        newWishlist = wishlist.filter(item => item !== productId);
       } else {
         newWishlist = [...wishlist, productId];
       }
@@ -69,7 +83,7 @@ export const WishlistProvider = ({ children }) => {
         }
       );
       
-      setWishlist(response.data.wishlist);
+      setWishlist(normalizeWishlist(response.data.wishlist));
     } catch (error) {
       console.error('Error toggling wishlist:', error);
       fetchWishlist();
@@ -77,9 +91,7 @@ export const WishlistProvider = ({ children }) => {
   };
 
   const isInWishlist = (productId) => {
-    return wishlist.some(item => 
-      (typeof item === 'string' ? item : item._id) === productId
-    );
+    return wishlist.includes(productId);
   };
 
   return (

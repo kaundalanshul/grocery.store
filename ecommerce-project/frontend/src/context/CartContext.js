@@ -2,19 +2,25 @@ import React, { createContext, useContext, useReducer, useEffect } from 'react';
 
 const CartContext = createContext();
 
+const normalizeCartItem = (item) => ({
+  ...item,
+  _id: item?._id || item?.id || item?.product?._id || item?.product || item?.sku,
+});
+
 const cartReducer = (state, action) => {
   switch (action.type) {
     case 'ADD_TO_CART': {
       const existing = state.items.find(i => i._id === action.payload._id);
+      const quantityToAdd = Math.max(1, Number(action.payload.quantity || 1));
       if (existing) {
         return {
           ...state,
           items: state.items.map(i =>
-            i._id === action.payload._id ? { ...i, quantity: i.quantity + 1 } : i
+            i._id === action.payload._id ? { ...i, quantity: i.quantity + quantityToAdd } : i
           ),
         };
       }
-      return { ...state, items: [...state.items, { ...action.payload, quantity: 1 }] };
+      return { ...state, items: [...state.items, { ...action.payload, quantity: quantityToAdd }] };
     }
     case 'REMOVE_FROM_CART':
       return { ...state, items: state.items.filter(i => i._id !== action.payload) };
@@ -31,7 +37,7 @@ const cartReducer = (state, action) => {
     case 'CLEAR_CART':
       return { ...state, items: [] };
     case 'LOAD_CART':
-      return { ...state, items: action.payload };
+      return { ...state, items: (action.payload || []).map(normalizeCartItem).filter(item => item._id) };
     default:
       return state;
   }

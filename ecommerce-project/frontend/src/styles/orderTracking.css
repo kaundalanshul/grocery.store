@@ -225,6 +225,7 @@
   margin-top: 20px;
   padding-top: 20px;
   border-top: 2px solid #f0f0f0;
+  flex-wrap: wrap;
 }
 
 .buy-now-btn,
@@ -260,6 +261,24 @@
 .buy-again-btn {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+}
+
+.cancel-order-btn {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ff8a80 0%, #ff5252 100%);
+  color: white;
+}
+
+.cancel-order-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 82, 82, 0.35);
 }
 
 .buy-again-btn:hover {

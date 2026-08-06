@@ -200,7 +200,9 @@ const getWishlist = async (req, res) => {
       return res.status(404).json({ message: 'User not found.' });
     }
 
-    const wishlist = user.wishlist.map(id => mockData.findProductById(id)).filter(Boolean);
+    const wishlist = isMongoConnected()
+      ? (user.wishlist || [])
+      : (user.wishlist || []).map((id) => mockData.findProductById(id)).filter(Boolean);
     return res.status(200).json({ wishlist });
   } catch (error) {
     return res.status(500).json({ message: 'Failed to fetch wishlist.', error: error.message });

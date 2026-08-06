@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams, useNavigate, Link } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import axios from '../api/axios';
 import { NavigationBar } from '../components/Home/NavigationBar';
 import '../styles/checkout.css';
@@ -7,7 +7,6 @@ import '../styles/checkout.css';
 const Payment = ({ theme, onToggleTheme }) => {
   const [searchParams] = useSearchParams();
   const orderId = searchParams.get('orderId');
-  const navigate = useNavigate();
 
   const [order, setOrder] = useState(null);
   const [loading, setLoading] = useState(true);

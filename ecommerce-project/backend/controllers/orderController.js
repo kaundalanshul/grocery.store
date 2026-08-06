@@ -3,7 +3,7 @@ const Order = require('../models/Order');
 // POST /api/orders — place an order
 const createOrder = async (req, res) => {
   try {
-    const { items, totalAmount, shippingAddress, paymentMethod } = req.body;
+    const { items, totalAmount, shippingAddress, paymentMethod, couponCode = '', discountAmount = 0 } = req.body;
 
     if (!items || items.length === 0) {
       return res.status(400).json({ success: false, message: 'No items in order.' });
@@ -22,6 +22,8 @@ const createOrder = async (req, res) => {
       user: userId,
       items,
       totalAmount,
+      discountAmount,
+      couponCode,
       shippingAddress,
       paymentMethod: paymentMethod || 'card',
     });
@@ -95,4 +97,34 @@ const submitOrderPayment = async (req, res) => {
   }
 };
 
-module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus, submitOrderPayment };
+// PUT /api/orders/:id/cancel — cancel an order before delivery
+const cancelOrder = async (req, res) => {
+  try {
+    const { reason = 'Customer requested cancellation' } = req.body;
+    const order = await Order.findById(req.params.id);
+
+    if (!order) {
+      return res.status(404).json({ success: false, message: 'Order not found.' });
+    }
+
+    if (String(order.user) !== String(req.user.id)) {
+      return res.status(403).json({ success: false, message: 'You can only cancel your own orders.' });
+    }
+
+    if (['delivered', 'cancelled'].includes(order.orderStatus)) {
+      return res.status(400).json({ success: false, message: 'This order cannot be cancelled.' });
+    }
+
+    order.orderStatus = 'cancelled';
+    order.paymentStatus = order.paymentStatus === 'paid' ? 'failed' : order.paymentStatus;
+    order.cancellationReason = reason;
+    order.cancelledAt = new Date();
+    await order.save();
+
+    return res.status(200).json({ success: true, order });
+  } catch (error) {
+    return res.status(500).json({ success: false, message: 'Failed to cancel order.', error: error.message });
+  }
+};
+
+module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus, submitOrderPayment, cancelOrder };

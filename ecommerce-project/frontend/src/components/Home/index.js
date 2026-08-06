@@ -8,6 +8,7 @@ import { CategorySidebar } from './CategorySidebar';
 import { BestSellers } from './BestSellers';
 import { DealOfTheDay } from './DealOfTheDay';
 import { NewProducts } from './NewProducts';
+import { RecentlyViewed } from './RecentlyViewed';
 import { ServicesSection } from './ServicesSection';
 import { Footer } from './Footer';
 import '../../styles/home.css';
@@ -25,6 +26,7 @@ export const HomePage = ({ theme, onToggleTheme }) => {
           <BestSellers />
           <DealOfTheDay />
           <NewProducts />
+          <RecentlyViewed />
           <ServicesSection />
         </main>
       </div>
