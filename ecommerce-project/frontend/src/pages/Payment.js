@@ -59,9 +59,9 @@ const Payment = ({ theme, onToggleTheme }) => {
         `/api/orders/${orderId}/payment`,
         { paymentReference: paymentRef.trim() },
         {
-          headers: {
+          headers: token ? {
             Authorization: `Bearer ${token}`
-          }
+          } : {}
         }
       );
 

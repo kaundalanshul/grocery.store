@@ -13,13 +13,18 @@ const app = express();
 // CORS — allow local dev + production Render frontend
 const allowedOrigins = [
   'http://localhost:3000',
+  'http://localhost:5000',
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
 app.use(cors({
   origin: (origin, callback) => {
     // Allow requests with no origin (e.g., mobile apps, curl)
-    if (!origin || allowedOrigins.includes(origin)) {
+    // In development, allow all localhost origins
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    const isLocalhost = origin && origin.includes('localhost');
+    
+    if (!origin || allowedOrigins.includes(origin) || (isDevelopment && isLocalhost)) {
       callback(null, true);
     } else {
       callback(new Error(`CORS policy: origin ${origin} not allowed.`));

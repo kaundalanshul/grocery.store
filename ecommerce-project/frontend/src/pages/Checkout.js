@@ -109,9 +109,9 @@ const Checkout = ({ theme, onToggleTheme }) => {
       };
 
       const response = await axios.post('/api/orders', orderData, {
-        headers: {
+        headers: token ? {
           Authorization: `Bearer ${token}`
-        }
+        } : {}
       });
 
       if (response.data.success) {
