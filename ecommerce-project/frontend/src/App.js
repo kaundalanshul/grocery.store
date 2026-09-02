@@ -52,21 +52,21 @@ function App() {
         <CartProvider>
           <BrowserRouter>
             <div className="App">
-            <Routes>
-              <Route path="/" element={<ProtectedRoute><Home theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/login" element={<PublicRoute><Login theme={theme} onToggleTheme={toggleTheme} /></PublicRoute>} />
-              <Route path="/register" element={<PublicRoute><Register theme={theme} onToggleTheme={toggleTheme} /></PublicRoute>} />
-              <Route path="/order-tracking" element={<ProtectedRoute><OrderTracking /></ProtectedRoute>} />
-              <Route path="/products" element={<ProtectedRoute><Products theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/products/:productId" element={<ProtectedRoute><ProductDetails theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/category/:categoryName" element={<ProtectedRoute><CategoryProducts theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/cart" element={<ProtectedRoute><Cart theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/wishlist" element={<ProtectedRoute><Wishlist theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/checkout" element={<ProtectedRoute><Checkout theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="/payment" element={<ProtectedRoute><Payment theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </div>
+              <Routes>
+                <Route path="/" element={<ProtectedRoute><Home theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/login" element={<PublicRoute><Login theme={theme} onToggleTheme={toggleTheme} /></PublicRoute>} />
+                <Route path="/register" element={<PublicRoute><Register theme={theme} onToggleTheme={toggleTheme} /></PublicRoute>} />
+                <Route path="/order-tracking" element={<ProtectedRoute><OrderTracking theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/products" element={<ProtectedRoute><Products theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/products/:productId" element={<ProtectedRoute><ProductDetails theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/category/:categoryName" element={<ProtectedRoute><CategoryProducts theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/cart" element={<ProtectedRoute><Cart theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/wishlist" element={<ProtectedRoute><Wishlist theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/checkout" element={<ProtectedRoute><Checkout theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="/payment" element={<ProtectedRoute><Payment theme={theme} onToggleTheme={toggleTheme} /></ProtectedRoute>} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+              </Routes>
+            </div>
           </BrowserRouter>
         </CartProvider>
       </WishlistProvider>

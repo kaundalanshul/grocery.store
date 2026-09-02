@@ -44,6 +44,8 @@ services:
     buildCommand: npm install && npm run build
     staticPublishPath: build
     envVars:
+      - key: CI
+        value: "false"
       - key: REACT_APP_API_URL
         fromService:
           name: mega-mart-backend

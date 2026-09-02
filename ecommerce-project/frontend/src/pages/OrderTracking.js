@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import { NavigationBar } from '../components/Home/NavigationBar';
+import '../styles/home.css';
+import '../App.css';
 import '../styles/orderTracking.css';
 
-const OrderTracking = () => {
+const OrderTracking = ({ theme, onToggleTheme }) => {
 	const [orders, setOrders] = useState([]);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
@@ -126,14 +129,21 @@ const OrderTracking = () => {
 
 	if (loading) {
 		return (
-			<div className="order-tracking-page">
-				<h1>My Orders</h1>
-				<p>Loading your orders...</p>
+			<div className="page-wrapper">
+				<NavigationBar theme={theme} onToggleTheme={onToggleTheme} />
+				<div className="order-tracking-page">
+					<div className="orders-container">
+						<h1>📦 My Orders</h1>
+						<div className="ot-loading"><div className="spinner"></div><p>Loading your orders…</p></div>
+					</div>
+				</div>
 			</div>
 		);
 	}
 
 	return (
+		<div className="page-wrapper">
+			<NavigationBar theme={theme} onToggleTheme={onToggleTheme} />
 		<div className="order-tracking-page">
 			<div className="orders-container">
 				<h1>📦 My Orders</h1>
@@ -250,6 +260,7 @@ const OrderTracking = () => {
 					Back to home
 				</Link>
 			</div>
+		</div>
 		</div>
 	);
 };

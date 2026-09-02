@@ -93,6 +93,25 @@ const MOCK_PRODUCTS = [
   { _id:'mock069', name:"The Psychology of Money", description:"Timeless lessons on wealth, greed, and happiness by Morgan Housel. 256 pages.", price:349, originalPrice:499, category:"Books", subcategory:"Self-Help", image:"https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80", images:["https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"], rating:4.7, numReviews:567, sold:2400, stock:180, discount:"30% OFF", featured:false, isNew:false },
   { _id:'mock070', name:"Harry Potter Box Set – 7 Books", description:"Complete Harry Potter collection in a premium box set. Hardcover edition.", price:3999, originalPrice:5499, category:"Books", subcategory:"Fiction", image:"https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80", images:["https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"], rating:4.9, numReviews:1890, sold:7200, stock:100, discount:"27% OFF", featured:true, isNew:false },
   { _id:'mock071', name:"Drawing on the Right Side of the Brain", description:"Classic guide to learning to draw. Unlock your creative potential. 4th Edition.", price:599, originalPrice:799, category:"Books", subcategory:"Non-Fiction", image:"https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=600&q=80", images:["https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=600&q=80"], rating:4.5, numReviews:312, sold:890, stock:120, discount:"25% OFF", featured:false, isNew:true },
+  // ── New Premium Products ─────────────────────────────────────────
+  { _id:'mock072', name:"Premium Cold-Pressed Avocado Oil – 500ml", description:"100% pure cold-pressed avocado oil. Mild, buttery flavor with high smoke point.", price:799, originalPrice:999, category:"Grocery", subcategory:"Oils & Ghee", image:"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80", images:["https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80"], rating:4.6, numReviews:124, sold:480, stock:95, discount:"20% OFF", featured:false, isNew:true },
+  { _id:'mock073', name:"Organic White Quinoa Grain – 1kg", description:"Gluten-free organic quinoa. Rich in protein, fiber, and essential minerals.", price:499, originalPrice:649, category:"Grocery", subcategory:"Rice & Grains", image:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80", images:["https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80"], rating:4.5, numReviews:86, sold:340, stock:150, discount:"23% OFF", featured:false, isNew:true },
+  { _id:'mock074', name:"Classic Italian Leather Loafers", description:"Handcrafted loafers in genuine full-grain leather. Sleek design, cushioned insoles.", price:3499, originalPrice:4999, category:"Shoes", subcategory:"Formal", image:"https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80", images:["https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80"], rating:4.7, numReviews:112, sold:290, stock:45, discount:"30% OFF", featured:true, isNew:false },
+  { _id:'mock075', name:"Minimalist White Leather Sneakers", description:"Clean, retro-style white sneakers with a durable rubber sole. Extremely versatile.", price:2499, originalPrice:3499, category:"Shoes", subcategory:"Sneakers", image:"https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&q=80", images:["https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&q=80"], rating:4.6, numReviews:245, sold:720, stock:85, discount:"28% OFF", featured:true, isNew:true },
+  { _id:'mock076', name:"Classic Denim Jacket – Vintage Wash", description:"Rugged denim jacket crafted from premium heavy cotton with a relaxed fit.", price:1999, originalPrice:2799, category:"Apparel", subcategory:"Jackets & Coats", image:"https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80", images:["https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"], rating:4.5, numReviews:142, sold:310, stock:65, discount:"28% OFF", featured:false, isNew:true },
+  { _id:'mock077', name:"Knitted Cable Wool Sweater", description:"Cozy knit sweater made from ultra-soft wool blend. Vintage cable pattern.", price:1799, originalPrice:2499, category:"Apparel", subcategory:"Sweaters", image:"https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80", images:["https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80"], rating:4.4, numReviews:98, sold:190, stock:40, discount:"28% OFF", featured:false, isNew:false },
+  { _id:'mock078', name:"Thinking, Fast and Slow", description:"Nobel laureate Daniel Kahneman's seminal work on how we think and make choices.", price:449, originalPrice:599, category:"Books", subcategory:"Non-Fiction", image:"https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80", images:["https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"], rating:4.8, numReviews:812, sold:2800, stock:120, discount:"25% OFF", featured:true, isNew:false },
+  { _id:'mock079', name:"Zero to One – Notes on Startups", description:"Peter Thiel's groundbreaking book on how to build the future and create new value.", price:349, originalPrice:499, category:"Books", subcategory:"Business & Tech", image:"https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80", images:["https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"], rating:4.7, numReviews:652, sold:1900, stock:110, discount:"30% OFF", featured:false, isNew:true },
+  { _id:'mock080', name:"Smart Active Fitness Band", description:"Waterproof fitness band with heart rate monitor, sleep tracker, and AMOLED display.", price:2199, originalPrice:2999, category:"Sports", subcategory:"Fitness", image:"https://images.unsplash.com/photo-1506107557195-0e29a4b5b4aa?w=600&q=80", images:["https://images.unsplash.com/photo-1506107557195-0e29a4b5b4aa?w=600&q=80"], rating:4.5, numReviews:184, sold:590, stock:80, discount:"27% OFF", featured:true, isNew:true },
+  { _id:'mock081', name:"Ergonomic Insulated Water Bottle", description:"Double-walled vacuum insulated stainless steel bottle. Keeps drinks cold for 24h.", price:799, originalPrice:1099, category:"Sports", subcategory:"Accessories", image:"https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80", images:["https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80"], rating:4.6, numReviews:203, sold:850, stock:140, discount:"27% OFF", featured:false, isNew:false },
+  { _id:'mock082', name:"Minimalist Solid Oak Coffee Table", description:"Chic Scandinavian-style coffee table made from solid oak wood. Sleek tapered legs.", price:6499, originalPrice:8999, category:"Furniture", subcategory:"Living Room", image:"https://images.unsplash.com/photo-1594620302200-9a762244a156?w=600&q=80", images:["https://images.unsplash.com/photo-1594620302200-9a762244a156?w=600&q=80"], rating:4.7, numReviews:76, sold:150, stock:12, discount:"28% OFF", featured:true, isNew:true },
+  { _id:'mock083', name:"Modern Fabric Lounge Armchair", description:"Comfortable accent armchair upholstered in soft premium linen fabric. Sturdy metal legs.", price:11999, originalPrice:15999, category:"Furniture", subcategory:"Living Room", image:"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80", images:["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"], rating:4.6, numReviews:89, sold:110, stock:8, discount:"25% OFF", featured:true, isNew:false },
+  { _id:'mock084', name:"Professional Calligraphy Pen Set", description:"Deluxe set with 3 fountain pens, 5 nib widths, and 12 assorted color ink cartridges.", price:1899, originalPrice:2499, category:"Stationery", subcategory:"Pens & Pencils", image:"https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80", images:["https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"], rating:4.6, numReviews:93, sold:210, stock:50, discount:"24% OFF", featured:false, isNew:true },
+  { _id:'mock085', name:"A3 Self-Healing Cutting Mat", description:"Durable self-healing PVC cutting mat with clear grid layout. Non-slip surface.", price:599, originalPrice:799, category:"Stationery", subcategory:"Art Supplies", image:"https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80", images:["https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"], rating:4.4, numReviews:65, sold:180, stock:75, discount:"25% OFF", featured:false, isNew:false },
+  { _id:'mock086', name:"Snake Plant (Sansevieria)", description:"Air-purifying live indoor plant. Hardy and low maintenance, grows in low light.", price:499, originalPrice:699, category:"Plants", subcategory:"Indoor Plants", image:"https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=600&q=80", images:["https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=600&q=80"], rating:4.8, numReviews:412, sold:1100, stock:90, discount:"29% OFF", featured:true, isNew:false },
+  { _id:'mock087', name:"Peace Lily (Spathiphyllum)", description:"Beautiful live peace lily plant with elegant white blooms. Terracotta pot included.", price:699, originalPrice:899, category:"Plants", subcategory:"Indoor Plants", image:"https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80", images:["https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80"], rating:4.6, numReviews:187, sold:430, stock:45, discount:"22% OFF", featured:false, isNew:true },
+  { _id:'mock088', name:"Fresh Almond Croissants – Pack of 4", description:"Buttery, flaky croissants filled with almond cream and topped with sliced almonds.", price:349, originalPrice:449, category:"Bakery", subcategory:"Pastries", image:"https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&q=80", images:["https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&q=80"], rating:4.7, numReviews:156, sold:680, stock:35, discount:"22% OFF", featured:false, isNew:true },
+  { _id:'mock089', name:"Gourmet Blueberry Muffins – Pack of 6", description:"Moist, bakery-fresh muffins bursting with sweet, plump blueberries.", price:299, originalPrice:399, category:"Bakery", subcategory:"Pastries", image:"https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80", images:["https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80"], rating:4.5, numReviews:198, sold:540, stock:45, discount:"25% OFF", featured:false, isNew:false },
 ];
 
 // ─────────────────────────────────────────────────────────────────
@@ -246,6 +265,20 @@ const getCategories = async (req, res) => {
 //  POST /api/products  (admin: create product)
 // ─────────────────────────────────────────────────────────────────
 const createProduct = async (req, res) => {
+  if (!isDbConnected()) {
+    const newProduct = {
+      _id: `mock_user_${Date.now()}`,
+      ...req.body,
+      rating: Number(req.body.rating) || 4.5,
+      numReviews: Number(req.body.numReviews) || 0,
+      sold: Number(req.body.sold) || 0,
+      stock: Number(req.body.stock) || 0,
+      images: req.body.images || (req.body.image ? [req.body.image] : []),
+    };
+    MOCK_PRODUCTS.unshift(newProduct);
+    return res.status(201).json({ success: true, product: newProduct, _source: 'fallback' });
+  }
+
   try {
     const product = await Product.create(req.body);
     return res.status(201).json({ success: true, product });
@@ -258,6 +291,17 @@ const createProduct = async (req, res) => {
 //  PUT /api/products/:id
 // ─────────────────────────────────────────────────────────────────
 const updateProduct = async (req, res) => {
+  if (!isDbConnected()) {
+    const index = MOCK_PRODUCTS.findIndex(p => p._id === req.params.id);
+    if (index === -1) return res.status(404).json({ success: false, message: 'Product not found' });
+    MOCK_PRODUCTS[index] = {
+      ...MOCK_PRODUCTS[index],
+      ...req.body,
+      images: req.body.images || (req.body.image ? [req.body.image] : MOCK_PRODUCTS[index].images),
+    };
+    return res.status(200).json({ success: true, product: MOCK_PRODUCTS[index], _source: 'fallback' });
+  }
+
   try {
     const product = await Product.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
     if (!product) return res.status(404).json({ success: false, message: 'Product not found' });
@@ -271,6 +315,13 @@ const updateProduct = async (req, res) => {
 //  DELETE /api/products/:id
 // ─────────────────────────────────────────────────────────────────
 const deleteProduct = async (req, res) => {
+  if (!isDbConnected()) {
+    const index = MOCK_PRODUCTS.findIndex(p => p._id === req.params.id);
+    if (index === -1) return res.status(404).json({ success: false, message: 'Product not found' });
+    MOCK_PRODUCTS.splice(index, 1);
+    return res.status(200).json({ success: true, message: 'Product deleted', _source: 'fallback' });
+  }
+
   try {
     const product = await Product.findByIdAndDelete(req.params.id);
     if (!product) return res.status(404).json({ success: false, message: 'Product not found' });

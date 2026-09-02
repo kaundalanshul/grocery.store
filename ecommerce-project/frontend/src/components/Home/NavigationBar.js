@@ -148,19 +148,6 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
         </div>
       </div>
 
-      <div className="secondary-nav">
-        <ul className="nav-links">
-          <li><Link to="/">{t('home')}</Link></li>
-          <li><Link to="/products">{t('allProducts')}</Link></li>
-          <li><Link to="/category/Grocery">{t('grocery')}</Link></li>
-          <li><Link to="/category/Apparel">{t('apparel')}</Link></li>
-          <li><Link to="/category/Shoes">{t('shoes')}</Link></li>
-          <li><Link to="/category/Furniture">{t('furniture')}</Link></li>
-          <li><Link to="/category/Books">{t('books')}</Link></li>
-          <li><Link to="/category/Sports">{t('sports')}</Link></li>
-          <li><Link to="/cart">{t('cart')} {cartCount > 0 && `(${cartCount})`}</Link></li>
-        </ul>
-      </div>
     </nav>
   );
 };

@@ -13,7 +13,9 @@ const app = express();
 // CORS — allow local dev + production Render frontend
 const allowedOrigins = [
   'http://localhost:3000',
+  'http://localhost:3001',
   'http://localhost:5000',
+  'http://localhost:5001',
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
@@ -76,7 +78,7 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Backend Server running on port ${PORT}`);
