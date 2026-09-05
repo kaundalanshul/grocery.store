@@ -130,7 +130,7 @@ npm install --save-dev nodemon
 
 #### 3. Create .env File
 ```env
-PORT=3001
+PORT=5000
 MONGODB_URI=mongodb://localhost:27017/ecommerce
 JWT_SECRET=your_jwt_secret_key_here
 STRIPE_SECRET_KEY=your_stripe_key
@@ -152,7 +152,7 @@ PAYMENT_CANCEL_URL=http://localhost:3000/payment-cancel
 ```bash
 npm run dev
 ```
-API runs on: `http://localhost:3001`
+API runs on: `http://localhost:5000`
 
 ## 📱 Frontend Features
 
@@ -442,7 +442,7 @@ mongoose.connect(process.env.MONGODB_URI)
 ### Port Already in Use
 ```bash
 # Find process using port
-lsof -i :3001
+lsof -i :5000
 
 # Kill process
 kill -9 <PID>
@@ -464,4 +464,5 @@ This project is open source and available under the MIT License.
 ---
 
 **Last Updated**: March 2026
-**Version**: 1.0.0
+**Version**: 1.0.0#   g r o c e r y . s t o r e  
+ 

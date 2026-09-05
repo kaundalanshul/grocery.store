@@ -3,35 +3,23 @@ const Order = require('../models/Order');
 // POST /api/orders — place an order
 const createOrder = async (req, res) => {
   try {
-    const { items, totalAmount, shippingAddress, paymentMethod, couponCode = '', discountAmount = 0 } = req.body;
+    const { items, totalAmount, shippingAddress, paymentMethod } = req.body;
 
     if (!items || items.length === 0) {
       return res.status(400).json({ success: false, message: 'No items in order.' });
     }
 
-    // Safely get user id — may be ObjectId or string
-    let userId = null;
-    if (req.user && req.user.id) {
-      const mongoose = require('mongoose');
-      userId = mongoose.Types.ObjectId.isValid(req.user.id)
-        ? req.user.id
-        : null;
-    }
-
     const order = await Order.create({
-      user: userId,
+      user: req.user?.id || null,
       items,
       totalAmount,
-      discountAmount,
-      couponCode,
       shippingAddress,
       paymentMethod: paymentMethod || 'card',
     });
 
     return res.status(201).json({ success: true, order });
   } catch (error) {
-    console.error('❌ Order creation error:', error.message, error);
-    return res.status(500).json({ success: false, message: error.message || 'Failed to create order.' });
+    return res.status(500).json({ success: false, message: 'Failed to create order.', error: error.message });
   }
 };
 
@@ -72,59 +60,4 @@ const updateOrderStatus = async (req, res) => {
   }
 };
 
-// PUT /api/orders/:id/payment — submit payment confirmation reference
-const submitOrderPayment = async (req, res) => {
-  try {
-    const { paymentReference } = req.body;
-    if (!paymentReference) {
-      return res.status(400).json({ success: false, message: 'Payment reference is required.' });
-    }
-
-    const order = await Order.findById(req.params.id);
-    if (!order) {
-      return res.status(404).json({ success: false, message: 'Order not found.' });
-    }
-
-    // Update payment status to paid, save the UPI transaction reference in notes
-    order.paymentStatus = 'paid';
-    order.orderStatus = 'confirmed'; // Automatically confirm since payment is received
-    order.notes = `UPI Reference: ${paymentReference}`;
-    await order.save();
-
-    return res.status(200).json({ success: true, order });
-  } catch (error) {
-    return res.status(500).json({ success: false, message: 'Failed to submit payment reference.', error: error.message });
-  }
-};
-
-// PUT /api/orders/:id/cancel — cancel an order before delivery
-const cancelOrder = async (req, res) => {
-  try {
-    const { reason = 'Customer requested cancellation' } = req.body;
-    const order = await Order.findById(req.params.id);
-
-    if (!order) {
-      return res.status(404).json({ success: false, message: 'Order not found.' });
-    }
-
-    if (String(order.user) !== String(req.user.id)) {
-      return res.status(403).json({ success: false, message: 'You can only cancel your own orders.' });
-    }
-
-    if (['delivered', 'cancelled'].includes(order.orderStatus)) {
-      return res.status(400).json({ success: false, message: 'This order cannot be cancelled.' });
-    }
-
-    order.orderStatus = 'cancelled';
-    order.paymentStatus = order.paymentStatus === 'paid' ? 'failed' : order.paymentStatus;
-    order.cancellationReason = reason;
-    order.cancelledAt = new Date();
-    await order.save();
-
-    return res.status(200).json({ success: true, order });
-  } catch (error) {
-    return res.status(500).json({ success: false, message: 'Failed to cancel order.', error: error.message });
-  }
-};
-
-module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus, submitOrderPayment, cancelOrder };
+module.exports = { createOrder, getMyOrders, getOrderById, updateOrderStatus };

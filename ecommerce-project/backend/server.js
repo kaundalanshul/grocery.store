@@ -1,7 +1,6 @@
 // Main Backend Server File
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 require('dotenv').config();
 
 const connectDB = require('./config/db');
@@ -10,37 +9,14 @@ connectDB();
 
 const app = express();
 
-// CORS — allow local dev + production Render frontend
-const allowedOrigins = [
-  'http://localhost:3000',
-  'http://localhost:3001',
-  'http://localhost:5000',
-  'http://localhost:5001',
-  process.env.FRONTEND_URL,
-].filter(Boolean);
-
-app.use(cors({
-  origin: (origin, callback) => {
-    // Allow requests with no origin (e.g., mobile apps, curl)
-    // In development, allow all localhost origins
-    const isDevelopment = process.env.NODE_ENV === 'development';
-    const isLocalhost = origin && origin.includes('localhost');
-    
-    if (!origin || allowedOrigins.includes(origin) || (isDevelopment && isLocalhost)) {
-      callback(null, true);
-    } else {
-      callback(new Error(`CORS policy: origin ${origin} not allowed.`));
-    }
-  },
-  credentials: true,
-}));
-
+// Middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get('/api', (req, res) => {
-  res.json({ message: 'Welcome to Ecommerce API', status: 'ok' });
+  res.json({ message: 'Welcome to Ecommerce API' });
 });
 
 // User Routes
@@ -78,9 +54,8 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅ Backend Server running on port ${PORT}`);
-  console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
+app.listen(PORT, () => {
+  console.log(`✅ Backend Server running on http://localhost:${PORT}`);
 });

@@ -8,9 +8,7 @@ const {
   createProduct,
   updateProduct,
   deleteProduct,
-  createProductReview,
 } = require('../controllers/productController');
-const { verifyToken } = require('../middleware/authMiddleware');
 
 // GET /api/products/categories/list  — must be BEFORE /:id
 router.get('/categories/list', getCategories);
@@ -26,9 +24,6 @@ router.get('/:id', getProductById);
 
 // POST /api/products
 router.post('/', createProduct);
-
-// POST /api/products/:id/reviews
-router.post('/:id/reviews', verifyToken, createProductReview);
 
 // PUT /api/products/:id
 router.put('/:id', updateProduct);

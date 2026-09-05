@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const orderItemSchema = new mongoose.Schema({
-  product: { type: mongoose.Schema.Types.Mixed, required: true },
+  product: { type: mongoose.Schema.Types.ObjectId, ref: 'Product', required: true },
   name: { type: String, required: true },
   image: { type: String },
   price: { type: Number, required: true },
@@ -10,11 +10,9 @@ const orderItemSchema = new mongoose.Schema({
 
 const orderSchema = new mongoose.Schema(
   {
-    user: { type: mongoose.Schema.Types.Mixed },
+    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     items: [orderItemSchema],
     totalAmount: { type: Number, required: true },
-    discountAmount: { type: Number, default: 0 },
-    couponCode: { type: String, default: '' },
     shippingAddress: {
       name: String,
       address: String,
@@ -32,8 +30,6 @@ const orderSchema = new mongoose.Schema(
     },
     trackingNumber: { type: String },
     notes: { type: String },
-    cancellationReason: { type: String, default: '' },
-    cancelledAt: { type: Date },
   },
   { timestamps: true }
 );
