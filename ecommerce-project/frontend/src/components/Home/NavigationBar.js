@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 import { useLanguage } from '../../context/LanguageContext';
+import MobileBottomNav from './MobileBottomNav';
 
 export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   const navigate = useNavigate();
@@ -66,89 +67,91 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-          <div className="logo">
-            <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <span style={{ color: 'var(--text-dark)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mega</span>
-              <span style={{ color: 'var(--primary)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mart</span>
-              <span style={{ fontSize: '20px' }}>🌿</span>
-            </Link>
-          </div>
+    <>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div className="logo">
+              <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <span style={{ color: 'var(--text-dark)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mega</span>
+                <span style={{ color: 'var(--primary)', fontWeight: '800', fontSize: '24px', letterSpacing: '-0.5px' }}>mart</span>
+                <span style={{ fontSize: '20px' }}>🌿</span>
+              </Link>
+            </div>
 
-          {/* Location Selector */}
-          <div className="location-selector">
-            <button type="button" className="location-btn" onClick={() => setShowLocationMenu(!showLocationMenu)}>
-              📍 {city} ▾
-            </button>
-            {showLocationMenu && (
-              <div className="location-dropdown">
-                {['Bangalore', 'Mumbai', 'Delhi', 'Hyderabad', 'Pune', 'Chennai', 'Kolkata'].map((cityName) => (
-                  <button type="button" key={cityName} onClick={() => handleCitySelect(cityName)}>
-                    {cityName}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-
-        <form className="search-container" onSubmit={handleSearch}>
-          <input
-            type="text"
-            placeholder="Search products, categories..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          <button type="submit" className="search-btn">🔍</button>
-        </form>
-
-        <div className="navbar-actions">
-          <button
-            className="action-icon"
-            title="Toggle theme"
-            onClick={onToggleTheme}
-            type="button"
-          >
-            {theme === 'dark' ? '☀️' : '🌙'}
-          </button>
-
-          {user ? (
-            <div className="user-menu">
-              <button
-                className="action-icon user-name"
-                onClick={() => setShowUserMenu(!showUserMenu)}
-                title="Account"
-              >
-                👤 <span className="nav-action-text">{user.name.split(' ')[0]}</span>
+            {/* Location Selector */}
+            <div className="location-selector">
+              <button type="button" className="location-btn" onClick={() => setShowLocationMenu(!showLocationMenu)}>
+                📍 {city} ▾
               </button>
-              {showUserMenu && (
-                <div className="user-dropdown">
-                  <Link to="/products" onClick={() => setShowUserMenu(false)}>{t('myProducts')}</Link>
-                  <Link to="/order-tracking" onClick={() => setShowUserMenu(false)}>{t('myOrders')}</Link>
-                  <button onClick={handleLogout}>{t('signOut')}</button>
+              {showLocationMenu && (
+                <div className="location-dropdown">
+                  {['Bangalore', 'Mumbai', 'Delhi', 'Hyderabad', 'Pune', 'Chennai', 'Kolkata'].map((cityName) => (
+                    <button type="button" key={cityName} onClick={() => handleCitySelect(cityName)}>
+                      {cityName}
+                    </button>
+                  ))}
                 </div>
               )}
             </div>
-          ) : (
-            <Link className="action-icon" to="/login" title="Sign In">
-              👤 <span className="nav-action-text">{t('signIn')}</span>
+          </div>
+
+          <form className="search-container" onSubmit={handleSearch}>
+            <input
+              type="text"
+              placeholder="Search products, categories..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <button type="submit" className="search-btn">🔍</button>
+          </form>
+
+          <div className="navbar-actions">
+            <button
+              className="action-icon"
+              title="Toggle theme"
+              onClick={onToggleTheme}
+              type="button"
+            >
+              {theme === 'dark' ? '☀️' : '🌙'}
+            </button>
+
+            {user ? (
+              <div className="user-menu">
+                <button
+                  className="action-icon user-name"
+                  onClick={() => setShowUserMenu(!showUserMenu)}
+                  title="Account"
+                >
+                  👤 <span className="nav-action-text">{user.name.split(' ')[0]}</span>
+                </button>
+                {showUserMenu && (
+                  <div className="user-dropdown">
+                    <Link to="/products" onClick={() => setShowUserMenu(false)}>{t('myProducts')}</Link>
+                    <Link to="/order-tracking" onClick={() => setShowUserMenu(false)}>{t('myOrders')}</Link>
+                    <button onClick={handleLogout}>{t('signOut')}</button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link className="action-icon" to="/login" title="Sign In">
+                👤 <span className="nav-action-text">{t('signIn')}</span>
+              </Link>
+            )}
+
+            <Link className="action-icon cart" to="/cart" title="Cart">
+              🛒{' '}
+              {cartCount > 0 && <span className="badge">{cartCount}</span>}
             </Link>
-          )}
 
-          <Link className="action-icon cart" to="/cart" title="Cart">
-            🛒{' '}
-            {cartCount > 0 && <span className="badge">{cartCount}</span>}
-          </Link>
-
-          <Link className="action-icon" to="/wishlist" title="Wishlist">
-            ❤️
-          </Link>
+            <Link className="action-icon" to="/wishlist" title="Wishlist">
+              ❤️
+            </Link>
+          </div>
         </div>
-      </div>
-
-    </nav>
+      </nav>
+      <MobileBottomNav />
+    </>
   );
 };
 

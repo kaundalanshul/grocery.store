@@ -374,6 +374,9 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .order-tracking-page {
+    padding: 16px 12px 76px;
+  }
   .orders-container {
     padding: 0;
   }
