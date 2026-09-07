@@ -88,7 +88,7 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
 }
 
-/* Row 1: Delivery Address & Wallet */
+/* Row 1: Brand Logo & Name, Delivery Address & Wallet (Sabse Uper) */
 .top-delivery-bar {
   max-width: 1400px;
   margin: 0 auto;
@@ -96,6 +96,64 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 16px 4px;
+  gap: 14px;
+}
+
+.top-mart-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.top-mart-brand:hover {
+  transform: translateY(-1px);
+}
+
+.top-mart-brand .brand-logo-m {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 900;
+  box-shadow: 0 3px 10px rgba(99, 102, 241, 0.35);
+  letter-spacing: -0.5px;
+}
+
+.top-mart-title-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.top-mart-name {
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: var(--text-dark);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.top-mart-accent {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.top-mart-sub {
+  font-size: 8.5px;
+  font-weight: 800;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .delivery-address-chip {
@@ -237,32 +295,13 @@
   box-shadow: 0 0 0 3px var(--primary-glow);
 }
 
-.search-brand-mark {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 16px;
-  letter-spacing: -0.5px;
-  margin-right: 8px;
-}
-
-.brand-logo-m {
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-  color: #fff;
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-weight: 900;
-}
-
-.brand-leaf {
+.search-input-icon {
   font-size: 14px;
-  margin-left: 1px;
+  margin-right: 8px;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .myntra-search-pill input {
@@ -1420,6 +1459,37 @@
 }
 
 @media (max-width: 768px) {
+
+  /* Mobile Header Adjustments: Sabse Uper Mart Name */
+  .top-delivery-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px 4px;
+    gap: 6px 12px;
+  }
+
+  .top-mart-brand {
+    order: 1;
+  }
+
+  .top-wallet-chip {
+    order: 2;
+  }
+
+  .delivery-address-chip {
+    order: 3;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  [data-theme='dark'] .delivery-address-chip {
+    border-top-color: rgba(255, 255, 255, 0.06);
+  }
+
   .myntra-bottom-nav {
     display: flex;
     position: fixed;
@@ -1639,6 +1709,14 @@
 }
 
 .subcat-all {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+subcat-all {
   background: none;
   border: none;
   font-weight: 700;

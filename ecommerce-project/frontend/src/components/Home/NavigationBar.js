@@ -105,8 +105,20 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
 
   return (
     <header className="myntra-header-wrapper">
-      {/* ── 1. Top Delivery Address & Wallet Bar ── */}
+      {/* ── 1. Top Bar: Mart Brand, Delivery Address & Wallet (Sabse Uper Search Bar Ke Upar) ── */}
       <div className="top-delivery-bar">
+        {/* Mart Brand Name (Sabse Uper) */}
+        <Link to="/" className="top-mart-brand" title="MegaMart Home">
+          <span className="brand-logo-m">M</span>
+          <div className="top-mart-title-wrap">
+            <span className="top-mart-name">
+              Mega<span className="top-mart-accent">Mart</span>
+            </span>
+            <span className="top-mart-sub">Superstore</span>
+          </div>
+        </Link>
+
+        {/* Delivery Address Chip */}
         <div className="delivery-address-chip" ref={locationRef}>
           <span className="location-pin-icon">📍</span>
           <button
@@ -148,10 +160,7 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
       {/* ── 2. Search & App Actions Bar ── */}
       <div className="main-search-bar-row">
         <form className="myntra-search-pill" onSubmit={handleSearch}>
-          <Link to="/" className="search-brand-mark" title="MegaMart Home">
-            <span className="brand-logo-m">M</span>
-            <span className="brand-leaf">🌿</span>
-          </Link>
+          <span className="search-input-icon" title="Search">🔍</span>
 
           <input
             type="text"
