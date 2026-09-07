@@ -1,8 +1,8 @@
-/* ============================================================
-   CHECKOUT & PAYMENT — Professional Design
+﻿/* ============================================================
+   CHECKOUT & PAYMENT â€” Professional Design
    ============================================================ */
 
-/* ── Container ── */
+/* â”€â”€ Container â”€â”€ */
 .checkout-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -43,7 +43,7 @@
   border-radius: 2px;
 }
 
-/* ── Layout ── */
+/* â”€â”€ Layout â”€â”€ */
 .checkout-layout {
   display: grid;
   grid-template-columns: 1.6fr 1fr;
@@ -51,7 +51,7 @@
   align-items: start;
 }
 
-/* ── Cards ── */
+/* â”€â”€ Cards â”€â”€ */
 .checkout-card {
   background: var(--bg-white);
   border: 1px solid var(--border);
@@ -81,7 +81,7 @@
   margin-top: 24px;
 }
 
-/* ── Coupon Box ── */
+/* â”€â”€ Coupon Box â”€â”€ */
 .coupon-box {
   margin-bottom: 20px;
   padding: 18px;
@@ -125,7 +125,7 @@
 .coupon-row input:focus {
   outline: none;
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px var(--primary-glow, rgba(132, 194, 37, 0.2));
+  box-shadow: 0 0 0 3px var(--primary-glow, rgba(99, 102, 241, 0.2));
 }
 
 .coupon-apply-btn {
@@ -143,7 +143,7 @@
 
 .coupon-apply-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px var(--primary-glow, rgba(132, 194, 37, 0.3));
+  box-shadow: 0 4px 12px var(--primary-glow, rgba(99, 102, 241, 0.3));
 }
 
 .coupon-hints {
@@ -158,7 +158,7 @@
   font-weight: 700;
   color: var(--primary);
   background: var(--primary-light);
-  border: 1px solid rgba(132, 194, 37, 0.2);
+  border: 1px solid rgba(99, 102, 241, 0.2);
   border-radius: 999px;
   padding: 4px 12px;
   cursor: pointer;
@@ -174,11 +174,11 @@
   margin: 10px 0 0;
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--success-color, #689f1a);
+  color: var(--success-color, #10b981);
   padding: 8px 12px;
-  background: rgba(104, 159, 26, 0.06);
+  background: rgba(16, 185, 129, 0.06);
   border-radius: 8px;
-  border-left: 3px solid var(--success-color, #689f1a);
+  border-left: 3px solid var(--success-color, #10b981);
 }
 
 .discount-row span:last-child {
@@ -186,7 +186,7 @@
   font-weight: 700;
 }
 
-/* ── Shipping Form ── */
+/* â”€â”€ Shipping Form â”€â”€ */
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -224,7 +224,7 @@
 
 .form-group input:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px var(--primary-glow, rgba(132, 194, 37, 0.2));
+  box-shadow: 0 0 0 3px var(--primary-glow, rgba(99, 102, 241, 0.2));
   outline: none;
 }
 
@@ -234,7 +234,7 @@
   opacity: 0.7;
 }
 
-/* ── Payment Options ── */
+/* â”€â”€ Payment Options â”€â”€ */
 .payment-options {
   display: flex;
   flex-direction: column;
@@ -276,7 +276,7 @@
 .payment-option.selected {
   background: var(--primary-light);
   border-color: var(--primary);
-  box-shadow: 0 4px 16px var(--primary-glow, rgba(132, 194, 37, 0.2));
+  box-shadow: 0 4px 16px var(--primary-glow, rgba(99, 102, 241, 0.2));
 }
 
 .payment-option input[type="radio"] {
@@ -308,7 +308,7 @@
   color: var(--text-light);
 }
 
-/* ── Summary Sidebar ── */
+/* â”€â”€ Summary Sidebar â”€â”€ */
 .summary-card {
   position: sticky;
   top: 24px;
@@ -392,7 +392,7 @@
   margin-bottom: 0;
 }
 
-/* ── Submit Button ── */
+/* â”€â”€ Submit Button â”€â”€ */
 .checkout-submit-btn {
   width: 100%;
   padding: 16px;
@@ -425,7 +425,7 @@
 
 .checkout-submit-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 10px 28px var(--primary-glow, rgba(132, 194, 37, 0.35));
+  box-shadow: 0 10px 28px var(--primary-glow, rgba(99, 102, 241, 0.35));
 }
 
 .checkout-submit-btn:active:not(:disabled) {
@@ -446,7 +446,7 @@
   display: block;
 }
 
-/* ── Error Message ── */
+/* â”€â”€ Error Message â”€â”€ */
 .checkout-error-msg {
   background: rgba(224, 30, 35, 0.06);
   border: 1px solid rgba(224, 30, 35, 0.2);
@@ -460,7 +460,7 @@
   animation: fadeIn 0.3s ease;
 }
 
-/* ── Empty / Loading states ── */
+/* â”€â”€ Empty / Loading states â”€â”€ */
 .checkout-empty {
   text-align: center;
   padding: 80px 20px;
@@ -488,7 +488,7 @@
   padding: 80px 20px;
 }
 
-/* ── Back links ── */
+/* â”€â”€ Back links â”€â”€ */
 .back-links {
   text-align: center;
   margin-top: 16px;
@@ -516,7 +516,7 @@
   align-items: start;
 }
 
-/* ── QR Section ── */
+/* â”€â”€ QR Section â”€â”€ */
 .qr-section-card {
   background: var(--bg-white);
   border: 1px solid var(--border);
@@ -551,7 +551,7 @@
   height: 220px;
   border-radius: 16px;
   border: 3px solid var(--primary);
-  box-shadow: 0 8px 32px var(--primary-glow, rgba(132, 194, 37, 0.25));
+  box-shadow: 0 8px 32px var(--primary-glow, rgba(99, 102, 241, 0.25));
   object-fit: contain;
   background: #fff;
   padding: 8px;
@@ -560,7 +560,7 @@
 
 .upi-qr-image:hover {
   transform: scale(1.03);
-  box-shadow: 0 12px 40px var(--primary-glow, rgba(132, 194, 37, 0.35));
+  box-shadow: 0 12px 40px var(--primary-glow, rgba(99, 102, 241, 0.35));
 }
 
 .payment-details-bar {
@@ -595,7 +595,7 @@
   color: var(--primary);
 }
 
-/* ── Verification Form ── */
+/* â”€â”€ Verification Form â”€â”€ */
 .verification-form-card {
   background: var(--bg-white);
   border: 1px solid var(--border);
@@ -655,7 +655,7 @@
 
 .payment-submit-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 10px 28px var(--primary-glow, rgba(132, 194, 37, 0.35));
+  box-shadow: 0 10px 28px var(--primary-glow, rgba(99, 102, 241, 0.35));
 }
 
 .payment-submit-btn:disabled {
@@ -691,7 +691,7 @@
   color: var(--text-dark);
 }
 
-/* ── Payment Success ── */
+/* â”€â”€ Payment Success â”€â”€ */
 .payment-success-card {
   text-align: center;
   max-width: 500px;
@@ -728,7 +728,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px;
-  box-shadow: 0 12px 32px var(--primary-glow, rgba(132, 194, 37, 0.35));
+  box-shadow: 0 12px 32px var(--primary-glow, rgba(99, 102, 241, 0.35));
   animation: successPulse 2s ease infinite;
 }
 
@@ -736,11 +736,11 @@
 
   0%,
   100% {
-    box-shadow: 0 12px 32px var(--primary-glow, rgba(132, 194, 37, 0.35));
+    box-shadow: 0 12px 32px var(--primary-glow, rgba(99, 102, 241, 0.35));
   }
 
   50% {
-    box-shadow: 0 12px 48px var(--primary-glow, rgba(132, 194, 37, 0.55));
+    box-shadow: 0 12px 48px var(--primary-glow, rgba(99, 102, 241, 0.55));
   }
 }
 
@@ -785,7 +785,7 @@
 
 .track-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--primary-glow, rgba(132, 194, 37, 0.35));
+  box-shadow: 0 8px 24px var(--primary-glow, rgba(99, 102, 241, 0.35));
 }
 
 .continue-shopping-btn {

@@ -5,33 +5,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  /* ── Brand Colors ── */
-  --primary: #84c225;
-  --primary-dark: #689f1a;
-  --primary-light: #f3f9eb;
-  --primary-glow: rgba(132, 194, 37, 0.25);
-  --accent: #ff6f61;
-  --success: #84c225;
-  --danger: #e01e23;
+  /* ── Brand Colors — Electric Indigo/Violet ── */
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --primary-light: #eef2ff;
+  --primary-glow: rgba(99, 102, 241, 0.25);
+  --accent: #8b5cf6;
+  --success: #10b981;
+  --danger: #ef4444;
   --warning: #f59e0b;
 
   /* ── Text ── */
-  --text-dark: #1a1a2e;
-  --text-mid: #3d3d5c;
-  --text-light: #6b7280;
-  --text-muted: #9ca3af;
+  --text-dark: #0f172a;
+  --text-mid: #475569;
+  --text-light: #94a3b8;
+  --text-muted: #cbd5e1;
 
   /* ── Surfaces ── */
-  --bg: #f4f6f8;
+  --bg: #f8fafc;
   --bg-white: #ffffff;
-  --border: #e5e7eb;
+  --border: #e2e8f0;
 
   /* ── Layered Shadows ── */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
-  --shadow-glow: 0 0 20px rgba(132, 194, 37, 0.15);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  --shadow-glow: 0 0 24px rgba(99, 102, 241, 0.15);
 
   /* ── Legacy aliases ── */
   --card-shadow: var(--shadow-md);
@@ -39,12 +39,12 @@
 
   /* ── Glassmorphism ── */
   --glass-bg: rgba(255, 255, 255, 0.72);
-  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-border: rgba(99, 102, 241, 0.12);
 
   /* ── Radius ── */
   --radius-sm: 6px;
   --radius: 10px;
-  --radius-md: 14px;
+  --radius-md: 16px;
   --radius-lg: 20px;
   --radius-xl: 24px;
   --radius-full: 9999px;
@@ -55,46 +55,46 @@
   --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 
   /* ── Auth ── */
-  --auth-gradient: linear-gradient(135deg, #f3f9eb 0%, #eaf5db 100%);
+  --auth-gradient: linear-gradient(135deg, #eef2ff 0%, #f8fafc 100%);
   --input-bg: #ffffff;
-  --input-border: #d1d5db;
-  --danger-color: #e01e23;
-  --success-color: #689f1a;
+  --input-border: #cbd5e1;
+  --danger-color: #ef4444;
+  --success-color: #10b981;
 }
 
 [data-theme='dark'] {
-  --primary: #9ce631;
-  --primary-dark: #7bbf22;
-  --primary-light: #1e2f12;
-  --primary-glow: rgba(156, 230, 49, 0.2);
-  --accent: #ff8577;
-  --success: #9ce631;
-  --danger: #ff5252;
+  --primary: #818cf8;
+  --primary-dark: #6366f1;
+  --primary-light: #1e1b4b;
+  --primary-glow: rgba(129, 140, 248, 0.2);
+  --accent: #a78bfa;
+  --success: #34d399;
+  --danger: #f87171;
   --warning: #fbbf24;
 
-  --text-dark: #f0f0f0;
-  --text-mid: #d4d4d8;
-  --text-light: #a1a1aa;
-  --text-muted: #71717a;
+  --text-dark: #f1f5f9;
+  --text-mid: #cbd5e1;
+  --text-light: #64748b;
+  --text-muted: #475569;
 
-  --bg: #0f0f14;
-  --bg-white: #1a1a24;
-  --border: #2a2a3a;
+  --bg: #0a0b14;
+  --bg-white: #12132a;
+  --border: #1e2044;
 
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.45), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.35);
-  --shadow-glow: 0 0 25px rgba(156, 230, 49, 0.12);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.55), 0 4px 6px -4px rgba(0, 0, 0, 0.35);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 30px rgba(129, 140, 248, 0.15);
 
-  --glass-bg: rgba(26, 26, 36, 0.8);
-  --glass-border: rgba(255, 255, 255, 0.06);
+  --glass-bg: rgba(18, 19, 42, 0.85);
+  --glass-border: rgba(99, 102, 241, 0.1);
 
-  --auth-gradient: linear-gradient(135deg, #0f0f14 0%, #1a1a24 100%);
-  --input-bg: #1a1a24;
-  --input-border: #2a2a3a;
-  --danger-color: #ff8577;
-  --success-color: #7bbf22;
+  --auth-gradient: linear-gradient(135deg, #0a0b14 0%, #1e1b4b 100%);
+  --input-bg: #12132a;
+  --input-border: #1e2044;
+  --danger-color: #f87171;
+  --success-color: #34d399;
 }
 
 /* ============================================================
@@ -313,7 +313,7 @@ body {
 .auth-page::after {
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(132, 194, 37, 0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.1), transparent 70%);
   bottom: -80px;
   left: -80px;
   animation: float 10s ease-in-out infinite reverse;
@@ -424,7 +424,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   padding: 8px 12px;
-  background: rgba(224, 30, 35, 0.06);
+  background: rgba(239, 68, 68, 0.06);
   border-radius: var(--radius-sm);
   border-left: 3px solid var(--danger-color);
 }
@@ -434,7 +434,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   padding: 8px 12px;
-  background: rgba(104, 159, 26, 0.06);
+  background: rgba(16, 185, 129, 0.06);
   border-radius: var(--radius-sm);
   border-left: 3px solid var(--success-color);
 }
@@ -831,7 +831,7 @@ body {
 }
 
 .products-cart-btn.added {
-  background: linear-gradient(135deg, var(--success), #5a8c15);
+  background: linear-gradient(135deg, var(--success), #059669);
 }
 
 /* Compare Tray */
@@ -943,7 +943,7 @@ body {
 }
 
 .compare-card button:hover {
-  background: #c91a1a;
+  background: #dc2626;
   transform: translateY(-1px);
 }
 
@@ -998,7 +998,7 @@ body {
   position: absolute;
   top: 16px;
   left: 16px;
-  background: linear-gradient(135deg, var(--danger), #c91a1a);
+  background: linear-gradient(135deg, var(--danger), #dc2626);
   color: #fff;
   padding: 5px 12px;
   border-radius: var(--radius-full);
@@ -1055,8 +1055,8 @@ body {
 }
 
 .detail-save-badge {
-  background: linear-gradient(135deg, #fef3c7, #fde68a);
-  color: #92400e;
+  background: linear-gradient(135deg, #eef2ff, #c7d2fe);
+  color: #3730a3;
   font-size: 12px;
   font-weight: 700;
   padding: 4px 10px;
@@ -1159,7 +1159,7 @@ body {
 }
 
 .detail-add-cart-btn.added {
-  background: linear-gradient(135deg, var(--success), #5a8c15);
+  background: linear-gradient(135deg, var(--success), #059669);
 }
 
 .detail-add-cart-btn:disabled {
@@ -1170,7 +1170,7 @@ body {
 .detail-buy-now-btn {
   flex: 1;
   padding: 14px 20px;
-  background: linear-gradient(135deg, #ff9f43 0%, #ff6b6b 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, #7c3aed 100%);
   color: #fff;
   border: none;
   border-radius: var(--radius);
@@ -1178,12 +1178,12 @@ body {
   font-weight: 700;
   cursor: pointer;
   transition: var(--transition-smooth);
-  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
 }
 
 .detail-buy-now-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.35);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
 }
 
 .detail-buy-now-btn:disabled {
@@ -1548,7 +1548,7 @@ body {
   background: var(--danger);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(224, 30, 35, 0.2);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.25);
 }
 
 .cart-layout {
@@ -1646,7 +1646,7 @@ body {
 
 .cart-remove-btn:hover {
   color: var(--danger);
-  background: rgba(224, 30, 35, 0.06);
+  background: rgba(239, 68, 68, 0.06);
 }
 
 /* Cart Summary */

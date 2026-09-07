@@ -319,14 +319,14 @@
 }
 
 .buy-now-btn {
-  background: linear-gradient(135deg, #ff9f43, #ff6b6b);
+  background: linear-gradient(135deg, var(--accent), #7c3aed);
   color: white;
-  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
 }
 
 .buy-now-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 107, 107, 0.4);
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.4);
 }
 
 .buy-again-btn {
@@ -350,7 +350,7 @@
   background: var(--danger);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(224, 30, 35, 0.2);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.25);
 }
 
 .view-invoice-btn {
