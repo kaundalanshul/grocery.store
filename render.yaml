@@ -1,0 +1,24 @@
+services:
+  # Backend API Service
+  - type: web
+    name: grocery-backend
+    env: node
+    rootDir: ecommerce-project/backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+
+  # Frontend Web Service
+  - type: web
+    name: grocery-frontend
+    env: node
+    rootDir: ecommerce-project/frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production

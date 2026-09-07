@@ -1,0 +1,17 @@
+{
+  "name": "grocery-store-monorepo",
+  "version": "1.0.0",
+  "description": "Grocery store monorepo root package for Render deployment",
+  "main": "ecommerce-project/backend/server.js",
+  "scripts": {
+    "build": "cd ecommerce-project/backend && npm install",
+    "start": "cd ecommerce-project/backend && npm start",
+    "build:backend": "cd ecommerce-project/backend && npm install",
+    "start:backend": "cd ecommerce-project/backend && npm start",
+    "build:frontend": "cd ecommerce-project/frontend && npm install && npm run build",
+    "start:frontend": "cd ecommerce-project/frontend && npm run start:prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
