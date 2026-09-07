@@ -62,7 +62,7 @@ const CategoryProducts = ({ theme, onToggleTheme }) => {
     } finally {
       setLoading(false);
     }
-  }, [decodedCategory, sortBy]);
+  }, [decodedCategory, sortBy, fallbackCategoryProducts]);
 
   useEffect(() => {
     fetchProducts();
