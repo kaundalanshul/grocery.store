@@ -33,36 +33,47 @@ export const MobileBottomNav = () => {
   };
 
   return (
-    <nav className="mobile-bottom-nav" aria-label="Mobile Navigation">
-      <Link to="/" className={`bottom-nav-item ${isActive('/') ? 'active' : ''}`}>
-        <span className="bottom-nav-icon">🏠</span>
-        <span className="bottom-nav-label">Home</span>
+    <nav className="myntra-bottom-nav" aria-label="Mobile Navigation">
+      {/* 1. Home */}
+      <Link to="/" className={`myntra-nav-item ${isActive('/') ? 'active' : ''}`}>
+        <span className="myntra-nav-logo-icon">🌿</span>
+        <span className="myntra-nav-title">Home</span>
       </Link>
 
-      <Link to="/products" className={`bottom-nav-item ${isActive('/products') ? 'active' : ''}`}>
-        <span className="bottom-nav-icon">🥬</span>
-        <span className="bottom-nav-label">Shop</span>
+      {/* 2. fwd (Under ₹499) */}
+      <Link
+        to="/products?sort=price_asc"
+        className={`myntra-nav-item fwd-item ${location.search.includes('price_asc') ? 'active' : ''}`}
+      >
+        <span className="myntra-fwd-word">fwd</span>
+        <span className="myntra-nav-title">Under ₹499</span>
       </Link>
 
-      <Link to="/wishlist" className={`bottom-nav-item ${isActive('/wishlist') ? 'active' : ''}`}>
-        <span className="bottom-nav-icon">❤️</span>
-        <span className="bottom-nav-label">Wishlist</span>
+      {/* 3. LUXE (Categories) */}
+      <Link
+        to="/products"
+        className={`myntra-nav-item luxe-item ${isActive('/products') && !location.search.includes('price_asc') ? 'active' : ''}`}
+      >
+        <span className="myntra-luxe-word">LUXE</span>
+        <span className="myntra-nav-title">Categories</span>
       </Link>
 
-      <Link to="/cart" className={`bottom-nav-item cart-item-nav ${isActive('/cart') ? 'active' : ''}`}>
-        <div className="bottom-nav-icon-wrap">
-          <span className="bottom-nav-icon">🛒</span>
-          {cartCount > 0 && <span className="bottom-nav-badge">{cartCount}</span>}
+      {/* 4. Bag / Cart */}
+      <Link to="/cart" className={`myntra-nav-item bag-item ${isActive('/cart') ? 'active' : ''}`}>
+        <div className="myntra-bag-icon-wrap">
+          <span className="myntra-bag-icon">🛍️</span>
+          {cartCount > 0 && <span className="myntra-bag-badge">{cartCount}</span>}
         </div>
-        <span className="bottom-nav-label">Cart</span>
+        <span className="myntra-nav-title">Bag</span>
       </Link>
 
+      {/* 5. Orders / Profile */}
       <Link
         to={user ? '/order-tracking' : '/login'}
-        className={`bottom-nav-item ${isActive(user ? '/order-tracking' : '/login') ? 'active' : ''}`}
+        className={`myntra-nav-item ${isActive(user ? '/order-tracking' : '/login') ? 'active' : ''}`}
       >
-        <span className="bottom-nav-icon">👤</span>
-        <span className="bottom-nav-label">{user ? 'Orders' : 'Sign In'}</span>
+        <span className="myntra-user-icon">👤</span>
+        <span className="myntra-nav-title">{user ? 'Orders' : 'Profile'}</span>
       </Link>
     </nav>
   );

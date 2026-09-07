@@ -48,7 +48,7 @@ export const BestSellers = () => {
         {products.map((product) => (
           <div key={product._id} className="seller-card">
             <div className="product-image" style={{ position: 'relative' }}>
-              <button 
+              <button
                 onClick={(e) => { e.preventDefault(); toggleWishlist(product._id); }}
                 style={{
                   position: 'absolute', top: '10px', right: '10px', zIndex: 2,

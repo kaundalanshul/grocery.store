@@ -15,8 +15,15 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .orders-container h1 {
@@ -51,7 +58,9 @@
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Error */
@@ -161,7 +170,7 @@
   min-width: 130px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .order-amount {
@@ -312,12 +321,12 @@
 .buy-now-btn {
   background: linear-gradient(135deg, #ff9f43, #ff6b6b);
   color: white;
-  box-shadow: 0 4px 12px rgba(255,107,107,0.2);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
 }
 
 .buy-now-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255,107,107,0.4);
+  box-shadow: 0 8px 24px rgba(255, 107, 107, 0.4);
 }
 
 .buy-again-btn {
@@ -341,7 +350,7 @@
   background: var(--danger);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(224,30,35,0.2);
+  box-shadow: 0 4px 12px rgba(224, 30, 35, 0.2);
 }
 
 .view-invoice-btn {
@@ -377,28 +386,35 @@
   .order-tracking-page {
     padding: 16px 12px 76px;
   }
+
   .orders-container {
     padding: 0;
   }
+
   .order-header {
     flex-wrap: wrap;
     gap: 10px;
     padding: 16px;
   }
+
   .order-status,
   .order-amount {
     min-width: auto;
   }
+
   .order-item {
     flex-direction: column;
   }
+
   .item-image {
     width: 100%;
     height: 160px;
   }
+
   .order-footer-actions {
     flex-direction: column;
   }
+
   .buy-now-btn,
   .buy-again-btn,
   .cancel-order-btn,
