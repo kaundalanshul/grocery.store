@@ -6,6 +6,8 @@ const sampleProducts = [
   {
     name: 'Classic Cotton T-Shirt',
     description: 'Soft and breathable cotton t-shirt for daily wear. Comfortable fit for all-day use.',
+    brand: "Levi's",
+    keywords: ['tshirt', 'cotton', 'tee', 'round neck', 'casual', 'men wear'],
     price: 15.50,
     originalPrice: 25.00,
     discount: '38%',
@@ -22,6 +24,8 @@ const sampleProducts = [
   {
     name: 'Denim Jacket Blue',
     description: 'Premium blue denim jacket with modern fit and durable stitching. Perfect for casual outings.',
+    brand: 'Wrangler',
+    keywords: ['jacket', 'denim', 'jeans', 'outerwear', 'blue', 'winter'],
     price: 65.00,
     originalPrice: 95.00,
     discount: '32%',
@@ -38,6 +42,8 @@ const sampleProducts = [
   {
     name: 'Black Leather Boots',
     description: 'Comfortable and stylish leather boots for all-day confidence. Water-resistant sole.',
+    brand: 'Clarks',
+    keywords: ['boots', 'shoes', 'leather', 'footwear', 'black', 'waterproof'],
     price: 89.99,
     originalPrice: 120.00,
     discount: '25%',
@@ -54,6 +60,8 @@ const sampleProducts = [
   {
     name: 'Summer Dress Floral',
     description: 'Lightweight floral dress perfect for summer outings. Made with breathable fabric.',
+    brand: 'Zara',
+    keywords: ['dress', 'floral', 'summer', 'frock', 'women wear', 'cotton'],
     price: 42.00,
     originalPrice: 65.00,
     discount: '35%',
@@ -70,6 +78,8 @@ const sampleProducts = [
   {
     name: 'Winter Leather Jacket',
     description: 'Warm winter jacket designed for comfort and cold weather protection. Premium leather finish.',
+    brand: "Levi's",
+    keywords: ['leather', 'jacket', 'winter', 'biker', 'warm', 'coat'],
     price: 89.00,
     originalPrice: 120.00,
     discount: '25%',
@@ -86,6 +96,8 @@ const sampleProducts = [
   {
     name: 'Camel Wool Coat',
     description: 'Elegant wool coat with a timeless silhouette and premium fabric. Great for winter styling.',
+    brand: 'Mango',
+    keywords: ['coat', 'wool', 'camel', 'winter', 'trench', 'overcoat'],
     price: 145.00,
     originalPrice: 200.00,
     discount: '27%',
@@ -102,6 +114,8 @@ const sampleProducts = [
   {
     name: 'Black Leather Blazer',
     description: 'Sophisticated leather blazer for formal and casual styling. Versatile wardrobe staple.',
+    brand: 'Zara',
+    keywords: ['blazer', 'suit', 'leather', 'formal', 'party', 'coat'],
     price: 125.00,
     originalPrice: 180.00,
     discount: '30%',
@@ -118,6 +132,8 @@ const sampleProducts = [
   {
     name: 'Navy Blue Dress Shirt',
     description: 'Classic navy shirt with clean tailoring for office and events. Wrinkle-resistant fabric.',
+    brand: 'Arrow',
+    keywords: ['shirt', 'formal', 'office', 'cotton', 'navy', 'dress shirt'],
     price: 65.00,
     originalPrice: 95.00,
     discount: '31%',
@@ -134,6 +150,8 @@ const sampleProducts = [
   {
     name: 'Gold Hoop Earrings',
     description: 'Classic gold hoop earrings that pair beautifully with any outfit. Hypoallergenic material.',
+    brand: 'Tanishq',
+    keywords: ['earrings', 'gold', 'jewelry', 'hoops', 'accessories'],
     price: 28.00,
     originalPrice: 45.00,
     discount: '37%',
@@ -150,6 +168,8 @@ const sampleProducts = [
   {
     name: 'Leather Crossbody Bag',
     description: 'Compact and stylish crossbody bag in genuine leather. Multiple compartments for organization.',
+    brand: 'Fossil',
+    keywords: ['bag', 'handbag', 'crossbody', 'purse', 'leather', 'accessories'],
     price: 78.00,
     originalPrice: 110.00,
     discount: '29%',
@@ -166,6 +186,8 @@ const sampleProducts = [
   {
     name: 'White Running Sneakers',
     description: 'Lightweight and comfortable sneakers designed for running and everyday use. Breathable mesh upper.',
+    brand: 'Nike',
+    keywords: ['sneakers', 'running', 'shoes', 'sports', 'white', 'footwear', 'trainer'],
     price: 55.00,
     originalPrice: 80.00,
     discount: '31%',
@@ -182,6 +204,8 @@ const sampleProducts = [
   {
     name: 'Floral Silk Scarf',
     description: 'Elegant silk scarf with floral print. Can be worn in multiple ways.',
+    brand: 'H&M',
+    keywords: ['scarf', 'silk', 'floral', 'accessories', 'muffler', 'stole'],
     price: 35.00,
     originalPrice: 55.00,
     discount: '36%',
@@ -198,6 +222,8 @@ const sampleProducts = [
   {
     name: 'Rose Gold Necklace',
     description: 'Delicate rose gold necklace with a minimalist pendant. Perfect gift for loved ones.',
+    brand: 'Swarovski',
+    keywords: ['necklace', 'rose gold', 'pendant', 'chain', 'jewelry'],
     price: 48.00,
     originalPrice: 75.00,
     discount: '36%',
@@ -214,6 +240,8 @@ const sampleProducts = [
   {
     name: "Women's Yoga Pants",
     description: 'High-waisted yoga pants with four-way stretch fabric. Moisture-wicking and comfortable.',
+    brand: 'Lululemon',
+    keywords: ['yoga pants', 'leggings', 'activewear', 'workout', 'tights', 'gym'],
     price: 38.00,
     originalPrice: 60.00,
     discount: '36%',
@@ -230,6 +258,8 @@ const sampleProducts = [
   {
     name: 'Slim Fit Chino Pants',
     description: 'Versatile slim fit chinos that work for both casual and semi-formal occasions.',
+    brand: 'Dockers',
+    keywords: ['chinos', 'pants', 'trousers', 'cotton', 'men wear', 'slim fit'],
     price: 48.00,
     originalPrice: 70.00,
     discount: '31%',

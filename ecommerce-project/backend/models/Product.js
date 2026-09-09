@@ -37,6 +37,15 @@ const productSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
+    brand: {
+      type: String,
+      default: '',
+      trim: true,
+    },
+    keywords: {
+      type: [String],
+      default: [],
+    },
     rating: {
       type: Number,
       default: 0,
@@ -74,6 +83,13 @@ const productSchema = new mongoose.Schema(
 );
 
 // text index for search
-productSchema.index({ name: 'text', description: 'text', category: 'text' });
+productSchema.index({
+  name: 'text',
+  description: 'text',
+  category: 'text',
+  subcategory: 'text',
+  brand: 'text',
+  keywords: 'text',
+});
 
 module.exports = mongoose.model('Product', productSchema);

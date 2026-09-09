@@ -481,3 +481,31 @@ export const products = [
     description: 'Moist, bakery-fresh muffins bursting with sweet, plump blueberries.'
   }
 ];
+
+// Sensible brand mappings for realistic search
+const categoryBrands = {
+  Grocery: ['Organic India', 'Tata Sampann', 'Fortune', 'MegaMart Essentials'],
+  Shoes: ['Nike', 'Puma', 'Adidas', 'Clarks', 'Woodland'],
+  Apparel: ["Levi's", 'Zara', 'H&M', 'Arrow', 'Wrangler'],
+  Stationery: ['Parker', 'Classmate', 'Montblanc', 'Moleskine'],
+  Bakery: ['Sweet Treats', 'The French Baker', 'MegaBakery'],
+  Sports: ['Decathlon', 'Nike', 'Nivia', 'Yonex'],
+  Furniture: ['Ikea', 'Urban Ladder', 'Pepperfry'],
+  Jewelry: ['Tanishq', 'Swarovski', 'Giva', 'Kalyan'],
+  Outerwear: ['Zara', 'Mango', 'North Face', "Levi's"],
+  Footwear: ['Clarks', 'Nike', 'Woodland', 'Bata'],
+};
+
+// Ensure every fallback product has brand and keywords
+products.forEach((p, idx) => {
+  if (!p.brand) {
+    const brands = categoryBrands[p.category] || ['MegaMart'];
+    p.brand = brands[idx % brands.length];
+  }
+  if (!p.keywords || p.keywords.length === 0) {
+    const nameWords = (p.name || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').split(' ').filter((w) => w.length > 2);
+    const sub = (p.subcategory || '').toLowerCase().split(' ').filter((w) => w.length > 2);
+    p.keywords = Array.from(new Set([p.category.toLowerCase(), ...nameWords, ...sub]));
+  }
+});
+

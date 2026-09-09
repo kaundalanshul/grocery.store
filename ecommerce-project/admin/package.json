@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-admin",
+  "version": "1.0.0",
+  "description": "Standalone Admin Panel for MegaMart Grocery & Ecommerce Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["admin", "dashboard", "ecommerce", "grocery"],
+  "author": "",
+  "license": "ISC"
+}

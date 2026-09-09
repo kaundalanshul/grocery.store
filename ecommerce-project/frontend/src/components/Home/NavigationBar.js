@@ -1,9 +1,11 @@
-// Navigation Bar Component — Myntra-style Modern E-Commerce Header
-import React, { useEffect, useState, useRef } from 'react';
+// Navigation Bar Component — Myntra-style Modern E-Commerce Header with Amazon-grade Search
+import React, { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import axios from '../../api/axios';
 import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
 import { useLanguage } from '../../context/LanguageContext';
+import { products as fallbackProducts } from '../../data/products';
 
 export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   const navigate = useNavigate();
@@ -16,12 +18,20 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   const [user, setUser] = useState(null);
   const [activeTab, setActiveTab] = useState('ALL');
 
+  // Amazon Autocomplete & Search Suggestions state
+  const [suggestions, setSuggestions] = useState({ suggestions: [], products: [], categories: [] });
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
+  const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(-1);
+
   // Location selector state
   const [showLocationMenu, setShowLocationMenu] = useState(false);
   const [city, setCity] = useState(localStorage.getItem('selectedCity') || 'Bangalore');
 
   const locationRef = useRef(null);
   const userMenuRef = useRef(null);
+  const searchContainerRef = useRef(null);
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     try {
@@ -59,6 +69,9 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
       if (userMenuRef.current && !userMenuRef.current.contains(event.target)) {
         setShowUserMenu(false);
       }
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
     };
     document.addEventListener('mousedown', handleClickOutside);
     document.addEventListener('touchstart', handleClickOutside);
@@ -67,6 +80,110 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
       document.removeEventListener('touchstart', handleClickOutside);
     };
   }, []);
+
+  // Fetch Amazon-style suggestions with 180ms debouncing
+  useEffect(() => {
+    const q = searchQuery.trim();
+    if (!q) {
+      setSuggestions({ suggestions: [], products: [], categories: [] });
+      setIsLoadingSuggestions(false);
+      return;
+    }
+
+    setIsLoadingSuggestions(true);
+    const timer = setTimeout(async () => {
+      try {
+        const { data } = await axios.get('/api/products/search/suggestions', {
+          params: { q },
+        });
+        if (data && data.success) {
+          setSuggestions({
+            suggestions: data.suggestions || [],
+            products: data.products || [],
+            categories: data.categories || [],
+          });
+        }
+      } catch (err) {
+        // Instant local fallback suggestions if backend is busy or offline
+        const lowerQ = q.toLowerCase();
+        const tokens = lowerQ.split(/\s+/).filter(Boolean);
+        const matchedProducts = (fallbackProducts || []).filter((p) => {
+          const s = `${p.name} ${p.brand || ''} ${p.category} ${p.subcategory || ''} ${(p.keywords || []).join(' ')} ${p.description || ''}`.toLowerCase();
+          return tokens.every((tok) => s.includes(tok));
+        }).slice(0, 4);
+
+        const textSuggestions = Array.from(new Set(matchedProducts.map((p) => p.name)))
+          .slice(0, 5)
+          .map((text) => ({ text, type: 'query' }));
+
+        const catMatches = Array.from(new Set(matchedProducts.map((p) => p.category))).slice(0, 3);
+        catMatches.forEach((cat) => {
+          textSuggestions.push({ text: `${q} in ${cat}`, category: cat, type: 'category_scope' });
+        });
+
+        setSuggestions({
+          suggestions: textSuggestions,
+          products: matchedProducts,
+          categories: catMatches,
+        });
+      } finally {
+        setIsLoadingSuggestions(false);
+      }
+    }, 180);
+
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Flattened navigable items for keyboard controls
+  const allNavItems = useMemo(() => {
+    const items = [];
+    (suggestions.suggestions || []).forEach((s) => {
+      items.push({ kind: 'suggestion', ...s });
+    });
+    (suggestions.products || []).forEach((p) => {
+      items.push({ kind: 'product', ...p });
+    });
+    return items;
+  }, [suggestions]);
+
+  const selectItem = useCallback((item) => {
+    setShowSuggestions(false);
+    setActiveSuggestionIndex(-1);
+    if (!item) return;
+
+    if (item.kind === 'product' || item._id) {
+      navigate(`/products/${item._id}`);
+    } else if (item.category && item.type === 'category_scope') {
+      navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}&category=${encodeURIComponent(item.category)}`);
+    } else if (item.text) {
+      navigate(`/products?search=${encodeURIComponent(item.text)}`);
+    }
+  }, [navigate, searchQuery]);
+
+  const handleKeyDown = (e) => {
+    if (!showSuggestions || allNavItems.length === 0) {
+      if (e.key === 'ArrowDown' && searchQuery.trim().length > 0) {
+        setShowSuggestions(true);
+      }
+      return;
+    }
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActiveSuggestionIndex((prev) => (prev + 1) % allNavItems.length);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActiveSuggestionIndex((prev) => (prev <= 0 ? allNavItems.length - 1 : prev - 1));
+    } else if (e.key === 'Enter') {
+      if (activeSuggestionIndex >= 0 && activeSuggestionIndex < allNavItems.length) {
+        e.preventDefault();
+        selectItem(allNavItems[activeSuggestionIndex]);
+      }
+    } else if (e.key === 'Escape') {
+      setShowSuggestions(false);
+      setActiveSuggestionIndex(-1);
+    }
+  };
 
   const handleLogout = () => {
     localStorage.removeItem('authToken');
@@ -77,12 +194,34 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
   };
 
   const handleSearch = (e) => {
-    e.preventDefault();
+    if (e) e.preventDefault();
+    setShowSuggestions(false);
+    setActiveSuggestionIndex(-1);
     if (searchQuery.trim()) {
       navigate(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
-      setSearchQuery('');
     }
   };
+
+  const highlightMatch = (text, query) => {
+    if (!query || !text) return text;
+    const cleanQ = query.trim();
+    if (!cleanQ) return text;
+    try {
+      const parts = text.split(new RegExp(`(${cleanQ.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'));
+      return parts.map((part, i) =>
+        part.toLowerCase() === cleanQ.toLowerCase() ? (
+          <strong key={i} className="suggestion-matched-bold">{part}</strong>
+        ) : (
+          part
+        )
+      );
+    } catch (_) {
+      return text;
+    }
+  };
+
+  const formatPrice = (price) =>
+    typeof price === 'number' ? `₹${price.toFixed(2)}` : price;
 
   const handleCitySelect = (cityName) => {
     setCity(cityName);
@@ -159,37 +298,170 @@ export const NavigationBar = ({ theme = 'light', onToggleTheme }) => {
 
       {/* ── 2. Search & App Actions Bar ── */}
       <div className="main-search-bar-row">
-        <form className="myntra-search-pill" onSubmit={handleSearch}>
-          <span className="search-input-icon" title="Search">🔍</span>
+        <div className="search-bar-container" ref={searchContainerRef}>
+          <form className="myntra-search-pill" onSubmit={handleSearch}>
+            <span className="search-input-icon" title="Search">🔍</span>
 
-          <input
-            type="text"
-            placeholder='"Search clothes, groceries, essentials..."'
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Search products"
-          />
+            <input
+              ref={searchInputRef}
+              type="text"
+              placeholder="Search products, brands, groceries..."
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setShowSuggestions(true);
+                setActiveSuggestionIndex(-1);
+              }}
+              onFocus={() => {
+                if (searchQuery.trim().length > 0) {
+                  setShowSuggestions(true);
+                }
+              }}
+              onKeyDown={handleKeyDown}
+              aria-label="Search products"
+              autoComplete="off"
+            />
 
-          {searchQuery && (
-            <button
-              type="button"
-              className="search-clear-cross"
-              onClick={() => setSearchQuery('')}
-              title="Clear"
-            >
-              ✕
-            </button>
+            {searchQuery && (
+              <button
+                type="button"
+                className="search-clear-cross"
+                onClick={() => {
+                  setSearchQuery('');
+                  setSuggestions({ suggestions: [], products: [], categories: [] });
+                  setShowSuggestions(false);
+                  if (searchInputRef.current) searchInputRef.current.focus();
+                }}
+                title="Clear"
+              >
+                ✕
+              </button>
+            )}
+
+            <div className="search-media-actions">
+              <button type="button" className="media-btn" title="Voice Search" onClick={() => alert('Voice search activated! Say your product name.')}>
+                🎙️
+              </button>
+              <button type="button" className="media-btn" title="Visual Lens Search" onClick={() => alert('Visual Lens search: Upload or point camera to search.')}>
+                📷
+              </button>
+            </div>
+          </form>
+
+          {/* Amazon-style Autocomplete Dropdown */}
+          {showSuggestions && searchQuery.trim().length > 0 && (
+            <div className="amazon-suggestions-dropdown" role="listbox">
+              {isLoadingSuggestions && (
+                <div className="suggestion-loading-bar">
+                  <span className="suggestion-loading-dot" />
+                  Searching MegaMart...
+                </div>
+              )}
+
+              {/* Suggestions or Products Available */}
+              {(suggestions.suggestions?.length > 0 || suggestions.products?.length > 0) ? (
+                <>
+                  {/* Keyword / Category Suggestions */}
+                  {suggestions.suggestions?.length > 0 && (
+                    <div className="suggestion-section">
+                      <div className="suggestion-section-title">SUGGESTIONS</div>
+                      {suggestions.suggestions.map((s, idx) => {
+                        const isNavActive = activeSuggestionIndex === idx;
+                        return (
+                          <div
+                            key={`sug-${idx}`}
+                            className={`amazon-suggestion-item ${isNavActive ? 'nav-active' : ''}`}
+                            onClick={() => selectItem({ kind: 'suggestion', ...s })}
+                            onMouseEnter={() => setActiveSuggestionIndex(idx)}
+                          >
+                            <span className="suggestion-icon">
+                              {s.type === 'category_scope' ? '📂' : '🔍'}
+                            </span>
+                            <span className="suggestion-label">
+                              {s.type === 'category_scope' ? (
+                                <>
+                                  <span className="scope-keyword">{searchQuery}</span>
+                                  <span className="scope-in-cat"> in <strong>{s.category}</strong></span>
+                                </>
+                              ) : (
+                                highlightMatch(s.text, searchQuery)
+                              )}
+                            </span>
+                            {s.type === 'category_scope' && (
+                              <span className="suggestion-cat-badge">{s.category}</span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* Matching Products Quick Preview Cards */}
+                  {suggestions.products?.length > 0 && (
+                    <div className="suggestion-section products-preview-section">
+                      <div className="suggestion-section-title">MATCHING PRODUCTS</div>
+                      <div className="suggestion-products-grid">
+                        {suggestions.products.map((prod, pIdx) => {
+                          const navIdx = (suggestions.suggestions?.length || 0) + pIdx;
+                          const isNavActive = activeSuggestionIndex === navIdx;
+                          return (
+                            <div
+                              key={`prod-${prod._id || pIdx}`}
+                              className={`suggestion-product-card ${isNavActive ? 'nav-active' : ''}`}
+                              onClick={() => selectItem({ kind: 'product', ...prod })}
+                              onMouseEnter={() => setActiveSuggestionIndex(navIdx)}
+                            >
+                              <img
+                                src={prod.image || 'https://via.placeholder.com/60x60?text=Item'}
+                                alt={prod.name}
+                                className="suggestion-prod-img"
+                                onError={(e) => { e.target.src = 'https://via.placeholder.com/60x60?text=Item'; }}
+                              />
+                              <div className="suggestion-prod-info">
+                                <span className="suggestion-prod-title">{prod.name}</span>
+                                <div className="suggestion-prod-meta">
+                                  <span className="suggestion-prod-price">{formatPrice(prod.price)}</span>
+                                  {prod.category && (
+                                    <span className="suggestion-prod-dept">{prod.category}</span>
+                                  )}
+                                  {prod.brand && (
+                                    <span className="suggestion-prod-brand">{prod.brand}</span>
+                                  )}
+                                </div>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Bottom "View all results" shortcut */}
+                  <div
+                    className="suggestion-bottom-bar"
+                    onClick={() => handleSearch()}
+                  >
+                    <span>View all results for <strong>"{searchQuery}"</strong></span>
+                    <span className="suggestion-arrow">→</span>
+                  </div>
+                </>
+              ) : (
+                !isLoadingSuggestions && (
+                  <div className="suggestion-no-match">
+                    <p className="no-sug-title">No suggestions found for "{searchQuery}"</p>
+                    <button
+                      type="button"
+                      className="suggestion-search-anyway-btn"
+                      onClick={() => handleSearch()}
+                    >
+                      Search all departments for "{searchQuery}"
+                    </button>
+                  </div>
+                )
+              )}
+            </div>
           )}
-
-          <div className="search-media-actions">
-            <button type="button" className="media-btn" title="Voice Search" onClick={() => alert('Voice search activated! Say your product name.')}>
-              🎙️
-            </button>
-            <button type="button" className="media-btn" title="Visual Lens Search" onClick={() => alert('Visual Lens search: Upload or point camera to search.')}>
-              📷
-            </button>
-          </div>
-        </form>
+        </div>
 
         <div className="header-icon-actions">
           {/* Theme Switcher */}

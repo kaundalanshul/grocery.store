@@ -41,9 +41,11 @@ const Products = ({ theme, onToggleTheme }) => {
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const query = params.get('search') || '';
-    if (query) {
-      setSearchInput(query);
-      setSearch(query);
+    const cat = params.get('category') || 'all';
+    setSearchInput(query);
+    setSearch(query);
+    if (cat !== 'all') {
+      setCategoryFilter(cat);
     }
   }, [location.search]);
 
@@ -56,12 +58,22 @@ const Products = ({ theme, onToggleTheme }) => {
       if (sortBy) params.sort = sortBy;
       params.limit = 200;
       const { data } = await axios.get('/api/products', { params });
-      const fetchedProducts = Array.isArray(data.products) && data.products.length > 0
-        ? data.products.map((product) => ({ ...product, _id: product._id || product.id }))
-        : INITIAL_PRODUCTS;
-      setProducts(fetchedProducts);
+      if (data && Array.isArray(data.products)) {
+        setProducts(data.products.map((product) => ({ ...product, _id: product._id || product.id })));
+      } else {
+        setProducts([]);
+      }
     } catch (err) {
-      setProducts(INITIAL_PRODUCTS);
+      if (search) {
+        const tokens = search.toLowerCase().split(/\s+/).filter(Boolean);
+        const matched = INITIAL_PRODUCTS.filter((product) => {
+          const searchable = `${product.name || ''} ${product.brand || ''} ${product.category || ''} ${product.subcategory || ''} ${(product.keywords || []).join(' ')} ${product.description || ''}`.toLowerCase();
+          return tokens.every((token) => searchable.includes(token));
+        });
+        setProducts(matched);
+      } else {
+        setProducts(INITIAL_PRODUCTS);
+      }
       setError('');
     } finally {
       setLoading(false);
@@ -73,8 +85,20 @@ const Products = ({ theme, onToggleTheme }) => {
   }, [fetchProducts]);
 
   const handleSearch = (e) => {
-    e.preventDefault();
-    setSearch(searchInput.trim());
+    if (e) e.preventDefault();
+    const clean = searchInput.trim();
+    setSearch(clean);
+    if (clean) {
+      navigate(`/products?search=${encodeURIComponent(clean)}`);
+    } else {
+      navigate('/products');
+    }
+  };
+
+  const handleClearSearch = () => {
+    setSearch('');
+    setSearchInput('');
+    navigate('/products');
   };
 
   const handleAddToCart = (product) => {
@@ -155,7 +179,7 @@ const Products = ({ theme, onToggleTheme }) => {
               <button
                 type="button"
                 className="products-clear-btn"
-                onClick={() => { setSearch(''); setSearchInput(''); }}
+                onClick={handleClearSearch}
               >
                 ✕ Clear
               </button>
@@ -166,7 +190,7 @@ const Products = ({ theme, onToggleTheme }) => {
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
           >
-            <option value="">Sort: Default</option>
+            <option value="">Sort: Relevance</option>
             <option value="price_asc">Price: Low → High</option>
             <option value="price_desc">Price: High → Low</option>
             <option value="rating">Best Rated</option>
@@ -178,13 +202,18 @@ const Products = ({ theme, onToggleTheme }) => {
           <select value={categoryFilter} onChange={(e) => setCategoryFilter(e.target.value)}>
             <option value="all">All Categories</option>
             <option value="Grocery">Grocery</option>
-            <option value="Apparel">Apparel</option>
+            <option value="Men's">Men's</option>
+            <option value="Women's">Women's</option>
+            <option value="Footwear">Footwear</option>
             <option value="Shoes">Shoes</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Jewelry">Jewelry</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Outerwear">Outerwear</option>
             <option value="Books">Books</option>
             <option value="Sports">Sports</option>
             <option value="Furniture">Furniture</option>
             <option value="Stationery">Stationery</option>
-            <option value="Plants">Plants</option>
             <option value="Bakery">Bakery</option>
           </select>
           <select value={availabilityFilter} onChange={(e) => setAvailabilityFilter(e.target.value)}>
@@ -199,10 +228,15 @@ const Products = ({ theme, onToggleTheme }) => {
           </select>
         </div>
 
-        {search && (
-          <p className="products-result-info">
-            Showing results for: <strong>"{search}"</strong> — {products.length} item(s) found
-          </p>
+        {search && !loading && (
+          <div className="products-result-info">
+            <span>
+              Showing results for: <strong>"{search}"</strong>
+            </span>
+            <span className="results-count-pill">
+              {filteredProducts.length} {filteredProducts.length === 1 ? 'item' : 'items'} found
+            </span>
+          </div>
         )}
 
         {/* States */}
@@ -218,10 +252,60 @@ const Products = ({ theme, onToggleTheme }) => {
             <button onClick={fetchProducts} className="products-view-btn">Retry</button>
           </div>
         )}
-        {!loading && !error && products.length === 0 && (
-          <div className="products-empty">
-            <p>😕 No products found.</p>
-            <Link to="/" className="products-view-btn">Back to Home</Link>
+        {!loading && !error && filteredProducts.length === 0 && (
+          <div className="products-empty-amazon">
+            <div className="empty-amazon-icon-wrap">
+              <span className="empty-amazon-icon">🔍</span>
+            </div>
+            <h2 className="empty-amazon-title">
+              {search ? (
+                <>No results found for <span className="empty-query-text">"{search}"</span></>
+              ) : (
+                'No products match your selected filters'
+              )}
+            </h2>
+            <p className="empty-amazon-subtitle">
+              Try checking your spelling, use more general terms, or explore popular departments:
+            </p>
+
+            <div className="empty-category-shortcuts">
+              {[
+                { name: 'Grocery', icon: '🥦' },
+                { name: "Men's", icon: '👕' },
+                { name: "Women's", icon: '👗' },
+                { name: 'Footwear', icon: '👟' },
+                { name: 'Jewelry', icon: '💍' },
+                { name: 'Accessories', icon: '👜' },
+              ].map((cat) => (
+                <button
+                  key={cat.name}
+                  type="button"
+                  className="empty-cat-chip"
+                  onClick={() => {
+                    setCategoryFilter(cat.name);
+                    handleClearSearch();
+                  }}
+                >
+                  <span className="cat-chip-icon">{cat.icon}</span>
+                  <span>{cat.name}</span>
+                </button>
+              ))}
+            </div>
+
+            <div className="empty-amazon-actions">
+              <button
+                type="button"
+                className="empty-browse-all-btn"
+                onClick={() => {
+                  setCategoryFilter('all');
+                  setAvailabilityFilter('all');
+                  setFeaturedFilter('all');
+                  handleClearSearch();
+                }}
+              >
+                Clear all filters & browse all products
+              </button>
+            </div>
           </div>
         )}
 

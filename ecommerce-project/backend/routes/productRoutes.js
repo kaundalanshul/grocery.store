@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const {
   getAllProducts,
+  getSearchSuggestions,
   getProductsByCategory,
   getProductById,
   getCategories,
@@ -9,6 +10,9 @@ const {
   updateProduct,
   deleteProduct,
 } = require('../controllers/productController');
+
+// GET /api/products/search/suggestions — must be BEFORE /:id
+router.get('/search/suggestions', getSearchSuggestions);
 
 // GET /api/products/categories/list  — must be BEFORE /:id
 router.get('/categories/list', getCategories);
