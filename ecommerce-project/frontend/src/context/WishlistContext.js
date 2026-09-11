@@ -25,7 +25,7 @@ export const WishlistProvider = ({ children }) => {
           Authorization: `Bearer ${token}`,
         },
       });
-      setWishlist(normalizeWishlist(response.data.wishlist || []));
+      setWishlist(response.data.wishlist || []);
     } catch (error) {
       console.error('Error fetching wishlist:', error);
     } finally {
@@ -60,14 +60,16 @@ export const WishlistProvider = ({ children }) => {
       return;
     }
 
+    const targetId = typeof productId === 'object' ? productId?._id || productId?.id : productId;
+
     try {
       const isFavourited = wishlist.some(item => 
-        (typeof item === 'string' ? item : item._id) === productId
+        (typeof item === 'string' ? item : item._id || item.id) === targetId
       );
       
       let newWishlist;
       if (isFavourited) {
-        newWishlist = wishlist.filter(item => item !== productId);
+        newWishlist = wishlist.filter(item => (typeof item === 'string' ? item : item._id || item.id) !== targetId);
       } else {
         newWishlist = [...wishlist, productId];
       }
@@ -75,7 +77,7 @@ export const WishlistProvider = ({ children }) => {
 
       const response = await axios.post(
         '/api/users/wishlist/toggle',
-        { productId },
+        { productId: targetId },
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -83,7 +85,7 @@ export const WishlistProvider = ({ children }) => {
         }
       );
       
-      setWishlist(normalizeWishlist(response.data.wishlist));
+      setWishlist(response.data.wishlist || newWishlist);
     } catch (error) {
       console.error('Error toggling wishlist:', error);
       fetchWishlist();
@@ -91,7 +93,8 @@ export const WishlistProvider = ({ children }) => {
   };
 
   const isInWishlist = (productId) => {
-    return wishlist.includes(productId);
+    const targetId = typeof productId === 'object' ? productId?._id || productId?.id : productId;
+    return wishlist.some(item => (typeof item === 'string' ? item : item?._id || item?.id) === targetId);
   };
 
   return (

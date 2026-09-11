@@ -22,6 +22,16 @@ app.get('/api', (req, res) => {
 // User Routes
 app.use('/api/users', require('./routes/userRoutes'));
 
+// Wishlist Route Aliases (supports both /api/wishlist and /api/users/wishlist)
+app.use('/api/wishlist', (req, res, next) => {
+  if (req.method === 'POST') {
+    req.url = '/wishlist/toggle';
+  } else {
+    req.url = '/wishlist';
+  }
+  require('./routes/userRoutes')(req, res, next);
+});
+
 // Product Routes
 app.use('/api/products', require('./routes/productRoutes'));
 

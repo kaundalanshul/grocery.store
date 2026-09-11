@@ -87,8 +87,54 @@ const getProfile = async (req, res) => {
   }
 };
 
+const getWishlist = async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).populate('wishlist');
+    if (!user) {
+      return res.status(404).json({ message: 'User not found.' });
+    }
+    return res.status(200).json({ success: true, wishlist: user.wishlist || [] });
+  } catch (error) {
+    return res.status(500).json({ message: 'Failed to fetch wishlist.', error: error.message });
+  }
+};
+
+const toggleWishlist = async (req, res) => {
+  try {
+    const { productId } = req.body;
+    if (!productId) {
+      return res.status(400).json({ message: 'Product ID is required.' });
+    }
+
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found.' });
+    }
+
+    if (!user.wishlist) {
+      user.wishlist = [];
+    }
+
+    const index = user.wishlist.findIndex((id) => id.toString() === productId.toString());
+    if (index > -1) {
+      user.wishlist.splice(index, 1);
+    } else {
+      user.wishlist.push(productId);
+    }
+
+    await user.save();
+    await user.populate('wishlist');
+
+    return res.status(200).json({ success: true, wishlist: user.wishlist });
+  } catch (error) {
+    return res.status(500).json({ message: 'Failed to update wishlist.', error: error.message });
+  }
+};
+
 module.exports = {
   registerUser,
   loginUser,
   getProfile,
+  getWishlist,
+  toggleWishlist,
 };

@@ -97,7 +97,7 @@ const computeRelevance = (product, rawQuery, tokens) => {
 // GET /api/products  — all products + optional search + optional category filter
 const getAllProducts = async (req, res) => {
   try {
-    const { search, category, sort, page = 1, limit = 20 } = req.query;
+    const { search, category, sort, page = 1, limit = 500 } = req.query;
     let query = {};
 
     const trimmedSearch = (search || '').trim();
@@ -255,7 +255,7 @@ const getSearchSuggestions = async (req, res) => {
 const getProductsByCategory = async (req, res) => {
   try {
     const { categoryName } = req.params;
-    const { sort, page = 1, limit = 20 } = req.query;
+    const { sort, page = 1, limit = 100 } = req.query;
 
     const query = { category: { $regex: `^${categoryName}$`, $options: 'i' } };
 

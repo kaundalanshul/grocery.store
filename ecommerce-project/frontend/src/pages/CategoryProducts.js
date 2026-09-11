@@ -45,7 +45,7 @@ const CategoryProducts = ({ theme, onToggleTheme }) => {
       setError('');
       const { data } = await axios.get(
         `/api/products/category/${encodeURIComponent(decodedCategory)}`,
-        { params: sortBy ? { sort: sortBy } : {} }
+        { params: { ...(sortBy ? { sort: sortBy } : {}), limit: 100 } }
       );
       const fetchedProducts = Array.isArray(data.products) && data.products.length > 0
         ? data.products.map((product) => ({ ...product, _id: product._id || product.id }))

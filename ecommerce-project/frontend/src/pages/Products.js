@@ -56,7 +56,7 @@ const Products = ({ theme, onToggleTheme }) => {
       const params = {};
       if (search) params.search = search;
       if (sortBy) params.sort = sortBy;
-      params.limit = 200;
+      params.limit = 500;
       const { data } = await axios.get('/api/products', { params });
       if (data && Array.isArray(data.products)) {
         setProducts(data.products.map((product) => ({ ...product, _id: product._id || product.id })));

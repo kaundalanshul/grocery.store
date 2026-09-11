@@ -1,8 +1,8 @@
-// Auto-generated synchronized product catalog (315 items)
+// Auto-generated 100% unique product catalog (180 unique items)
 export const products = [
   {
-    "_id": "6aa439cc2d7c518e5e6e106a",
-    "id": "6aa439cc2d7c518e5e6e106a",
+    "_id": "6aa440688c7704ade4edfa26",
+    "id": "6aa440688c7704ade4edfa26",
     "name": "Premium Basmati Rice – 5kg",
     "price": 599,
     "originalPrice": 799,
@@ -30,8 +30,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e106b",
-    "id": "6aa439cc2d7c518e5e6e106b",
+    "_id": "6aa440688c7704ade4edfa27",
+    "id": "6aa440688c7704ade4edfa27",
     "name": "Cold-Pressed Virgin Olive Oil – 1L",
     "price": 899,
     "originalPrice": 1199,
@@ -59,8 +59,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e106c",
-    "id": "6aa439cc2d7c518e5e6e106c",
+    "_id": "6aa440688c7704ade4edfa28",
+    "id": "6aa440688c7704ade4edfa28",
     "name": "Organic White Quinoa Grain – 1kg",
     "price": 499,
     "originalPrice": 649,
@@ -88,8 +88,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e106d",
-    "id": "6aa439cc2d7c518e5e6e106d",
+    "_id": "6aa440688c7704ade4edfa29",
+    "id": "6aa440688c7704ade4edfa29",
     "name": "Pure Desi Cow Ghee – 1L",
     "price": 675,
     "originalPrice": 799,
@@ -117,8 +117,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e106e",
-    "id": "6aa439cc2d7c518e5e6e106e",
+    "_id": "6aa440688c7704ade4edfa2a",
+    "id": "6aa440688c7704ade4edfa2a",
     "name": "Raw Organic Wildflower Honey – 500g",
     "price": 349,
     "originalPrice": 450,
@@ -145,8 +145,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e106f",
-    "id": "6aa439cc2d7c518e5e6e106f",
+    "_id": "6aa440688c7704ade4edfa2b",
+    "id": "6aa440688c7704ade4edfa2b",
     "name": "All-Natural Crunchy Peanut Butter – 1kg",
     "price": 425,
     "originalPrice": 550,
@@ -174,8 +174,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1070",
-    "id": "6aa439cc2d7c518e5e6e1070",
+    "_id": "6aa440688c7704ade4edfa2c",
+    "id": "6aa440688c7704ade4edfa2c",
     "name": "Kashmiri Lal Mirch Powder – 250g",
     "price": 185,
     "originalPrice": 220,
@@ -202,8 +202,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1071",
-    "id": "6aa439cc2d7c518e5e6e1071",
+    "_id": "6aa440688c7704ade4edfa2d",
+    "id": "6aa440688c7704ade4edfa2d",
     "name": "Organic Turmeric Powder (Curcumin Rich) – 500g",
     "price": 165,
     "originalPrice": 210,
@@ -231,8 +231,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1072",
-    "id": "6aa439cc2d7c518e5e6e1072",
+    "_id": "6aa440688c7704ade4edfa2e",
+    "id": "6aa440688c7704ade4edfa2e",
     "name": "Roasted California Almonds – 500g",
     "price": 499,
     "originalPrice": 699,
@@ -259,8 +259,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1073",
-    "id": "6aa439cc2d7c518e5e6e1073",
+    "_id": "6aa440688c7704ade4edfa2f",
+    "id": "6aa440688c7704ade4edfa2f",
     "name": "Whole Jumbo Cashews (W240) – 500g",
     "price": 549,
     "originalPrice": 750,
@@ -288,8 +288,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1074",
-    "id": "6aa439cc2d7c518e5e6e1074",
+    "_id": "6aa440688c7704ade4edfa30",
+    "id": "6aa440688c7704ade4edfa30",
     "name": "Darjeeling Green Tea – 100 Tea Bags",
     "price": 399,
     "originalPrice": 499,
@@ -316,8 +316,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1075",
-    "id": "6aa439cc2d7c518e5e6e1075",
+    "_id": "6aa440688c7704ade4edfa31",
+    "id": "6aa440688c7704ade4edfa31",
     "name": "Artisan Roast Arabica Coffee Beans – 500g",
     "price": 590,
     "originalPrice": 750,
@@ -344,8 +344,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1076",
-    "id": "6aa439cc2d7c518e5e6e1076",
+    "_id": "6aa440688c7704ade4edfa32",
+    "id": "6aa440688c7704ade4edfa32",
     "name": "Rolled Oats Whole Grain – 1kg",
     "price": 199,
     "originalPrice": 260,
@@ -373,8 +373,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1077",
-    "id": "6aa439cc2d7c518e5e6e1077",
+    "_id": "6aa440688c7704ade4edfa33",
+    "id": "6aa440688c7704ade4edfa33",
     "name": "Natural Himalayan Pink Rock Salt – 1kg",
     "price": 120,
     "originalPrice": 160,
@@ -401,8 +401,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1078",
-    "id": "6aa439cc2d7c518e5e6e1078",
+    "_id": "6aa440688c7704ade4edfa34",
+    "id": "6aa440688c7704ade4edfa34",
     "name": "Dark Chocolate Crunchy Granola – 400g",
     "price": 325,
     "originalPrice": 420,
@@ -430,8 +430,145 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1079",
-    "id": "6aa439cc2d7c518e5e6e1079",
+    "_id": "6aa440688c7704ade4edfa35",
+    "id": "6aa440688c7704ade4edfa35",
+    "name": "Gourmet Exotic Mixed Spices Blend – 200g",
+    "price": 240,
+    "originalPrice": 310,
+    "rating": 4.8,
+    "sold": 840,
+    "stock": 90,
+    "discount": "23% OFF",
+    "image": "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?w=600&q=80"
+    ],
+    "category": "Grocery",
+    "subcategory": "Spices & Masala",
+    "brand": "Everest",
+    "keywords": [
+      "garam masala",
+      "whole spices",
+      "khada masala",
+      "cooking spices"
+    ],
+    "description": "Hand-blended whole aromatic spices including star anise, mace, cinnamon, and cloves for royal curries.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa36",
+    "id": "6aa440688c7704ade4edfa36",
+    "name": "Freshly Harvested Green Cardamom – 100g",
+    "price": 285,
+    "originalPrice": 360,
+    "rating": 4.9,
+    "sold": 1450,
+    "stock": 70,
+    "discount": "21% OFF",
+    "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&q=80"
+    ],
+    "category": "Grocery",
+    "subcategory": "Spices & Masala",
+    "brand": "Tata Sampann",
+    "keywords": [
+      "elaichi",
+      "cardamom",
+      "green cardamom",
+      "spices",
+      "tea masala"
+    ],
+    "description": "Sun-dried natural green cardamom pods from the Western Ghats with pungent sweet eucalyptus aroma.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa37",
+    "id": "6aa440688c7704ade4edfa37",
+    "name": "Black Malabar Tellicherry Peppercorns – 150g",
+    "price": 195,
+    "originalPrice": 250,
+    "rating": 4.7,
+    "sold": 720,
+    "stock": 110,
+    "discount": "22% OFF",
+    "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=600&q=80"
+    ],
+    "category": "Grocery",
+    "subcategory": "Spices & Masala",
+    "brand": "Catch",
+    "keywords": [
+      "black pepper",
+      "kali mirch",
+      "peppercorn",
+      "whole spices"
+    ],
+    "description": "Extra bold sun-dried tellicherry black peppercorns offering intense heat and citrus pine nuances.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa38",
+    "id": "6aa440688c7704ade4edfa38",
+    "name": "Crisp Organic Garden Salad Greens – 250g",
+    "price": 149,
+    "originalPrice": 199,
+    "rating": 4.6,
+    "sold": 630,
+    "stock": 80,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80"
+    ],
+    "category": "Grocery",
+    "subcategory": "Breakfast & Spreads",
+    "brand": "Organic India",
+    "keywords": [
+      "salad greens",
+      "lettuce",
+      "spinach",
+      "fresh grocery",
+      "healthy"
+    ],
+    "description": "Hydroponically grown baby spinach, arugula, and butterhead lettuce washed and packed fresh daily.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa39",
+    "id": "6aa440688c7704ade4edfa39",
+    "name": "Virgin Cold-Pressed Coconut Oil – 1L",
+    "price": 450,
+    "originalPrice": 580,
+    "rating": 4.8,
+    "sold": 1250,
+    "stock": 95,
+    "discount": "22% OFF",
+    "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=600&q=80"
+    ],
+    "category": "Grocery",
+    "subcategory": "Oils & Ghee",
+    "brand": "MaxCare",
+    "keywords": [
+      "coconut oil",
+      "virgin oil",
+      "cooking oil",
+      "healthy fats"
+    ],
+    "description": "Centrifuge-extracted pure coconut oil from fresh white coconut milk. Food grade and multi-purpose.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa3a",
+    "id": "6aa440688c7704ade4edfa3a",
     "name": "Air-Cushion Zoom Running Sneakers",
     "price": 3499,
     "originalPrice": 4999,
@@ -459,8 +596,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107a",
-    "id": "6aa439cc2d7c518e5e6e107a",
+    "_id": "6aa440688c7704ade4edfa3b",
+    "id": "6aa440688c7704ade4edfa3b",
     "name": "Classic Chelsea Leather Ankle Boots",
     "price": 4299,
     "originalPrice": 5999,
@@ -487,8 +624,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107b",
-    "id": "6aa439cc2d7c518e5e6e107b",
+    "_id": "6aa440688c7704ade4edfa3c",
+    "id": "6aa440688c7704ade4edfa3c",
     "name": "Italian Handcrafted Leather Loafers",
     "price": 3199,
     "originalPrice": 4499,
@@ -515,8 +652,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107c",
-    "id": "6aa439cc2d7c518e5e6e107c",
+    "_id": "6aa440688c7704ade4edfa3d",
+    "id": "6aa440688c7704ade4edfa3d",
     "name": "Minimalist White Streetwear Sneakers",
     "price": 2499,
     "originalPrice": 3499,
@@ -543,8 +680,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107d",
-    "id": "6aa439cc2d7c518e5e6e107d",
+    "_id": "6aa440688c7704ade4edfa3e",
+    "id": "6aa440688c7704ade4edfa3e",
     "name": "Waterproof Mountain Hiking Boots",
     "price": 5499,
     "originalPrice": 7999,
@@ -571,8 +708,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107e",
-    "id": "6aa439cc2d7c518e5e6e107e",
+    "_id": "6aa440688c7704ade4edfa3f",
+    "id": "6aa440688c7704ade4edfa3f",
     "name": "Classic Oxford Formal Dress Shoes",
     "price": 2799,
     "originalPrice": 3999,
@@ -599,8 +736,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e107f",
-    "id": "6aa439cc2d7c518e5e6e107f",
+    "_id": "6aa440688c7704ade4edfa40",
+    "id": "6aa440688c7704ade4edfa40",
     "name": "Pointed Toe Stiletto Pumps – 3.5 Inch",
     "price": 3699,
     "originalPrice": 4999,
@@ -627,8 +764,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1080",
-    "id": "6aa439cc2d7c518e5e6e1080",
+    "_id": "6aa440688c7704ade4edfa41",
+    "id": "6aa440688c7704ade4edfa41",
     "name": "Strappy Block Heel Party Sandals",
     "price": 2899,
     "originalPrice": 3799,
@@ -655,8 +792,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1081",
-    "id": "6aa439cc2d7c518e5e6e1081",
+    "_id": "6aa440688c7704ade4edfa42",
+    "id": "6aa440688c7704ade4edfa42",
     "name": "Lightweight Slip-On Memory Walking Shoes",
     "price": 2699,
     "originalPrice": 3599,
@@ -683,8 +820,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1082",
-    "id": "6aa439cc2d7c518e5e6e1082",
+    "_id": "6aa440688c7704ade4edfa43",
+    "id": "6aa440688c7704ade4edfa43",
     "name": "Ergonomic Cork Footbed Slide Sandals",
     "price": 3299,
     "originalPrice": 4299,
@@ -711,8 +848,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1083",
-    "id": "6aa439cc2d7c518e5e6e1083",
+    "_id": "6aa440688c7704ade4edfa44",
+    "id": "6aa440688c7704ade4edfa44",
     "name": "Retro Canvas High-Top Sneakers",
     "price": 2199,
     "originalPrice": 2999,
@@ -739,8 +876,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1084",
-    "id": "6aa439cc2d7c518e5e6e1084",
+    "_id": "6aa440688c7704ade4edfa45",
+    "id": "6aa440688c7704ade4edfa45",
     "name": "Rugged Military Combat Ankle Boots",
     "price": 3899,
     "originalPrice": 5299,
@@ -767,8 +904,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1085",
-    "id": "6aa439cc2d7c518e5e6e1085",
+    "_id": "6aa440688c7704ade4edfa46",
+    "id": "6aa440688c7704ade4edfa46",
     "name": "Breathable Perforated Leather Derby Shoes",
     "price": 2999,
     "originalPrice": 4199,
@@ -795,8 +932,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1086",
-    "id": "6aa439cc2d7c518e5e6e1086",
+    "_id": "6aa440688c7704ade4edfa47",
+    "id": "6aa440688c7704ade4edfa47",
     "name": "Ankle Strap Evening Wedge Espadrilles",
     "price": 2799,
     "originalPrice": 3699,
@@ -823,8 +960,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1087",
-    "id": "6aa439cc2d7c518e5e6e1087",
+    "_id": "6aa440688c7704ade4edfa48",
+    "id": "6aa440688c7704ade4edfa48",
     "name": "All-Terrain Adventure Trekking Sandals",
     "price": 1899,
     "originalPrice": 2499,
@@ -851,8 +988,143 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1088",
-    "id": "6aa439cc2d7c518e5e6e1088",
+    "_id": "6aa440688c7704ade4edfa49",
+    "id": "6aa440688c7704ade4edfa49",
+    "name": "Performance Dual-Density Running Trainers",
+    "price": 4199,
+    "originalPrice": 5799,
+    "rating": 4.8,
+    "sold": 1450,
+    "stock": 60,
+    "discount": "28% OFF",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&q=80"
+    ],
+    "category": "Shoes",
+    "subcategory": "Sneakers",
+    "brand": "Nike",
+    "keywords": [
+      "running shoes",
+      "trainers",
+      "marathon shoes",
+      "nike sports"
+    ],
+    "description": "Engineered for shock absorption with high-rebound forefoot zoom pod and carbon heel stabilizer.",
+    "featured": true,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa4a",
+    "id": "6aa440688c7704ade4edfa4a",
+    "name": "Double Monk Strap Burnished Dress Shoes",
+    "price": 3699,
+    "originalPrice": 4999,
+    "rating": 4.7,
+    "sold": 670,
+    "stock": 45,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&q=80"
+    ],
+    "category": "Shoes",
+    "subcategory": "Formal",
+    "brand": "Woodland",
+    "keywords": [
+      "monk strap",
+      "formal shoes",
+      "dress shoes",
+      "leather"
+    ],
+    "description": "Antiqued Italian leather monk shoes with twin polished silver buckles and blake-stitched outsole.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa4b",
+    "id": "6aa440688c7704ade4edfa4b",
+    "name": "Sculpted Chunky Sole Street Sneakers",
+    "price": 2899,
+    "originalPrice": 3899,
+    "rating": 4.7,
+    "sold": 1120,
+    "stock": 55,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&q=80"
+    ],
+    "category": "Shoes",
+    "subcategory": "Sneakers",
+    "brand": "Puma",
+    "keywords": [
+      "chunky sneakers",
+      "dad shoes",
+      "streetwear",
+      "puma sneakers"
+    ],
+    "description": "Multi-paneled futuristic streetwear sneakers with reflective heel 3M striping and durable rubber tread.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa4c",
+    "id": "6aa440688c7704ade4edfa4c",
+    "name": "Sand Suede Desert Chukka Ankle Boots",
+    "price": 3499,
+    "originalPrice": 4699,
+    "rating": 4.8,
+    "sold": 830,
+    "stock": 40,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1512374382149-233c42b6613c?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1512374382149-233c42b6613c?w=600&q=80"
+    ],
+    "category": "Shoes",
+    "subcategory": "Boots",
+    "brand": "Clarks",
+    "keywords": [
+      "chukka boots",
+      "suede boots",
+      "desert boots",
+      "clarks"
+    ],
+    "description": "Lightweight sandy suede ankle boots with natural gum crepe rubber sole and waxed cotton laces.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa4d",
+    "id": "6aa440688c7704ade4edfa4d",
+    "name": "Ergonomic Molded Waterproof Pool Slides",
+    "price": 999,
+    "originalPrice": 1499,
+    "rating": 4.6,
+    "sold": 1850,
+    "stock": 85,
+    "discount": "33% OFF",
+    "image": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?w=600&q=80"
+    ],
+    "category": "Shoes",
+    "subcategory": "Sandals",
+    "brand": "Adidas",
+    "keywords": [
+      "pool slides",
+      "flip flops",
+      "sandals",
+      "eva slides"
+    ],
+    "description": "One-piece injected cloud foam slides with ribbed drainage channels and arch contouring.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa4e",
+    "id": "6aa440688c7704ade4edfa4e",
     "name": "Classic Oxford Button-Down Shirt",
     "price": 1499,
     "originalPrice": 1999,
@@ -880,8 +1152,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1089",
-    "id": "6aa439cc2d7c518e5e6e1089",
+    "_id": "6aa440688c7704ade4edfa4f",
+    "id": "6aa440688c7704ade4edfa4f",
     "name": "Summer Breeze Floral Tiered Midi Dress",
     "price": 2299,
     "originalPrice": 3299,
@@ -908,8 +1180,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108a",
-    "id": "6aa439cc2d7c518e5e6e108a",
+    "_id": "6aa440688c7704ade4edfa50",
+    "id": "6aa440688c7704ade4edfa50",
     "name": "Vintage Wash Denim Trucker Jacket",
     "price": 3499,
     "originalPrice": 4999,
@@ -936,8 +1208,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108b",
-    "id": "6aa439cc2d7c518e5e6e108b",
+    "_id": "6aa440688c7704ade4edfa51",
+    "id": "6aa440688c7704ade4edfa51",
     "name": "Slim-Fit Stretch Cotton Chinos",
     "price": 1899,
     "originalPrice": 2699,
@@ -964,8 +1236,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108c",
-    "id": "6aa439cc2d7c518e5e6e108c",
+    "_id": "6aa440688c7704ade4edfa52",
+    "id": "6aa440688c7704ade4edfa52",
     "name": "Ribbed Cotton Scoop-Neck Top",
     "price": 699,
     "originalPrice": 999,
@@ -993,8 +1265,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108d",
-    "id": "6aa439cc2d7c518e5e6e108d",
+    "_id": "6aa440688c7704ade4edfa53",
+    "id": "6aa440688c7704ade4edfa53",
     "name": "High-Waisted Seamless Yoga Leggings",
     "price": 2199,
     "originalPrice": 2999,
@@ -1021,8 +1293,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108e",
-    "id": "6aa439cc2d7c518e5e6e108e",
+    "_id": "6aa440688c7704ade4edfa54",
+    "id": "6aa440688c7704ade4edfa54",
     "name": "Men's Genuine Leather Biker Jacket",
     "price": 6499,
     "originalPrice": 8999,
@@ -1049,8 +1321,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e108f",
-    "id": "6aa439cc2d7c518e5e6e108f",
+    "_id": "6aa440688c7704ade4edfa55",
+    "id": "6aa440688c7704ade4edfa55",
     "name": "Satin Wrap Evening Maxi Dress",
     "price": 2999,
     "originalPrice": 4299,
@@ -1077,8 +1349,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1090",
-    "id": "6aa439cc2d7c518e5e6e1090",
+    "_id": "6aa440688c7704ade4edfa56",
+    "id": "6aa440688c7704ade4edfa56",
     "name": "Pure Linen Mandarin Collar Shirt",
     "price": 1799,
     "originalPrice": 2499,
@@ -1104,8 +1376,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1091",
-    "id": "6aa439cc2d7c518e5e6e1091",
+    "_id": "6aa440688c7704ade4edfa57",
+    "id": "6aa440688c7704ade4edfa57",
     "name": "Dri-FIT Breathable Running Shorts",
     "price": 1399,
     "originalPrice": 1899,
@@ -1132,8 +1404,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1092",
-    "id": "6aa439cc2d7c518e5e6e1092",
+    "_id": "6aa440688c7704ade4edfa58",
+    "id": "6aa440688c7704ade4edfa58",
     "name": "Cable-Knit Pure Wool Pullover Sweater",
     "price": 2499,
     "originalPrice": 3499,
@@ -1160,8 +1432,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1093",
-    "id": "6aa439cc2d7c518e5e6e1093",
+    "_id": "6aa440688c7704ade4edfa59",
+    "id": "6aa440688c7704ade4edfa59",
     "name": "Tailored Straight-Fit Formal Trousers",
     "price": 1699,
     "originalPrice": 2299,
@@ -1188,8 +1460,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1094",
-    "id": "6aa439cc2d7c518e5e6e1094",
+    "_id": "6aa440688c7704ade4edfa5a",
+    "id": "6aa440688c7704ade4edfa5a",
     "name": "Ruffled Chiffon Party Blouse",
     "price": 1299,
     "originalPrice": 1799,
@@ -1216,8 +1488,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1095",
-    "id": "6aa439cc2d7c518e5e6e1095",
+    "_id": "6aa440688c7704ade4edfa5b",
+    "id": "6aa440688c7704ade4edfa5b",
     "name": "Oversized Heavy Fleece Graphic Hoodie",
     "price": 2199,
     "originalPrice": 2999,
@@ -1244,8 +1516,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1096",
-    "id": "6aa439cc2d7c518e5e6e1096",
+    "_id": "6aa440688c7704ade4edfa5c",
+    "id": "6aa440688c7704ade4edfa5c",
     "name": "Thermal Compression Gym Baselayer Top",
     "price": 1899,
     "originalPrice": 2599,
@@ -1272,8 +1544,145 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1097",
-    "id": "6aa439cc2d7c518e5e6e1097",
+    "_id": "6aa440688c7704ade4edfa5d",
+    "id": "6aa440688c7704ade4edfa5d",
+    "name": "Navy Structured Peak Lapel Blazer",
+    "price": 4599,
+    "originalPrice": 6499,
+    "rating": 4.8,
+    "sold": 780,
+    "stock": 35,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+    ],
+    "category": "Apparel",
+    "subcategory": "Jackets & Coats",
+    "brand": "Zara",
+    "keywords": [
+      "blazer",
+      "suit jacket",
+      "formal blazer",
+      "mens outerwear"
+    ],
+    "description": "Tailored modern blazer with contrast interior lining, double vents, and horn buttons for formal ceremonies.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa5e",
+    "id": "6aa440688c7704ade4edfa5e",
+    "name": "Classic White Crewneck Cotton Tee",
+    "price": 799,
+    "originalPrice": 1199,
+    "rating": 4.6,
+    "sold": 2100,
+    "stock": 120,
+    "discount": "33% OFF",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
+    ],
+    "category": "Apparel",
+    "subcategory": "Men's Shirts",
+    "brand": "Levi's",
+    "keywords": [
+      "tshirt",
+      "white tee",
+      "cotton tshirt",
+      "basics",
+      "levis"
+    ],
+    "description": "Heavyweight 220 GSM combed organic cotton crewneck tee designed for daily rotation and layering.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa5f",
+    "id": "6aa440688c7704ade4edfa5f",
+    "name": "Camel Double-Breasted Woolen Overcoat",
+    "price": 5999,
+    "originalPrice": 8499,
+    "rating": 4.9,
+    "sold": 840,
+    "stock": 30,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80"
+    ],
+    "category": "Apparel",
+    "subcategory": "Jackets & Coats",
+    "brand": "Mango",
+    "keywords": [
+      "wool coat",
+      "camel overcoat",
+      "trench coat",
+      "winter wear"
+    ],
+    "description": "Timeless Italian wool-blend tailored trench coat with notched lapels and deep welt pockets.",
+    "featured": true,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa60",
+    "id": "6aa440688c7704ade4edfa60",
+    "name": "Floral Silk Habotai Wrap Scarf",
+    "price": 899,
+    "originalPrice": 1299,
+    "rating": 4.7,
+    "sold": 720,
+    "stock": 65,
+    "discount": "31% OFF",
+    "image": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&q=80"
+    ],
+    "category": "Apparel",
+    "subcategory": "Women's Tops",
+    "brand": "H&M",
+    "keywords": [
+      "silk scarf",
+      "scarf",
+      "stole",
+      "women accessories",
+      "fashion"
+    ],
+    "description": "100% natural Mulberry silk scarf with hand-rolled edges and delicate botanical hand-block print.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa61",
+    "id": "6aa440688c7704ade4edfa61",
+    "name": "Long Sleeve Striped Pique Polo Shirt",
+    "price": 1399,
+    "originalPrice": 1899,
+    "rating": 4.5,
+    "sold": 950,
+    "stock": 70,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80"
+    ],
+    "category": "Apparel",
+    "subcategory": "Men's Shirts",
+    "brand": "Peter England",
+    "keywords": [
+      "polo shirt",
+      "striped polo",
+      "mens clothing",
+      "casual wear"
+    ],
+    "description": "Breathable cotton pique knit with rib-knit collar and contrast two-button placket for country club style.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa62",
+    "id": "6aa440688c7704ade4edfa62",
     "name": "Belgian Dark Chocolate Truffle Cake – 1kg",
     "price": 1299,
     "originalPrice": 1699,
@@ -1300,8 +1709,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1098",
-    "id": "6aa439cc2d7c518e5e6e1098",
+    "_id": "6aa440688c7704ade4edfa63",
+    "id": "6aa440688c7704ade4edfa63",
     "name": "Artisanal French Sourdough Country Loaf – 450g",
     "price": 180,
     "originalPrice": 240,
@@ -1328,8 +1737,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1099",
-    "id": "6aa439cc2d7c518e5e6e1099",
+    "_id": "6aa440688c7704ade4edfa64",
+    "id": "6aa440688c7704ade4edfa64",
     "name": "Fresh Almond Butter Croissants – Pack of 4",
     "price": 349,
     "originalPrice": 449,
@@ -1356,8 +1765,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e109a",
-    "id": "6aa439cc2d7c518e5e6e109a",
+    "_id": "6aa440688c7704ade4edfa65",
+    "id": "6aa440688c7704ade4edfa65",
     "name": "Red Velvet Cream Cheese Layer Cake – 1kg",
     "price": 1199,
     "originalPrice": 1499,
@@ -1384,8 +1793,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e109b",
-    "id": "6aa439cc2d7c518e5e6e109b",
+    "_id": "6aa440688c7704ade4edfa66",
+    "id": "6aa440688c7704ade4edfa66",
     "name": "Gourmet Wild Blueberry Muffins – Pack of 6",
     "price": 299,
     "originalPrice": 399,
@@ -1412,36 +1821,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e109c",
-    "id": "6aa439cc2d7c518e5e6e109c",
-    "name": "Chunky Belgian Chocochip Cookies – 300g",
-    "price": 249,
-    "originalPrice": 320,
-    "rating": 4.7,
-    "sold": 1950,
-    "stock": 65,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cookies & Biscuits",
-    "brand": "Cookie Man",
-    "keywords": [
-      "cookies",
-      "chocochip",
-      "biscuits",
-      "baked snacks",
-      "cookie man"
-    ],
-    "description": "Soft-baked butter cookies packed with melted Belgian milk and dark chocolate chunks. Chewy in the middle.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e109d",
-    "id": "6aa439cc2d7c518e5e6e109d",
+    "_id": "6aa440688c7704ade4edfa67",
+    "id": "6aa440688c7704ade4edfa67",
     "name": "Multigrain 7-Seed Farmhouse Bread – 500g",
     "price": 95,
     "originalPrice": 120,
@@ -1468,8 +1849,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e109e",
-    "id": "6aa439cc2d7c518e5e6e109e",
+    "_id": "6aa440688c7704ade4edfa68",
+    "id": "6aa440688c7704ade4edfa68",
     "name": "Classic Italian Tiramisu Cup – 2 Slices",
     "price": 399,
     "originalPrice": 499,
@@ -1496,8 +1877,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e109f",
-    "id": "6aa439cc2d7c518e5e6e109f",
+    "_id": "6aa440688c7704ade4edfa69",
+    "id": "6aa440688c7704ade4edfa69",
     "name": "Danish Cinnamon Swirl Rolls – Pack of 4",
     "price": 279,
     "originalPrice": 350,
@@ -1524,8 +1905,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a0",
-    "id": "6aa439cc2d7c518e5e6e10a0",
+    "_id": "6aa440688c7704ade4edfa6a",
+    "id": "6aa440688c7704ade4edfa6a",
     "name": "Fresh Alpine Strawberry Glazed Tart – 500g",
     "price": 599,
     "originalPrice": 750,
@@ -1552,8 +1933,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a1",
-    "id": "6aa439cc2d7c518e5e6e10a1",
+    "_id": "6aa440688c7704ade4edfa6b",
+    "id": "6aa440688c7704ade4edfa6b",
     "name": "Pure Butter Scottish Shortbread – 250g",
     "price": 349,
     "originalPrice": 420,
@@ -1580,8 +1961,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a2",
-    "id": "6aa439cc2d7c518e5e6e10a2",
+    "_id": "6aa440688c7704ade4edfa6c",
+    "id": "6aa440688c7704ade4edfa6c",
     "name": "Rustic Herb & Roasted Garlic Focaccia – 350g",
     "price": 160,
     "originalPrice": 200,
@@ -1608,36 +1989,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a3",
-    "id": "6aa439cc2d7c518e5e6e10a3",
-    "name": "Dutch Double Chocolate Brownies – Pack of 6",
-    "price": 349,
-    "originalPrice": 450,
-    "rating": 4.8,
-    "sold": 1540,
-    "stock": 35,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "brownies",
-      "chocolate brownie",
-      "fudge",
-      "pastry",
-      "dessert"
-    ],
-    "description": "Decadent dense fudge brownies with crackly shiny tops, filled with melted dark chocolate buttons.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10a4",
-    "id": "6aa439cc2d7c518e5e6e10a4",
+    "_id": "6aa440688c7704ade4edfa6d",
+    "id": "6aa440688c7704ade4edfa6d",
     "name": "New York Baked Cheesecake Slice – Pack of 2",
     "price": 499,
     "originalPrice": 620,
@@ -1664,35 +2017,227 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a5",
-    "id": "6aa439cc2d7c518e5e6e10a5",
-    "name": "Spiced Rolled Oatmeal Raisin Cookies – 300g",
-    "price": 199,
-    "originalPrice": 250,
-    "rating": 4.6,
-    "sold": 840,
-    "stock": 60,
-    "discount": "20% OFF",
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+    "_id": "6aa440688c7704ade4edfa6e",
+    "id": "6aa440688c7704ade4edfa6e",
+    "name": "Dutch Double Chocolate Brownies – Pack of 6",
+    "price": 349,
+    "originalPrice": 450,
+    "rating": 4.8,
+    "sold": 1540,
+    "stock": 35,
+    "discount": "22% OFF",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80"
+      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Pastries",
+    "brand": "Sweet Treats",
+    "keywords": [
+      "brownies",
+      "chocolate brownie",
+      "fudge",
+      "pastry",
+      "dessert"
+    ],
+    "description": "Decadent dense fudge brownies with crackly shiny tops, filled with melted dark chocolate buttons.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa6f",
+    "id": "6aa440688c7704ade4edfa6f",
+    "name": "Handcrafted Chocolate Chunk Cookies – 300g",
+    "price": 260,
+    "originalPrice": 340,
+    "rating": 4.8,
+    "sold": 1850,
+    "stock": 65,
+    "discount": "24% OFF",
+    "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548848221-0c2e497ed557?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Cookies & Biscuits",
+    "brand": "Cookie Man",
+    "keywords": [
+      "cookies",
+      "chocolate cookies",
+      "bakery cookies",
+      "biscuits"
+    ],
+    "description": "Thick New York style bakery cookies with molten semi-sweet chocolate chunks and flaky Maldon sea salt.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa70",
+    "id": "6aa440688c7704ade4edfa70",
+    "name": "Assorted Glazed Donut Box – Pack of 6",
+    "price": 299,
+    "originalPrice": 399,
+    "rating": 4.7,
+    "sold": 1420,
+    "stock": 40,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Pastries",
+    "brand": "Sweet Treats",
+    "keywords": [
+      "donuts",
+      "doughnuts",
+      "glazed donuts",
+      "pastries",
+      "sweet"
+    ],
+    "description": "Yeast-raised fluffy brioche donuts with classic sugar glaze, chocolate sprinkles, and strawberry jam fillings.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa71",
+    "id": "6aa440688c7704ade4edfa71",
+    "name": "Traditional French Crusty Baguette – Twin Pack",
+    "price": 130,
+    "originalPrice": 170,
+    "rating": 4.8,
+    "sold": 1100,
+    "stock": 50,
+    "discount": "24% OFF",
+    "image": "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Breads",
+    "brand": "The French Baker",
+    "keywords": [
+      "baguette",
+      "french bread",
+      "crusty loaf",
+      "bakery"
+    ],
+    "description": "Crisp shatteringly crunchy golden crust with airy honeycomb interior baked in traditional deck ovens.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa72",
+    "id": "6aa440688c7704ade4edfa72",
+    "name": "Gourmet Vanilla Bean Cupcakes – Set of 4",
+    "price": 240,
+    "originalPrice": 320,
+    "rating": 4.7,
+    "sold": 890,
+    "stock": 35,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Cakes",
+    "brand": "MegaBakery",
+    "keywords": [
+      "cupcakes",
+      "vanilla cupcakes",
+      "pastry",
+      "dessert",
+      "cakes"
+    ],
+    "description": "Tender Madagascan vanilla sponge topped with Swiss meringue buttercream swirls and edible pearls.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa73",
+    "id": "6aa440688c7704ade4edfa73",
+    "name": "Confetti Rainbow Birthday Cake – 1kg",
+    "price": 1399,
+    "originalPrice": 1799,
+    "rating": 4.9,
+    "sold": 2100,
+    "stock": 20,
+    "discount": "22% OFF",
+    "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1579372786545-d24232daf58c?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Cakes",
+    "brand": "MegaBakery",
+    "keywords": [
+      "birthday cake",
+      "rainbow cake",
+      "celebration cake",
+      "bakery"
+    ],
+    "description": "Five layers of pastel rainbow sponge filled with creamy vanilla buttercream and colorful sprinkles.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa74",
+    "id": "6aa440688c7704ade4edfa74",
+    "name": "Parisian French Patisserie Sampler Box",
+    "price": 499,
+    "originalPrice": 650,
+    "rating": 4.8,
+    "sold": 980,
+    "stock": 30,
+    "discount": "23% OFF",
+    "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80"
+    ],
+    "category": "Bakery",
+    "subcategory": "Pastries",
+    "brand": "Dolce Vita",
+    "keywords": [
+      "patisserie",
+      "french pastries",
+      "pastry box",
+      "dessert sampler"
+    ],
+    "description": "An exquisite selection of mini tarts, choux buns, opera slices, and delicate fruit millefeuille.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa75",
+    "id": "6aa440688c7704ade4edfa75",
+    "name": "Danish Golden Butter Cookies Tin – 400g",
+    "price": 349,
+    "originalPrice": 450,
+    "rating": 4.7,
+    "sold": 1650,
+    "stock": 65,
+    "discount": "22% OFF",
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&q=80"
     ],
     "category": "Bakery",
     "subcategory": "Cookies & Biscuits",
     "brand": "Sunfeast",
     "keywords": [
-      "oatmeal cookies",
-      "raisin cookies",
-      "healthy biscuits",
-      "bakery"
+      "butter cookies",
+      "danish cookies",
+      "cookie tin",
+      "tea biscuits"
     ],
-    "description": "Hearty whole grain rolled oat cookies baked with plump golden raisins and aromatic nutmeg spice.",
+    "description": "Classic assortment of pretzel, vanilla ring, and sugar-topped butter cookies in a reusable royal blue tin.",
     "featured": false,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a6",
-    "id": "6aa439cc2d7c518e5e6e10a6",
+    "_id": "6aa440688c7704ade4edfa76",
+    "id": "6aa440688c7704ade4edfa76",
     "name": "Premium Brass Fountain Pen – Blue Ink",
     "price": 1499,
     "originalPrice": 1999,
@@ -1719,8 +2264,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a7",
-    "id": "6aa439cc2d7c518e5e6e10a7",
+    "_id": "6aa440688c7704ade4edfa77",
+    "id": "6aa440688c7704ade4edfa77",
     "name": "A5 Handcrafted Leather-Bound Journal Notebook",
     "price": 799,
     "originalPrice": 1199,
@@ -1747,8 +2292,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a8",
-    "id": "6aa439cc2d7c518e5e6e10a8",
+    "_id": "6aa440688c7704ade4edfa78",
+    "id": "6aa440688c7704ade4edfa78",
     "name": "Artist Grade Watercolor Cake Set – 36 Colors",
     "price": 899,
     "originalPrice": 1250,
@@ -1775,8 +2320,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10a9",
-    "id": "6aa439cc2d7c518e5e6e10a9",
+    "_id": "6aa440688c7704ade4edfa79",
+    "id": "6aa440688c7704ade4edfa79",
     "name": "Ergonomic 6-Compartment Metal Mesh Desk Organizer",
     "price": 499,
     "originalPrice": 699,
@@ -1802,8 +2347,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10aa",
-    "id": "6aa439cc2d7c518e5e6e10aa",
+    "_id": "6aa440688c7704ade4edfa7a",
+    "id": "6aa440688c7704ade4edfa7a",
     "name": "Smooth Fine Tip Gel Rollerball Pens – Pack of 10",
     "price": 349,
     "originalPrice": 450,
@@ -1830,8 +2375,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ab",
-    "id": "6aa439cc2d7c518e5e6e10ab",
+    "_id": "6aa440688c7704ade4edfa7b",
+    "id": "6aa440688c7704ade4edfa7b",
     "name": "Hardcover Undated Weekly Productivity Planner",
     "price": 649,
     "originalPrice": 899,
@@ -1858,8 +2403,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ac",
-    "id": "6aa439cc2d7c518e5e6e10ac",
+    "_id": "6aa440688c7704ade4edfa7c",
+    "id": "6aa440688c7704ade4edfa7c",
     "name": "Dual-Tip Artist Alcohol Markers – Set of 48",
     "price": 1399,
     "originalPrice": 1999,
@@ -1886,8 +2431,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ad",
-    "id": "6aa439cc2d7c518e5e6e10ad",
+    "_id": "6aa440688c7704ade4edfa7d",
+    "id": "6aa440688c7704ade4edfa7d",
     "name": "Solid Natural Bamboo Desktop Stationery Stand",
     "price": 599,
     "originalPrice": 799,
@@ -1913,173 +2458,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ae",
-    "id": "6aa439cc2d7c518e5e6e10ae",
-    "name": "Technical Drafting Mechanical Pencil 0.5mm",
-    "price": 749,
-    "originalPrice": 950,
-    "rating": 4.9,
-    "sold": 860,
-    "stock": 60,
-    "discount": "21% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Rotring",
-    "keywords": [
-      "mechanical pencil",
-      "drafting pencil",
-      "rotring",
-      "sketching pencil"
-    ],
-    "description": "All-metal knurled brass grip mechanical pencil with lead hardness indicator and cushioned lead mechanism.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10af",
-    "id": "6aa439cc2d7c518e5e6e10af",
-    "name": "Spiral-Bound Heavyweight Sketchbook – 180 GSM",
-    "price": 449,
-    "originalPrice": 599,
-    "rating": 4.7,
-    "sold": 1400,
-    "stock": 85,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Brustro",
-    "keywords": [
-      "sketchbook",
-      "drawing pad",
-      "art paper",
-      "brustro",
-      "artist"
-    ],
-    "description": "A4 size 80 pages acid-free cold-pressed paper suitable for charcoal, graphite, ink, and light wash.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10b0",
-    "id": "6aa439cc2d7c518e5e6e10b0",
-    "name": "Bullet Dotted Grid Hardcover Journal – 120 GSM",
-    "price": 549,
-    "originalPrice": 749,
-    "rating": 4.8,
-    "sold": 1120,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Scribbles",
-    "keywords": [
-      "bullet journal",
-      "dot grid",
-      "journal",
-      "diary",
-      "stationery"
-    ],
-    "description": "Numbered pages with dot grid matrix, dual page markers, and elastic enclosure band for bullet journaling.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10b1",
-    "id": "6aa439cc2d7c518e5e6e10b1",
-    "name": "Executive Chrome Finish Ballpoint Pen in Gift Box",
-    "price": 1199,
-    "originalPrice": 1599,
-    "rating": 4.7,
-    "sold": 680,
-    "stock": 45,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Cross",
-    "keywords": [
-      "ballpoint pen",
-      "luxury pen",
-      "gift pen",
-      "executive pen",
-      "cross"
-    ],
-    "description": "Twist-action polished chrome pen with black medium-point refill. Comes in an elegant padded presentation case.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10b2",
-    "id": "6aa439cc2d7c518e5e6e10b2",
-    "name": "Heavy Body Acrylic Paint Tubes – Set of 24",
-    "price": 699,
-    "originalPrice": 950,
-    "rating": 4.6,
-    "sold": 1300,
-    "stock": 75,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Camlin",
-    "keywords": [
-      "acrylic paint",
-      "painting colors",
-      "canvas art",
-      "art supplies"
-    ],
-    "description": "Rich satiny consistency artist acrylics with excellent lightfastness and non-fading vivid pigment load.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10b3",
-    "id": "6aa439cc2d7c518e5e6e10b3",
-    "name": "Ergonomic Aluminum Foldable Laptop Stand",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.8,
-    "sold": 2200,
-    "stock": 95,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "Portronics",
-    "keywords": [
-      "laptop stand",
-      "desk accessories",
-      "ergonomic",
-      "office setup"
-    ],
-    "description": "Sturdy aircraft-grade aluminum riser with anti-slip silicone pads and 6-level tilt elevation for desk posture.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10b4",
-    "id": "6aa439cc2d7c518e5e6e10b4",
+    "_id": "6aa440688c7704ade4edfa7e",
+    "id": "6aa440688c7704ade4edfa7e",
     "name": "Pastel Sticky Notes & Page Markers Dispenser",
     "price": 249,
     "originalPrice": 320,
@@ -2106,8 +2486,306 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10b5",
-    "id": "6aa439cc2d7c518e5e6e10b5",
+    "_id": "6aa440688c7704ade4edfa7f",
+    "id": "6aa440688c7704ade4edfa7f",
+    "name": "Ergonomic Aluminum Foldable Laptop Stand",
+    "price": 899,
+    "originalPrice": 1299,
+    "rating": 4.8,
+    "sold": 2200,
+    "stock": 95,
+    "discount": "31% OFF",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Desk Accessories",
+    "brand": "Portronics",
+    "keywords": [
+      "laptop stand",
+      "desk accessories",
+      "ergonomic",
+      "office setup"
+    ],
+    "description": "Sturdy aircraft-grade aluminum riser with anti-slip silicone pads and 6-level tilt elevation for desk posture.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa80",
+    "id": "6aa440688c7704ade4edfa80",
+    "name": "Artist Studio Ceramic Mixing Color Palette",
+    "price": 450,
+    "originalPrice": 620,
+    "rating": 4.8,
+    "sold": 690,
+    "stock": 45,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Art Supplies",
+    "brand": "Brustro",
+    "keywords": [
+      "palette",
+      "color mixing",
+      "artist supplies",
+      "painting tray"
+    ],
+    "description": "Heavy non-staining glazed porcelain palette with 14 deep wells for mixing gouache and acrylic washes.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa81",
+    "id": "6aa440688c7704ade4edfa81",
+    "name": "Chisel Tip Pastel Study Highlighters (Pack of 6)",
+    "price": 199,
+    "originalPrice": 260,
+    "rating": 4.7,
+    "sold": 1750,
+    "stock": 110,
+    "discount": "23% OFF",
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Pens & Pencils",
+    "brand": "Classmate",
+    "keywords": [
+      "highlighters",
+      "study pens",
+      "pastel markers",
+      "student supplies"
+    ],
+    "description": "Fluorescent-free soft pastel highlighters that do not cause eye fatigue during long reading sessions.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa82",
+    "id": "6aa440688c7704ade4edfa82",
+    "name": "Bullet Dotted Grid Hardcover Journal – 120 GSM",
+    "price": 549,
+    "originalPrice": 749,
+    "rating": 4.8,
+    "sold": 1120,
+    "stock": 70,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Notebooks & Diaries",
+    "brand": "Scribbles",
+    "keywords": [
+      "bullet journal",
+      "dot grid",
+      "journal",
+      "diary",
+      "stationery"
+    ],
+    "description": "Numbered pages with dot grid matrix, dual page markers, and elastic enclosure band for bullet journaling.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa83",
+    "id": "6aa440688c7704ade4edfa83",
+    "name": "Precision Metal Drafting Compass & Divider Set",
+    "price": 499,
+    "originalPrice": 699,
+    "rating": 4.8,
+    "sold": 940,
+    "stock": 60,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Pens & Pencils",
+    "brand": "Rotring",
+    "keywords": [
+      "compass",
+      "geometry box",
+      "drafting set",
+      "engineering tools"
+    ],
+    "description": "Engineering technical drawing compass with thumbwheel adjustment mechanism and replacement lead core.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa84",
+    "id": "6aa440688c7704ade4edfa84",
+    "name": "Minimalist Walnut Wood Desktop Valet Tray",
+    "price": 699,
+    "originalPrice": 950,
+    "rating": 4.7,
+    "sold": 720,
+    "stock": 40,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Desk Accessories",
+    "brand": "MegaMart",
+    "keywords": [
+      "desk tray",
+      "valet tray",
+      "wood organizer",
+      "office decor"
+    ],
+    "description": "Carved solid American walnut tray to neatly organize fountain pens, watch, paperclips, and keys.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa85",
+    "id": "6aa440688c7704ade4edfa85",
+    "name": "Artist Soft Core Colored Pencils – Set of 36",
+    "price": 799,
+    "originalPrice": 1099,
+    "rating": 4.8,
+    "sold": 1680,
+    "stock": 75,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Art Supplies",
+    "brand": "Faber-Castell",
+    "keywords": [
+      "color pencils",
+      "drawing pencils",
+      "sketching",
+      "art supplies"
+    ],
+    "description": "Velvety smooth pigment core pencils that blend effortlessly for photorealistic illustrations.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa86",
+    "id": "6aa440688c7704ade4edfa86",
+    "name": "Spiral Heavyweight Cold-Pressed Watercolor Book",
+    "price": 549,
+    "originalPrice": 750,
+    "rating": 4.9,
+    "sold": 1400,
+    "stock": 55,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Art Supplies",
+    "brand": "Brustro",
+    "keywords": [
+      "watercolor pad",
+      "sketchbook",
+      "cotton paper",
+      "art book"
+    ],
+    "description": "300 GSM 100% cotton cold-pressed watercolor paper with dual-wire bronze ring binding for plein air painting.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa87",
+    "id": "6aa440688c7704ade4edfa87",
+    "name": "Executive Brushed Titanium Ballpoint Pen",
+    "price": 1899,
+    "originalPrice": 2599,
+    "rating": 4.8,
+    "sold": 630,
+    "stock": 35,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Pens & Pencils",
+    "brand": "Cross",
+    "keywords": [
+      "luxury pen",
+      "titanium pen",
+      "executive pen",
+      "ballpoint"
+    ],
+    "description": "Precision engineered aerospace titanium body with tungsten ball refill for frictionless smooth signatures.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa88",
+    "id": "6aa440688c7704ade4edfa88",
+    "name": "Japanese Natural Botanical Washi Tape Rolls (Set of 8)",
+    "price": 299,
+    "originalPrice": 399,
+    "rating": 4.7,
+    "sold": 1100,
+    "stock": 90,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Art Supplies",
+    "brand": "Paperkraft",
+    "keywords": [
+      "washi tape",
+      "craft tape",
+      "journaling",
+      "masking tape"
+    ],
+    "description": "Biodegradable repositionable washi paper tape printed with vintage botanical flora and fauna.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa89",
+    "id": "6aa440688c7704ade4edfa89",
+    "name": "Refillable Distressed Leather Daily Journal with Clasp",
+    "price": 999,
+    "originalPrice": 1499,
+    "rating": 4.9,
+    "sold": 1720,
+    "stock": 65,
+    "discount": "33% OFF",
+    "image": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?w=600&q=80"
+    ],
+    "category": "Stationery",
+    "subcategory": "Notebooks & Diaries",
+    "brand": "Moleskine",
+    "keywords": [
+      "leather diary",
+      "vintage journal",
+      "lock diary",
+      "stationery"
+    ],
+    "description": "Handcrafted antiqued crazy horse leather binder with bronze key lock and 240 lined deckle-edge parchment pages.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa8a",
+    "id": "6aa440688c7704ade4edfa8a",
     "name": "Professional Non-Slip TPE Yoga Mat – 6mm",
     "price": 1499,
     "originalPrice": 1999,
@@ -2134,8 +2812,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10b6",
-    "id": "6aa439cc2d7c518e5e6e10b6",
+    "_id": "6aa440688c7704ade4edfa8b",
+    "id": "6aa440688c7704ade4edfa8b",
     "name": "Adjustable Cast Iron Dumbbell Set – 20kg",
     "price": 2899,
     "originalPrice": 3999,
@@ -2162,8 +2840,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10b7",
-    "id": "6aa439cc2d7c518e5e6e10b7",
+    "_id": "6aa440688c7704ade4edfa8c",
+    "id": "6aa440688c7704ade4edfa8c",
     "name": "FIFA Pro Quality Match Football – Size 5",
     "price": 1199,
     "originalPrice": 1599,
@@ -2190,8 +2868,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10b8",
-    "id": "6aa439cc2d7c518e5e6e10b8",
+    "_id": "6aa440688c7704ade4edfa8d",
+    "id": "6aa440688c7704ade4edfa8d",
     "name": "High-Modulus Carbon Badminton Racket Set",
     "price": 2499,
     "originalPrice": 3499,
@@ -2218,8 +2896,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10b9",
-    "id": "6aa439cc2d7c518e5e6e10b9",
+    "_id": "6aa440688c7704ade4edfa8e",
+    "id": "6aa440688c7704ade4edfa8e",
     "name": "Waterproof 3-Person Dome Camping Tent",
     "price": 3999,
     "originalPrice": 5499,
@@ -2246,8 +2924,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ba",
-    "id": "6aa439cc2d7c518e5e6e10ba",
+    "_id": "6aa440688c7704ade4edfa8f",
+    "id": "6aa440688c7704ade4edfa8f",
     "name": "Anti-Fog Mirrored Swimming Goggles",
     "price": 899,
     "originalPrice": 1299,
@@ -2274,36 +2952,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10bb",
-    "id": "6aa439cc2d7c518e5e6e10bb",
-    "name": "High-Density Deep Tissue Foam Roller – 45cm",
-    "price": 799,
-    "originalPrice": 1099,
-    "rating": 4.6,
-    "sold": 980,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Decathlon",
-    "keywords": [
-      "foam roller",
-      "massage roller",
-      "recovery",
-      "fitness",
-      "gym"
-    ],
-    "description": "Molded foam trigger point roller for myofascial release, muscle soreness recovery, and back rehabilitation.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10bc",
-    "id": "6aa439cc2d7c518e5e6e10bc",
+    "_id": "6aa440688c7704ade4edfa90",
+    "id": "6aa440688c7704ade4edfa90",
     "name": "Pro Official Composite Basketball – Size 7",
     "price": 1699,
     "originalPrice": 2299,
@@ -2329,8 +2979,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10bd",
-    "id": "6aa439cc2d7c518e5e6e10bd",
+    "_id": "6aa440688c7704ade4edfa91",
+    "id": "6aa440688c7704ade4edfa91",
     "name": "5-Piece Heavy Duty Resistance Bands Set",
     "price": 799,
     "originalPrice": 1199,
@@ -2356,8 +3006,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10be",
-    "id": "6aa439cc2d7c518e5e6e10be",
+    "_id": "6aa440688c7704ade4edfa92",
+    "id": "6aa440688c7704ade4edfa92",
     "name": "Tour Graphite Tennis Racket with Cover",
     "price": 3899,
     "originalPrice": 5299,
@@ -2384,8 +3034,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10bf",
-    "id": "6aa439cc2d7c518e5e6e10bf",
+    "_id": "6aa440688c7704ade4edfa93",
+    "id": "6aa440688c7704ade4edfa93",
     "name": "Ultra-Light Thermal Sleeping Bag – 0°C",
     "price": 2199,
     "originalPrice": 2999,
@@ -2412,8 +3062,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c0",
-    "id": "6aa439cc2d7c518e5e6e10c0",
+    "_id": "6aa440688c7704ade4edfa94",
+    "id": "6aa440688c7704ade4edfa94",
     "name": "Insulated Stainless Steel Sports Bottle – 1L",
     "price": 699,
     "originalPrice": 999,
@@ -2439,35 +3089,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c1",
-    "id": "6aa439cc2d7c518e5e6e10c1",
-    "name": "Silicone Swim Cap & Ergonomic Earplugs Combo",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.5,
-    "sold": 950,
-    "stock": 90,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Swimming",
-    "brand": "Speedo",
-    "keywords": [
-      "swim cap",
-      "earplugs",
-      "swimming accessories",
-      "pool gear"
-    ],
-    "description": "Tear-resistant hypoallergenic 100% silicone swim cap that protects hair from chlorinated pool water.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10c2",
-    "id": "6aa439cc2d7c518e5e6e10c2",
+    "_id": "6aa440688c7704ade4edfa95",
+    "id": "6aa440688c7704ade4edfa95",
     "name": "Kashmir Willow Cricket Bat Full Size (SH)",
     "price": 1899,
     "originalPrice": 2599,
@@ -2494,18 +3117,155 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c3",
-    "id": "6aa439cc2d7c518e5e6e10c3",
-    "name": "Digital Speed Jump Rope with Calorie Counter",
+    "_id": "6aa440688c7704ade4edfa96",
+    "id": "6aa440688c7704ade4edfa96",
+    "name": "Olympic Weightlifting Solid Steel Barbell",
+    "price": 4999,
+    "originalPrice": 6999,
+    "rating": 4.9,
+    "sold": 690,
+    "stock": 25,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Nivia",
+    "keywords": [
+      "barbell",
+      "olympic bar",
+      "weightlifting",
+      "gym gear"
+    ],
+    "description": "7-foot 20kg chrome-plated Olympic bar with rotating brass bushings and 1200 lbs load capacity.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa97",
+    "id": "6aa440688c7704ade4edfa97",
+    "name": "Competition Turf Soccer Ball – Size 5",
+    "price": 999,
+    "originalPrice": 1399,
+    "rating": 4.7,
+    "sold": 1450,
+    "stock": 70,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "brand": "Cosco",
+    "keywords": [
+      "soccer ball",
+      "football",
+      "turf ball",
+      "team sports"
+    ],
+    "description": "Hand-stitched PU leather turf soccer ball with textured outer layer for wet grass matches.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa98",
+    "id": "6aa440688c7704ade4edfa98",
+    "name": "Track Running Spikes & Spikes Key Combo",
+    "price": 3299,
+    "originalPrice": 4499,
+    "rating": 4.8,
+    "sold": 580,
+    "stock": 35,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Nike",
+    "keywords": [
+      "track spikes",
+      "running spikes",
+      "athletics shoes",
+      "sprint shoes"
+    ],
+    "description": "Ultra-lightweight sprint shoes with 7 removable steel spikes on rigid forefoot pebax propulsion plate.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa99",
+    "id": "6aa440688c7704ade4edfa99",
+    "name": "Cast Iron Kettlebell – 16kg",
+    "price": 2199,
+    "originalPrice": 2999,
+    "rating": 4.8,
+    "sold": 1320,
+    "stock": 45,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Boldfit",
+    "keywords": [
+      "kettlebell",
+      "weights",
+      "crossfit",
+      "home gym",
+      "fitness"
+    ],
+    "description": "Single-piece cast iron bell with wide textured flat handle for two-handed swings and Turkish get-ups.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa9a",
+    "id": "6aa440688c7704ade4edfa9a",
+    "name": "Pro Sparring Boxing Gloves – 14 oz",
+    "price": 1799,
+    "originalPrice": 2499,
+    "rating": 4.8,
+    "sold": 1100,
+    "stock": 50,
+    "discount": "28% OFF",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Everlast",
+    "keywords": [
+      "boxing gloves",
+      "sparring",
+      "mma",
+      "punching gloves",
+      "sports"
+    ],
+    "description": "Multi-layered high-density shock absorbing foam padding with extra-wide wrist strap for maximum wrist support.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa9b",
+    "id": "6aa440688c7704ade4edfa9b",
+    "name": "High-Speed Bearing Metal Cable Jump Rope",
     "price": 499,
     "originalPrice": 699,
-    "rating": 4.6,
-    "sold": 1100,
-    "stock": 85,
+    "rating": 4.7,
+    "sold": 2100,
+    "stock": 90,
     "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80",
+    "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80"
+      "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&q=80"
     ],
     "category": "Sports",
     "subcategory": "Fitness",
@@ -2513,17 +3273,71 @@ export const products = [
     "keywords": [
       "jump rope",
       "skipping rope",
-      "cardio",
-      "fitness",
-      "weight loss"
+      "speed rope",
+      "crossfit",
+      "cardio"
     ],
-    "description": "Tangle-free steel wire jump rope with 360-degree ball bearings and LCD handle display counting jumps and calories.",
+    "description": "360° dual swivel ball bearing speed rope with knurled aluminum non-slip handles for double-unders.",
     "featured": false,
-    "isNew": true
+    "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c4",
-    "id": "6aa439cc2d7c518e5e6e10c4",
+    "_id": "6aa440688c7704ade4edfa9c",
+    "id": "6aa440688c7704ade4edfa9c",
+    "name": "Deep Tissue Grid Trigger Point Foam Roller",
+    "price": 799,
+    "originalPrice": 1099,
+    "rating": 4.6,
+    "sold": 1400,
+    "stock": 65,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Decathlon",
+    "keywords": [
+      "foam roller",
+      "muscle recovery",
+      "stretching",
+      "back roller"
+    ],
+    "description": "Multi-density hollow core foam roller that mimics physical therapist hands to soothe sore back and quads.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa9d",
+    "id": "6aa440688c7704ade4edfa9d",
+    "name": "Extra Thick Pilates & Stretching Floor Mat – 10mm",
+    "price": 999,
+    "originalPrice": 1399,
+    "rating": 4.8,
+    "sold": 1750,
+    "stock": 75,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80"
+    ],
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "brand": "Decathlon",
+    "keywords": [
+      "pilates mat",
+      "exercise mat",
+      "thick yoga mat",
+      "floor mat"
+    ],
+    "description": "High-density NBR cushioning mat protecting knees and joints during floor yoga, pilates, and sit-ups.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfa9e",
+    "id": "6aa440688c7704ade4edfa9e",
     "name": "Ergonomic High-Back Mesh Office Chair",
     "price": 8999,
     "originalPrice": 12999,
@@ -2550,8 +3364,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c5",
-    "id": "6aa439cc2d7c518e5e6e10c5",
+    "_id": "6aa440688c7704ade4edfa9f",
+    "id": "6aa440688c7704ade4edfa9f",
     "name": "Mid-Century 3-Seater Fabric Sofa",
     "price": 18999,
     "originalPrice": 26999,
@@ -2578,8 +3392,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c6",
-    "id": "6aa439cc2d7c518e5e6e10c6",
+    "_id": "6aa440688c7704ade4edfaa0",
+    "id": "6aa440688c7704ade4edfaa0",
     "name": "Solid Sheesham Wood Coffee Table",
     "price": 5499,
     "originalPrice": 7999,
@@ -2605,8 +3419,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c7",
-    "id": "6aa439cc2d7c518e5e6e10c7",
+    "_id": "6aa440688c7704ade4edfaa1",
+    "id": "6aa440688c7704ade4edfaa1",
     "name": "Electric Height-Adjustable Standing Desk",
     "price": 16499,
     "originalPrice": 22999,
@@ -2632,8 +3446,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c8",
-    "id": "6aa439cc2d7c518e5e6e10c8",
+    "_id": "6aa440688c7704ade4edfaa2",
+    "id": "6aa440688c7704ade4edfaa2",
     "name": "5-Tier Geometric Bookshelf Storage Display",
     "price": 4299,
     "originalPrice": 5999,
@@ -2660,8 +3474,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10c9",
-    "id": "6aa439cc2d7c518e5e6e10c9",
+    "_id": "6aa440688c7704ade4edfaa3",
+    "id": "6aa440688c7704ade4edfaa3",
     "name": "Queen Size Solid Teak Wood Bed Frame",
     "price": 21999,
     "originalPrice": 29999,
@@ -2687,8 +3501,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ca",
-    "id": "6aa439cc2d7c518e5e6e10ca",
+    "_id": "6aa440688c7704ade4edfaa4",
+    "id": "6aa440688c7704ade4edfaa4",
     "name": "Plush Velvet Accent Armchair",
     "price": 7499,
     "originalPrice": 9999,
@@ -2714,8 +3528,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10cb",
-    "id": "6aa439cc2d7c518e5e6e10cb",
+    "_id": "6aa440688c7704ade4edfaa5",
+    "id": "6aa440688c7704ade4edfaa5",
     "name": "Dual-Drawer Compact Bedside Nightstand",
     "price": 2699,
     "originalPrice": 3699,
@@ -2741,8 +3555,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10cc",
-    "id": "6aa439cc2d7c518e5e6e10cc",
+    "_id": "6aa440688c7704ade4edfaa6",
+    "id": "6aa440688c7704ade4edfaa6",
     "name": "4-Door Wardrobe with Full-Length Mirror",
     "price": 18499,
     "originalPrice": 24999,
@@ -2769,8 +3583,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10cd",
-    "id": "6aa439cc2d7c518e5e6e10cd",
+    "_id": "6aa440688c7704ade4edfaa7",
+    "id": "6aa440688c7704ade4edfaa7",
     "name": "Heavy Duty Metal Garment Clothing Rack",
     "price": 1799,
     "originalPrice": 2499,
@@ -2796,8 +3610,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ce",
-    "id": "6aa439cc2d7c518e5e6e10ce",
+    "_id": "6aa440688c7704ade4edfaa8",
+    "id": "6aa440688c7704ade4edfaa8",
     "name": "Memory Foam Executive High-Back Chair",
     "price": 11499,
     "originalPrice": 15999,
@@ -2823,35 +3637,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10cf",
-    "id": "6aa439cc2d7c518e5e6e10cf",
-    "name": "Round Marble-Top Nesting Coffee Tables (Set of 2)",
-    "price": 4999,
-    "originalPrice": 6999,
-    "rating": 4.7,
-    "sold": 720,
-    "stock": 30,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Nilkamal",
-    "keywords": [
-      "nesting tables",
-      "side tables",
-      "coffee table",
-      "living room"
-    ],
-    "description": "Two interlocking circular tables with Carrara white faux marble tops and powder-coated gold steel bases.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10d0",
-    "id": "6aa439cc2d7c518e5e6e10d0",
+    "_id": "6aa440688c7704ade4edfaa9",
+    "id": "6aa440688c7704ade4edfaa9",
     "name": "Solid Wood 6-Seater Dining Table",
     "price": 19999,
     "originalPrice": 27999,
@@ -2877,8 +3664,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d1",
-    "id": "6aa439cc2d7c518e5e6e10d1",
+    "_id": "6aa440688c7704ade4edfaaa",
+    "id": "6aa440688c7704ade4edfaaa",
     "name": "Upholstered Ottoman Storage Bed Bench",
     "price": 5299,
     "originalPrice": 7299,
@@ -2904,8 +3691,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d2",
-    "id": "6aa439cc2d7c518e5e6e10d2",
+    "_id": "6aa440688c7704ade4edfaab",
+    "id": "6aa440688c7704ade4edfaab",
     "name": "Floating Wall-Mounted TV Media Console Unit",
     "price": 6499,
     "originalPrice": 8999,
@@ -2931,8 +3718,170 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d3",
-    "id": "6aa439cc2d7c518e5e6e10d3",
+    "_id": "6aa440688c7704ade4edfaac",
+    "id": "6aa440688c7704ade4edfaac",
+    "name": "Scandinavian Charcoal Grey Fabric Armchair",
+    "price": 5999,
+    "originalPrice": 7999,
+    "rating": 4.7,
+    "sold": 640,
+    "stock": 25,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Living Room",
+    "brand": "Ikea",
+    "keywords": [
+      "armchair",
+      "scandinavian chair",
+      "accent chair",
+      "living room"
+    ],
+    "description": "Tapered solid beechwood legs with ergonomic bucket seating covered in textured boucle weave.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfaad",
+    "id": "6aa440688c7704ade4edfaad",
+    "name": "Round Solid Oak Kitchen Bar Stool",
+    "price": 2499,
+    "originalPrice": 3499,
+    "rating": 4.6,
+    "sold": 520,
+    "stock": 40,
+    "discount": "28% OFF",
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Living Room",
+    "brand": "Urban Ladder",
+    "keywords": [
+      "bar stool",
+      "kitchen stool",
+      "wood stool",
+      "counter height"
+    ],
+    "description": "Counter-height four-legged wooden stool with curved scoop saddle and circular footrest ring.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfaae",
+    "id": "6aa440688c7704ade4edfaae",
+    "name": "Modern Minimalist Lounge Suite Coffee Table",
+    "price": 7999,
+    "originalPrice": 10999,
+    "rating": 4.8,
+    "sold": 430,
+    "stock": 18,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Living Room",
+    "brand": "Pepperfry",
+    "keywords": [
+      "glass coffee table",
+      "modern table",
+      "center table",
+      "living room"
+    ],
+    "description": "Tempered glass floating top supported by an architectural sculptural geometric solid oak base.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfaaf",
+    "id": "6aa440688c7704ade4edfaaf",
+    "name": "Ceramic & Brass Bedside Lamp Table Stand",
+    "price": 2199,
+    "originalPrice": 2999,
+    "rating": 4.7,
+    "sold": 890,
+    "stock": 35,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Bedroom",
+    "brand": "Home Centre",
+    "keywords": [
+      "side table",
+      "lamp table",
+      "bedside stand",
+      "accent table"
+    ],
+    "description": "Compact circular side table with marbleized ceramic top and weighted satin brass tripod legs.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfab0",
+    "id": "6aa440688c7704ade4edfab0",
+    "name": "Warm Neutral Modular Sectional Corner Sofa",
+    "price": 32999,
+    "originalPrice": 44999,
+    "rating": 4.9,
+    "sold": 290,
+    "stock": 10,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Living Room",
+    "brand": "Urban Ladder",
+    "keywords": [
+      "corner sofa",
+      "sectional couch",
+      "modular sofa",
+      "living room"
+    ],
+    "description": "Deep seats stuffed with hypoallergenic goose down feather blend wrapped in textured oatmeal chenille.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfab1",
+    "id": "6aa440688c7704ade4edfab1",
+    "name": "Canary Yellow Accent Reading Armchair",
+    "price": 6899,
+    "originalPrice": 9299,
+    "rating": 4.8,
+    "sold": 710,
+    "stock": 22,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80"
+    ],
+    "category": "Furniture",
+    "subcategory": "Living Room",
+    "brand": "Home Centre",
+    "keywords": [
+      "reading chair",
+      "wingback chair",
+      "yellow armchair",
+      "living room"
+    ],
+    "description": "Vibrant mid-century tufted wingback chair with high backrest and high-density foam supportive seating.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfab2",
+    "id": "6aa440688c7704ade4edfab2",
     "name": "Golden Pothos (Money Plant) in Ceramic Pot",
     "price": 399,
     "originalPrice": 599,
@@ -2959,8 +3908,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d4",
-    "id": "6aa439cc2d7c518e5e6e10d4",
+    "_id": "6aa440688c7704ade4edfab3",
+    "id": "6aa440688c7704ade4edfab3",
     "name": "Sansevieria Snake Plant Laurentii",
     "price": 499,
     "originalPrice": 699,
@@ -2987,8 +3936,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d5",
-    "id": "6aa439cc2d7c518e5e6e10d5",
+    "_id": "6aa440688c7704ade4edfab4",
+    "id": "6aa440688c7704ade4edfab4",
     "name": "Exotic Mini Succulents Assorted – Pack of 4",
     "price": 649,
     "originalPrice": 899,
@@ -3015,8 +3964,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d6",
-    "id": "6aa439cc2d7c518e5e6e10d6",
+    "_id": "6aa440688c7704ade4edfab5",
+    "id": "6aa440688c7704ade4edfab5",
     "name": "Fresh Italian Sweet Basil Kitchen Herb Plant",
     "price": 249,
     "originalPrice": 350,
@@ -3043,8 +3992,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d7",
-    "id": "6aa439cc2d7c518e5e6e10d7",
+    "_id": "6aa440688c7704ade4edfab6",
+    "id": "6aa440688c7704ade4edfab6",
     "name": "Self-Watering Modern Planters – Set of 3",
     "price": 799,
     "originalPrice": 1099,
@@ -3071,8 +4020,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d8",
-    "id": "6aa439cc2d7c518e5e6e10d8",
+    "_id": "6aa440688c7704ade4edfab7",
+    "id": "6aa440688c7704ade4edfab7",
     "name": "Peace Lily (Spathiphyllum) Flowering Plant",
     "price": 449,
     "originalPrice": 620,
@@ -3098,8 +4047,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10d9",
-    "id": "6aa439cc2d7c518e5e6e10d9",
+    "_id": "6aa440688c7704ade4edfab8",
+    "id": "6aa440688c7704ade4edfab8",
     "name": "Zebra Haworthia Succulent in Marble Pot",
     "price": 349,
     "originalPrice": 480,
@@ -3126,8 +4075,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10da",
-    "id": "6aa439cc2d7c518e5e6e10da",
+    "_id": "6aa440688c7704ade4edfab9",
+    "id": "6aa440688c7704ade4edfab9",
     "name": "Dwarf Jade Bonsai Lucky Plant",
     "price": 599,
     "originalPrice": 799,
@@ -3154,8 +4103,8 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10db",
-    "id": "6aa439cc2d7c518e5e6e10db",
+    "_id": "6aa440688c7704ade4edfaba",
+    "id": "6aa440688c7704ade4edfaba",
     "name": "Organic Fresh Mint (Pudina) Herb Plant",
     "price": 199,
     "originalPrice": 280,
@@ -3182,8 +4131,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10dc",
-    "id": "6aa439cc2d7c518e5e6e10dc",
+    "_id": "6aa440688c7704ade4edfabb",
+    "id": "6aa440688c7704ade4edfabb",
     "name": "Areca Palm Natural Living Room Humidifier – Large",
     "price": 899,
     "originalPrice": 1299,
@@ -3209,35 +4158,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10dd",
-    "id": "6aa439cc2d7c518e5e6e10dd",
-    "name": "Handcrafted Terracotta Clay Planters – Set of 2",
-    "price": 549,
-    "originalPrice": 750,
-    "rating": 4.6,
-    "sold": 780,
-    "stock": 60,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Planters & Pots",
-    "brand": "TrustBasket",
-    "keywords": [
-      "terracotta pot",
-      "clay planters",
-      "pots",
-      "gardening pots"
-    ],
-    "description": "Breathable porous natural clay planters with matching drainage saucers for healthy root aeration.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10de",
-    "id": "6aa439cc2d7c518e5e6e10de",
+    "_id": "6aa440688c7704ade4edfabc",
+    "id": "6aa440688c7704ade4edfabc",
     "name": "Vibrant Magenta Bougainvillea Flowering Shrub",
     "price": 349,
     "originalPrice": 499,
@@ -3263,8 +4185,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10df",
-    "id": "6aa439cc2d7c518e5e6e10df",
+    "_id": "6aa440688c7704ade4edfabd",
+    "id": "6aa440688c7704ade4edfabd",
     "name": "Fresh Fragrant Rosemary Herb Plant in Ceramic Pot",
     "price": 299,
     "originalPrice": 420,
@@ -3290,64 +4212,224 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e0",
-    "id": "6aa439cc2d7c518e5e6e10e0",
-    "name": "Golden Barrel Cactus in Glazed Ceramic Bowl",
+    "_id": "6aa440688c7704ade4edfabe",
+    "id": "6aa440688c7704ade4edfabe",
+    "name": "Monstera Deliciosa Split-Leaf Philodendron",
+    "price": 899,
+    "originalPrice": 1299,
+    "rating": 4.9,
+    "sold": 1850,
+    "stock": 55,
+    "discount": "31% OFF",
+    "image": "https://images.unsplash.com/photo-1463320726281-696a485928c7?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1463320726281-696a485928c7?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Indoor Plants",
+    "brand": "Ugaoo",
+    "keywords": [
+      "monstera",
+      "swiss cheese",
+      "philodendron",
+      "indoor plant"
+    ],
+    "description": "Magnificent glossy perforated leaves that create an immediate jungle aesthetic in living rooms and studios.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfabf",
+    "id": "6aa440688c7704ade4edfabf",
+    "name": "Calathea Orbifolia Giant Round Leaf Plant",
+    "price": 749,
+    "originalPrice": 999,
+    "rating": 4.8,
+    "sold": 1100,
+    "stock": 45,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Indoor Plants",
+    "brand": "Ugaoo",
+    "keywords": [
+      "calathea",
+      "prayer plant",
+      "foliage plant",
+      "indoor decor"
+    ],
+    "description": "Stunning oversized silvery-green striped round foliage that folds up at night in prayer motion.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac0",
+    "id": "6aa440688c7704ade4edfac0",
+    "name": "Golden Barrel Desert Cactus in Stone Pot",
+    "price": 399,
+    "originalPrice": 550,
+    "rating": 4.7,
+    "sold": 760,
+    "stock": 60,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Succulents & Cacti",
+    "brand": "Nurserylive",
+    "keywords": [
+      "cactus",
+      "barrel cactus",
+      "succulents",
+      "desert plants"
+    ],
+    "description": "Spherical ribbed desert cactus lined with golden spines. Stores water for months without dehydration.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac1",
+    "id": "6aa440688c7704ade4edfac1",
+    "name": "Boston Fern (Nephrolepis Exaltata) Hanging Plant",
     "price": 499,
     "originalPrice": 699,
-    "rating": 4.8,
-    "sold": 790,
-    "stock": 55,
+    "rating": 4.6,
+    "sold": 950,
+    "stock": 50,
     "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80",
+    "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80"
+      "https://images.unsplash.com/photo-1446071103084-c257b5f70672?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Indoor Plants",
+    "brand": "Rolling Nature",
+    "keywords": [
+      "boston fern",
+      "fern plant",
+      "hanging plant",
+      "humidifier plant"
+    ],
+    "description": "Lush graceful sword-shaped fronds that naturally humidify the air and thrive in high-humidity bathrooms.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac2",
+    "id": "6aa440688c7704ade4edfac2",
+    "name": "Terracotta Hand-Molded Garden Planters – Set of 2",
+    "price": 549,
+    "originalPrice": 750,
+    "rating": 4.8,
+    "sold": 1400,
+    "stock": 65,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Planters & Pots",
+    "brand": "TrustBasket",
+    "keywords": [
+      "terracotta pots",
+      "clay planters",
+      "gardening pots",
+      "planters"
+    ],
+    "description": "Porous breathable natural clay pots with drainage saucer providing healthy moisture evaporation.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac3",
+    "id": "6aa440688c7704ade4edfac3",
+    "name": "Medicinal Organic Aloe Vera Plant in Ceramic Pot",
+    "price": 299,
+    "originalPrice": 399,
+    "rating": 4.8,
+    "sold": 2100,
+    "stock": 110,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1508020963102-c6c723be9764?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1508020963102-c6c723be9764?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Succulents & Cacti",
+    "brand": "Kapiva",
+    "keywords": [
+      "aloe vera",
+      "succulent",
+      "medicinal plant",
+      "skincare"
+    ],
+    "description": "Thick fleshy succulent spears packed with soothing natural gel for burn healing and skin moisturization.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac4",
+    "id": "6aa440688c7704ade4edfac4",
+    "name": "Cast Iron Indoor Plant Stand Pedestal",
+    "price": 649,
+    "originalPrice": 899,
+    "rating": 4.7,
+    "sold": 840,
+    "stock": 55,
+    "discount": "28% OFF",
+    "image": "https://images.unsplash.com/photo-1516044734145-09e6c43491d2?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1516044734145-09e6c43491d2?w=600&q=80"
+    ],
+    "category": "Plants",
+    "subcategory": "Planters & Pots",
+    "brand": "TrustBasket",
+    "keywords": [
+      "plant stand",
+      "pot stand",
+      "metal planter holder",
+      "garden decor"
+    ],
+    "description": "Ornate black scrollwork three-legged metal plant stand elevating heavy pots by 18 inches.",
+    "featured": false,
+    "isNew": true
+  },
+  {
+    "_id": "6aa440688c7704ade4edfac5",
+    "id": "6aa440688c7704ade4edfac5",
+    "name": "Echeveria Glauca Blue Rosette Succulent",
+    "price": 320,
+    "originalPrice": 450,
+    "rating": 4.7,
+    "sold": 1250,
+    "stock": 75,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=600&q=80"
     ],
     "category": "Plants",
     "subcategory": "Succulents & Cacti",
     "brand": "Ugaoo",
     "keywords": [
-      "cactus",
-      "golden barrel",
-      "succulents",
-      "desert plant",
-      "tabletop"
+      "echeveria",
+      "succulent",
+      "desk plant",
+      "tabletop plant"
     ],
-    "description": "Globe-shaped ribbed cactus adorned with bright golden spines. Thrives on full sun and minimal watering.",
+    "description": "Symmetrical geometric powder blue rosettes with blush pink leaf tips that thrive on sunny windowsills.",
     "featured": false,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e1",
-    "id": "6aa439cc2d7c518e5e6e10e1",
-    "name": "Arabian Jasmine (Mogra) Fragrant Plant",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.8,
-    "sold": 1820,
-    "stock": 85,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Outdoor Plants",
-    "brand": "Nurserylive",
-    "keywords": [
-      "jasmine",
-      "mogra",
-      "fragrant plant",
-      "outdoor plants",
-      "white flowers"
-    ],
-    "description": "Intensely fragrant white star-shaped blooms revered for tea, aromatherapy, and Indian household gardens.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10e2",
-    "id": "6aa439cc2d7c518e5e6e10e2",
+    "_id": "6aa440688c7704ade4edfac6",
+    "id": "6aa440688c7704ade4edfac6",
     "name": "Atomic Habits – James Clear",
     "price": 399,
     "originalPrice": 599,
@@ -3375,8 +4457,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e3",
-    "id": "6aa439cc2d7c518e5e6e10e3",
+    "_id": "6aa440688c7704ade4edfac7",
+    "id": "6aa440688c7704ade4edfac7",
     "name": "The Psychology of Money – Morgan Housel",
     "price": 349,
     "originalPrice": 499,
@@ -3403,8 +4485,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e4",
-    "id": "6aa439cc2d7c518e5e6e10e4",
+    "_id": "6aa440688c7704ade4edfac8",
+    "id": "6aa440688c7704ade4edfac8",
     "name": "Sapiens: A Brief History of Humankind – Yuval Noah Harari",
     "price": 499,
     "originalPrice": 699,
@@ -3431,8 +4513,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e5",
-    "id": "6aa439cc2d7c518e5e6e10e5",
+    "_id": "6aa440688c7704ade4edfac9",
+    "id": "6aa440688c7704ade4edfac9",
     "name": "The Alchemist – Paulo Coelho",
     "price": 299,
     "originalPrice": 399,
@@ -3459,36 +4541,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e6",
-    "id": "6aa439cc2d7c518e5e6e10e6",
-    "name": "Ikigai: The Japanese Secret to a Long and Happy Life",
-    "price": 320,
-    "originalPrice": 450,
-    "rating": 4.7,
-    "sold": 3100,
-    "stock": 140,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Self-Help",
-    "brand": "Penguin",
-    "keywords": [
-      "ikigai",
-      "japanese secret",
-      "mindfulness",
-      "self help",
-      "books"
-    ],
-    "description": "Find your purpose and stay young while growing old, inspired by the centenarians of the Okinawa island.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10e7",
-    "id": "6aa439cc2d7c518e5e6e10e7",
+    "_id": "6aa440688c7704ade4edfaca",
+    "id": "6aa440688c7704ade4edfaca",
     "name": "Deep Work: Rules for Focused Success – Cal Newport",
     "price": 425,
     "originalPrice": 599,
@@ -3515,9 +4569,9 @@ export const products = [
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e8",
-    "id": "6aa439cc2d7c518e5e6e10e8",
-    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "_id": "6aa440688c7704ade4edfacb",
+    "id": "6aa440688c7704ade4edfacb",
+    "name": "Clean Code: Agile Software Craftsmanship – Robert C. Martin",
     "price": 899,
     "originalPrice": 1299,
     "rating": 4.9,
@@ -3542,8 +4596,8 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10e9",
-    "id": "6aa439cc2d7c518e5e6e10e9",
+    "_id": "6aa440688c7704ade4edfacc",
+    "id": "6aa440688c7704ade4edfacc",
     "name": "A Game of Thrones: A Song of Ice and Fire – George R.R. Martin",
     "price": 499,
     "originalPrice": 699,
@@ -3570,4810 +4624,18 @@ export const products = [
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e10ea",
-    "id": "6aa439cc2d7c518e5e6e10ea",
-    "name": "The Very Hungry Caterpillar – Board Book",
-    "price": 260,
-    "originalPrice": 350,
-    "rating": 4.9,
-    "sold": 3100,
-    "stock": 130,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Children's",
-    "brand": "Puffin",
-    "keywords": [
-      "children book",
-      "kids",
-      "picture book",
-      "board book",
-      "eric carle"
-    ],
-    "description": "Eric Carle’s world-famous vividly illustrated classic children storybook featuring the little caterpillar.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10eb",
-    "id": "6aa439cc2d7c518e5e6e10eb",
-    "name": "Designing Data-Intensive Applications – Martin Kleppmann",
-    "price": 1199,
-    "originalPrice": 1699,
-    "rating": 4.9,
-    "sold": 1750,
-    "stock": 65,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Academic & Technical",
-    "brand": "O'Reilly",
-    "keywords": [
-      "data engineering",
-      "system design",
-      "architecture",
-      "technical book"
-    ],
-    "description": "The big ideas behind reliable, scalable, and maintainable systems: storage engines, replication, and distributed data.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10ec",
-    "id": "6aa439cc2d7c518e5e6e10ec",
-    "name": "Rich Dad Poor Dad – Robert T. Kiyosaki",
-    "price": 350,
-    "originalPrice": 499,
-    "rating": 4.7,
-    "sold": 4800,
-    "stock": 190,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Self-Help",
-    "brand": "Plata Publishing",
-    "keywords": [
-      "rich dad poor dad",
-      "finance",
-      "wealth",
-      "investing",
-      "self help"
-    ],
-    "description": "What the rich teach their kids about money that the poor and middle class do not. Financial education classic.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10ed",
-    "id": "6aa439cc2d7c518e5e6e10ed",
-    "name": "The Midnight Library – Matt Haig",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.8,
-    "sold": 2600,
-    "stock": 120,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Fiction",
-    "brand": "Viking",
-    "keywords": [
-      "midnight library",
-      "matt haig",
-      "fiction",
-      "novel",
-      "magical realism"
-    ],
-    "description": "Between life and death there is a library containing books of infinite lives you could have lived.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10ee",
-    "id": "6aa439cc2d7c518e5e6e10ee",
-    "name": "Harry Potter and the Sorcerer's Stone – Illustrated Edition",
-    "price": 799,
-    "originalPrice": 1199,
-    "rating": 4.9,
-    "sold": 3900,
-    "stock": 100,
-    "discount": "33% OFF",
-    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Children's",
-    "brand": "Bloomsbury",
-    "keywords": [
-      "harry potter",
-      "jk rowling",
-      "illustrated",
-      "children book",
-      "fantasy"
-    ],
-    "description": "J.K. Rowling’s magical journey into Hogwarts fully illustrated with breathtaking full-color artwork by Jim Kay.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10ef",
-    "id": "6aa439cc2d7c518e5e6e10ef",
-    "name": "Thinking, Fast and Slow – Daniel Kahneman",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.7,
-    "sold": 2100,
-    "stock": 85,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Non-Fiction",
-    "brand": "Farrar, Straus and Giroux",
-    "keywords": [
-      "thinking fast and slow",
-      "psychology",
-      "behavioral economics",
-      "non fiction"
-    ],
-    "description": "Nobel laureate Daniel Kahneman takes us on a tour of the two systems that drive the way we think and decide.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f0",
-    "id": "6aa439cc2d7c518e5e6e10f0",
-    "name": "Cracking the Coding Interview (189 Programming Questions)",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.9,
-    "sold": 2900,
-    "stock": 95,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Academic & Technical",
-    "brand": "CareerCup",
-    "keywords": [
-      "coding interview",
-      "algorithms",
-      "data structures",
-      "programming",
-      "technical"
-    ],
-    "description": "Gayle Laakmann McDowell’s industry gold standard guide to passing top tech software engineer interviews.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f1",
-    "id": "6aa439cc2d7c518e5e6e10f1",
-    "name": "Organic Brown Basmati Rice – 2kg",
-    "price": 249,
-    "originalPrice": 320,
-    "rating": 4.6,
-    "sold": 720,
-    "stock": 95,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Rice & Grains",
-    "brand": "Organic India",
-    "keywords": [
-      "brown rice",
-      "basmati",
-      "healthy rice",
-      "organic",
-      "grains"
-    ],
-    "description": "100% whole grain unpolished brown basmati rice with high dietary fiber and low glycemic index.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f2",
-    "id": "6aa439cc2d7c518e5e6e10f2",
-    "name": "Cold-Pressed Kachi Ghani Mustard Oil – 1L",
-    "price": 185,
-    "originalPrice": 230,
-    "rating": 4.7,
-    "sold": 1450,
-    "stock": 120,
-    "discount": "20% OFF",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Oils & Ghee",
-    "brand": "Fortune",
-    "keywords": [
-      "mustard oil",
-      "cooking oil",
-      "kachi ghani",
-      "sarson oil",
-      "fortune"
-    ],
-    "description": "Pure traditionally crushed black mustard seed oil with strong pungent aroma and natural pungency.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f3",
-    "id": "6aa439cc2d7c518e5e6e10f3",
-    "name": "Stone-Ground Sharbati Whole Wheat Atta – 5kg",
-    "price": 275,
-    "originalPrice": 330,
-    "rating": 4.8,
-    "sold": 2800,
-    "stock": 150,
-    "discount": "17% OFF",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Rice & Grains",
-    "brand": "Aashirvaad",
-    "keywords": [
-      "atta",
-      "wheat flour",
-      "sharbati atta",
-      "flour",
-      "roti"
-    ],
-    "description": "100% pure Madhya Pradesh Sharbati whole wheat flour yielding soft, fluffy, and golden rotis.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f4",
-    "id": "6aa439cc2d7c518e5e6e10f4",
-    "name": "Pure Cold-Pressed Sesame Gingelly Oil – 500ml",
-    "price": 220,
-    "originalPrice": 280,
-    "rating": 4.7,
-    "sold": 630,
-    "stock": 80,
-    "discount": "21% OFF",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Oils & Ghee",
-    "brand": "Idhayam",
-    "keywords": [
-      "sesame oil",
-      "gingelly oil",
-      "cooking oil",
-      "pure sesame"
-    ],
-    "description": "Unrefined sesame oil extracted from white sesame seeds. Ideal for South Indian gravies and tadka.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f5",
-    "id": "6aa439cc2d7c518e5e6e10f5",
-    "name": "Raw Organic Black Chia Seeds – 250g",
-    "price": 199,
-    "originalPrice": 260,
-    "rating": 4.8,
-    "sold": 1650,
-    "stock": 110,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Breakfast & Spreads",
-    "brand": "True Elements",
-    "keywords": [
-      "chia seeds",
-      "superfood",
-      "omega 3",
-      "healthy breakfast",
-      "seeds"
-    ],
-    "description": "Omega-3 and protein-dense superfood seeds. Expands in liquids for puddings, smoothies, and oatmeal.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f6",
-    "id": "6aa439cc2d7c518e5e6e10f6",
-    "name": "Wild Forest Mixed Berry Jam – 350g",
-    "price": 180,
-    "originalPrice": 230,
-    "rating": 4.6,
-    "sold": 890,
-    "stock": 75,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Breakfast & Spreads",
-    "brand": "Bateel",
-    "keywords": [
-      "jam",
-      "fruit spread",
-      "berry jam",
-      "breakfast spread",
-      "sweet"
-    ],
-    "description": "Whole strawberries, raspberries, and blackberries slow-cooked with fruit pectin and cane sugar.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f7",
-    "id": "6aa439cc2d7c518e5e6e10f7",
-    "name": "Assam Masala Kadak CTC Tea – 500g",
-    "price": 240,
-    "originalPrice": 300,
-    "rating": 4.8,
-    "sold": 2100,
-    "stock": 130,
-    "discount": "20% OFF",
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Beverages",
-    "brand": "Wagh Bakri",
-    "keywords": [
-      "masala tea",
-      "chai",
-      "assam tea",
-      "ctc tea",
-      "beverages"
-    ],
-    "description": "Robust brisk CTC black tea blended with real crushed ginger, cardamom, cinnamon, and cloves.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f8",
-    "id": "6aa439cc2d7c518e5e6e10f8",
-    "name": "Roasted & Salted California Pistachios – 250g",
-    "price": 349,
-    "originalPrice": 450,
-    "rating": 4.7,
-    "sold": 1320,
-    "stock": 85,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Snacks & Dry Fruits",
-    "brand": "Happilo",
-    "keywords": [
-      "pistachios",
-      "pista",
-      "dry fruits",
-      "healthy snacks",
-      "happilo"
-    ],
-    "description": "Naturally opened jumbo green pistachios lightly roasted with Himalayan salt. High in healthy fats.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10f9",
-    "id": "6aa439cc2d7c518e5e6e10f9",
-    "name": "Sun-Dried Afghani Anjeer (Figs) – 250g",
-    "price": 399,
-    "originalPrice": 520,
-    "rating": 4.8,
-    "sold": 940,
-    "stock": 65,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1536591375315-1b83884045bd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1536591375315-1b83884045bd?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Snacks & Dry Fruits",
-    "brand": "Nutraj",
-    "keywords": [
-      "anjeer",
-      "figs",
-      "dry fruits",
-      "nutraj",
-      "healthy snacks"
-    ],
-    "description": "Plump naturally sun-dried golden figs rich in calcium, iron, and dietary fiber without sulfur.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10fa",
-    "id": "6aa439cc2d7c518e5e6e10fa",
-    "name": "Malabar Tellicherry Black Peppercorns – 100g",
-    "price": 140,
-    "originalPrice": 180,
-    "rating": 4.7,
-    "sold": 810,
-    "stock": 140,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Spices & Masala",
-    "brand": "Everest",
-    "keywords": [
-      "black pepper",
-      "peppercorns",
-      "kali mirch",
-      "spices",
-      "masala"
-    ],
-    "description": "Extra-large TGSEB grade sun-dried black peppercorns delivering bold citrus aroma and sharp heat.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10fb",
-    "id": "6aa439cc2d7c518e5e6e10fb",
-    "name": "Idukki Bold Green Cardamom (Elaichi) – 100g",
-    "price": 299,
-    "originalPrice": 380,
-    "rating": 4.9,
-    "sold": 1450,
-    "stock": 90,
-    "discount": "21% OFF",
-    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Spices & Masala",
-    "brand": "Tata Sampann",
-    "keywords": [
-      "cardamom",
-      "elaichi",
-      "green cardamom",
-      "spices",
-      "masala"
-    ],
-    "description": "Aromatic 8mm jumbo green cardamom pods sourced directly from Kerala high range plantations.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10fc",
-    "id": "6aa439cc2d7c518e5e6e10fc",
-    "name": "Organic Raw Apple Cider Vinegar (with Mother) – 500ml",
-    "price": 320,
-    "originalPrice": 420,
-    "rating": 4.6,
-    "sold": 1280,
-    "stock": 85,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Beverages",
-    "brand": "Kapiva",
-    "keywords": [
-      "apple cider vinegar",
-      "acv",
-      "health drink",
-      "organic",
-      "kapiva"
-    ],
-    "description": "Unfiltered, unpasteurized vinegar naturally fermented from Himalayan organic apple juice.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10fd",
-    "id": "6aa439cc2d7c518e5e6e10fd",
-    "name": "Coorg Traditional South Indian Filter Coffee – 200g",
-    "price": 195,
-    "originalPrice": 250,
-    "rating": 4.8,
-    "sold": 1780,
-    "stock": 95,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Beverages",
-    "brand": "Narasu",
-    "keywords": [
-      "filter coffee",
-      "south indian coffee",
-      "chicory",
-      "coffee",
-      "coorg"
-    ],
-    "description": "80:20 Arabica and Chicory blend roasted to dark perfection for thick, frothy traditional filter coffee.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10fe",
-    "id": "6aa439cc2d7c518e5e6e10fe",
-    "name": "Roasted Brown Flax Seeds – 250g",
-    "price": 110,
-    "originalPrice": 150,
-    "rating": 4.5,
-    "sold": 820,
-    "stock": 120,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Breakfast & Spreads",
-    "brand": "True Elements",
-    "keywords": [
-      "flax seeds",
-      "alsi",
-      "healthy seeds",
-      "fiber",
-      "superfood"
-    ],
-    "description": "Crunchy roasted organic flax seeds rich in dietary lignans, fiber, and heart-healthy alpha-linolenic acid.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e10ff",
-    "id": "6aa439cc2d7c518e5e6e10ff",
-    "name": "Organic Unpolished Foxtail Millet – 1kg",
-    "price": 160,
-    "originalPrice": 210,
-    "rating": 4.6,
-    "sold": 960,
-    "stock": 90,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Rice & Grains",
-    "brand": "Organic India",
-    "keywords": [
-      "foxtail millet",
-      "millet",
-      "ancient grain",
-      "gluten free",
-      "healthy"
-    ],
-    "description": "Nutrient-rich ancient grain high in protein and iron. Excellent diabetic-friendly alternative to white rice.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1100",
-    "id": "6aa439cc2d7c518e5e6e1100",
-    "name": "Grade-A Kashmiri Mongra Saffron – 1g",
-    "price": 375,
-    "originalPrice": 450,
-    "rating": 4.9,
-    "sold": 2100,
-    "stock": 110,
-    "discount": "17% OFF",
-    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Spices & Masala",
-    "brand": "Baby Saffron",
-    "keywords": [
-      "saffron",
-      "kesar",
-      "mongra",
-      "kashmiri saffron",
-      "spices"
-    ],
-    "description": "Pure deep crimson saffron stigmas hand-harvested from Pampore, Kashmir. Imparts golden hue and honeyed fragrance.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1101",
-    "id": "6aa439cc2d7c518e5e6e1101",
-    "name": "Raw Shelled Pumpkin Seeds (Pepitas) – 200g",
-    "price": 210,
-    "originalPrice": 270,
-    "rating": 4.7,
-    "sold": 1180,
-    "stock": 80,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Snacks & Dry Fruits",
-    "brand": "Happilo",
-    "keywords": [
-      "pumpkin seeds",
-      "pepitas",
-      "dry fruits",
-      "healthy snacks",
-      "zinc"
-    ],
-    "description": "AAA grade green Austrian pumpkin seeds loaded with zinc, magnesium, and plant-based protein.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1102",
-    "id": "6aa439cc2d7c518e5e6e1102",
-    "name": "Refined Sunflower Cooking Oil – 1L",
-    "price": 165,
-    "originalPrice": 210,
-    "rating": 4.6,
-    "sold": 2400,
-    "stock": 160,
-    "discount": "21% OFF",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Oils & Ghee",
-    "brand": "Fortune",
-    "keywords": [
-      "sunflower oil",
-      "cooking oil",
-      "refined oil",
-      "fortune oil"
-    ],
-    "description": "Light and neutral edible cooking oil fortified with Vitamins A and D. Low absorb technology for deep frying.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1103",
-    "id": "6aa439cc2d7c518e5e6e1103",
-    "name": "Belgian Cocoa Hazelnut Nutty Spread – 350g",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.8,
-    "sold": 2200,
-    "stock": 90,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Breakfast & Spreads",
-    "brand": "Nutella",
-    "keywords": [
-      "hazelnut spread",
-      "chocolate spread",
-      "nutella",
-      "breakfast spread"
-    ],
-    "description": "Silky smooth spread made with roasted Italian hazelnuts and Dutch cocoa with zero palm oil.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1104",
-    "id": "6aa439cc2d7c518e5e6e1104",
-    "name": "Aromatic Whole Cumin Seeds (Jeera) – 200g",
-    "price": 135,
-    "originalPrice": 175,
-    "rating": 4.7,
-    "sold": 1600,
-    "stock": 140,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80"
-    ],
-    "category": "Grocery",
-    "subcategory": "Spices & Masala",
-    "brand": "Everest",
-    "keywords": [
-      "jeera",
-      "cumin seeds",
-      "spices",
-      "masala",
-      "cooking"
-    ],
-    "description": "Farm-fresh cleaned and sorted whole cumin seeds packed with natural essential oils for daily tempering.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1105",
-    "id": "6aa439cc2d7c518e5e6e1105",
-    "name": "Flyknit Breathable Athletic Trainers",
-    "price": 2199,
-    "originalPrice": 2999,
-    "rating": 4.7,
-    "sold": 1420,
-    "stock": 65,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "brand": "Nike",
-    "keywords": [
-      "trainers",
-      "running shoes",
-      "gym sneakers",
-      "athletic",
-      "nike"
-    ],
-    "description": "One-piece seamless woven upper sneaker with shock-absorbing phylon sole for gym and urban runs.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1106",
-    "id": "6aa439cc2d7c518e5e6e1106",
-    "name": "Thermal Waterproof Winter Snow Boots",
-    "price": 4599,
-    "originalPrice": 6299,
-    "rating": 4.8,
-    "sold": 610,
-    "stock": 35,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Boots",
-    "brand": "Timberland",
-    "keywords": [
-      "snow boots",
-      "winter boots",
-      "waterproof boots",
-      "hiking boots"
-    ],
-    "description": "Fleece-lined high ankle snow boots with deep tread rubber lug base and waterproof seam sealing.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1107",
-    "id": "6aa439cc2d7c518e5e6e1107",
-    "name": "Double Monk Strap Burnished Dress Shoes",
-    "price": 3499,
-    "originalPrice": 4899,
-    "rating": 4.6,
-    "sold": 520,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Formal",
-    "brand": "Woodland",
-    "keywords": [
-      "monk strap",
-      "formal shoes",
-      "dress shoes",
-      "leather",
-      "woodland"
-    ],
-    "description": "Refined dual brass buckle dress shoes handcrafted in antique cognac calf leather with leather sole.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1108",
-    "id": "6aa439cc2d7c518e5e6e1108",
-    "name": "Chunky Sole Retro Platform Sneakers",
-    "price": 2799,
-    "originalPrice": 3999,
-    "rating": 4.7,
-    "sold": 1250,
-    "stock": 55,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "brand": "Puma",
-    "keywords": [
-      "chunky sneakers",
-      "dad shoes",
-      "platform shoes",
-      "streetwear",
-      "puma"
-    ],
-    "description": "90s-inspired sculpted wave platform sneakers with multi-textured suede and mesh panel overlays.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1109",
-    "id": "6aa439cc2d7c518e5e6e1109",
-    "name": "Suede Leather Desert Chukka Boots",
-    "price": 3299,
-    "originalPrice": 4499,
-    "rating": 4.6,
-    "sold": 790,
-    "stock": 40,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Boots",
-    "brand": "Clarks",
-    "keywords": [
-      "chukka boots",
-      "desert boots",
-      "suede boots",
-      "clarks",
-      "casual"
-    ],
-    "description": "Two-eyelet lightweight ankle boots made from supple velvety suede with natural crepe rubber sole.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110a",
-    "id": "6aa439cc2d7c518e5e6e110a",
-    "name": "Classic Wingtip Brogue Leather Shoes",
-    "price": 3799,
-    "originalPrice": 5199,
-    "rating": 4.7,
-    "sold": 680,
-    "stock": 50,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Formal",
-    "brand": "Bata",
-    "keywords": [
-      "brogues",
-      "wingtip",
-      "formal shoes",
-      "leather shoes",
-      "bata"
-    ],
-    "description": "Elaborate medallion toe hole punch broguing with Goodyear welted construction for corporate wear.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110b",
-    "id": "6aa439cc2d7c518e5e6e110b",
-    "name": "Metallic Gold Strappy Heeled Mules",
-    "price": 2499,
-    "originalPrice": 3299,
-    "rating": 4.7,
-    "sold": 740,
-    "stock": 35,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Heels",
-    "brand": "Steve Madden",
-    "keywords": [
-      "mules",
-      "gold heels",
-      "party heels",
-      "square toe",
-      "steve madden"
-    ],
-    "description": "Open square-toe evening slip-on mules featuring mirror gold straps and a sculpted hourglass heel.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110c",
-    "id": "6aa439cc2d7c518e5e6e110c",
-    "name": "Classic Pointed Slingback Kitten Heels",
-    "price": 2699,
-    "originalPrice": 3599,
-    "rating": 4.6,
-    "sold": 580,
-    "stock": 45,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Heels",
-    "brand": "Aldo",
-    "keywords": [
-      "kitten heels",
-      "slingbacks",
-      "formal heels",
-      "office heels",
-      "aldo"
-    ],
-    "description": "Sophisticated 2-inch low heel slingback shoes in blush nude vegan leather with elastic heel strap.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110d",
-    "id": "6aa439cc2d7c518e5e6e110d",
-    "name": "Canvas Slip-On Summer Espadrilles",
-    "price": 1499,
-    "originalPrice": 1999,
-    "rating": 4.5,
-    "sold": 1100,
-    "stock": 70,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sandals",
-    "brand": "Crocs",
-    "keywords": [
-      "espadrilles",
-      "slip on",
-      "summer shoes",
-      "canvas shoes",
-      "casual"
-    ],
-    "description": "Hand-sewn natural jute rope sole espadrilles with lightweight washed cotton upper and pull tab.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110e",
-    "id": "6aa439cc2d7c518e5e6e110e",
-    "name": "Full-Grain Leather Fisherman Gladiator Sandals",
-    "price": 2199,
-    "originalPrice": 2899,
-    "rating": 4.7,
-    "sold": 720,
-    "stock": 50,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sandals",
-    "brand": "Birkenstock",
-    "keywords": [
-      "fisherman sandals",
-      "gladiator sandals",
-      "leather sandals",
-      "birkenstock"
-    ],
-    "description": "Caged leather strap upper with buckle fastening and cushioned anti-fatigue anatomic footbed.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e110f",
-    "id": "6aa439cc2d7c518e5e6e110f",
-    "name": "All-Weather Trail Grip Running Shoes",
-    "price": 3899,
-    "originalPrice": 5299,
-    "rating": 4.8,
-    "sold": 980,
-    "stock": 45,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "brand": "Nike",
-    "keywords": [
-      "trail running",
-      "hiking sneakers",
-      "offroad shoes",
-      "nike trail"
-    ],
-    "description": "Vibram megagrip outsole with rock protection plate and hydrophobic mesh for mountain paths.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1110",
-    "id": "6aa439cc2d7c518e5e6e1110",
-    "name": "Weatherproof Nubuck Leather Chelsea Boots",
-    "price": 3999,
-    "originalPrice": 5499,
-    "rating": 4.7,
-    "sold": 840,
-    "stock": 40,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Boots",
-    "brand": "Red Tape",
-    "keywords": [
-      "chelsea boots",
-      "nubuck boots",
-      "ankle boots",
-      "red tape"
-    ],
-    "description": "Rich matte nubuck leather treated with stain repellent coating and pull-on back tags.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1111",
-    "id": "6aa439cc2d7c518e5e6e1111",
-    "name": "Hand-Stitched Calfskin Penny Loafers",
-    "price": 2999,
-    "originalPrice": 4199,
-    "rating": 4.6,
-    "sold": 910,
-    "stock": 55,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Formal",
-    "brand": "Hush Puppies",
-    "keywords": [
-      "penny loafers",
-      "leather loafers",
-      "formal shoes",
-      "hush puppies"
-    ],
-    "description": "Traditional apron-toe penny slot saddle loafers with padded arch support and hand-stained finish.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1112",
-    "id": "6aa439cc2d7c518e5e6e1112",
-    "name": "Peep-Toe Velvet Platform Stiletto Heels",
-    "price": 3299,
-    "originalPrice": 4499,
-    "rating": 4.7,
-    "sold": 620,
-    "stock": 35,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Heels",
-    "brand": "Charles & Keith",
-    "keywords": [
-      "platform heels",
-      "stiletto",
-      "velvet heels",
-      "party shoes",
-      "charles keith"
-    ],
-    "description": "Plush midnight black velvet upper with 4-inch stiletto heel and 1-inch concealed comfort platform.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1113",
-    "id": "6aa439cc2d7c518e5e6e1113",
-    "name": "Waterproof Quick-Dry Pool Slide Sandals",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.6,
-    "sold": 2100,
-    "stock": 90,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sandals",
-    "brand": "Adidas",
-    "keywords": [
-      "slides",
-      "pool sandals",
-      "flip flops",
-      "eva slides",
-      "adidas"
-    ],
-    "description": "Molded EVA foam slide sandals with contoured footbed for post-workout showers and beach holidays.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1114",
-    "id": "6aa439cc2d7c518e5e6e1114",
-    "name": "Retro Court High-Top Basketball Sneakers",
-    "price": 3699,
-    "originalPrice": 4999,
-    "rating": 4.8,
-    "sold": 1540,
-    "stock": 50,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sneakers",
-    "brand": "Nike",
-    "keywords": [
-      "basketball shoes",
-      "high top sneakers",
-      "court sneakers",
-      "retro",
-      "nike"
-    ],
-    "description": "Padded high collar with perforated toe box, pivot-circle rubber cupsole, and vintage colorblocking.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1115",
-    "id": "6aa439cc2d7c518e5e6e1115",
-    "name": "Industrial Steel Toe Work Safety Boots",
-    "price": 2999,
-    "originalPrice": 4199,
-    "rating": 4.7,
-    "sold": 890,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Boots",
-    "brand": "Woodland",
-    "keywords": [
-      "safety boots",
-      "work boots",
-      "steel toe",
-      "industrial boots",
-      "woodland"
-    ],
-    "description": "OSHA compliant steel safety toe boots with puncture-resistant Kevlar midsole and oil-resistant outsole.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1116",
-    "id": "6aa439cc2d7c518e5e6e1116",
-    "name": "Patent Leather Tuxedo Slip-On Loafers",
-    "price": 3499,
-    "originalPrice": 4799,
-    "rating": 4.8,
-    "sold": 430,
-    "stock": 35,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Formal",
-    "brand": "Clarks",
-    "keywords": [
-      "tuxedo shoes",
-      "patent leather",
-      "evening loafers",
-      "formal shoes",
-      "clarks"
-    ],
-    "description": "Ultra-glossy black mirror patent leather loafers with grosgrain ribbon bow for black-tie galas.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1117",
-    "id": "6aa439cc2d7c518e5e6e1117",
-    "name": "Clear Perspex Transparent Block Heels",
-    "price": 2399,
-    "originalPrice": 3199,
-    "rating": 4.6,
-    "sold": 810,
-    "stock": 40,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Heels",
-    "brand": "Steve Madden",
-    "keywords": [
-      "clear heels",
-      "perspex heels",
-      "block heels",
-      "party sandals",
-      "steve madden"
-    ],
-    "description": "Trending vinylite translucent foot strap paired with a crystal-clear acrylic block heel.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1118",
-    "id": "6aa439cc2d7c518e5e6e1118",
-    "name": "Orthopedic Arch-Support Comfort Sandals",
-    "price": 1799,
-    "originalPrice": 2499,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 65,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&q=80"
-    ],
-    "category": "Shoes",
-    "subcategory": "Sandals",
-    "brand": "Skechers",
-    "keywords": [
-      "orthopedic sandals",
-      "arch support",
-      "walking sandals",
-      "skechers",
-      "comfort"
-    ],
-    "description": "Doctor-recommended deep heel cup sandals with dual adjustable velcro straps and impact cushion.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1119",
-    "id": "6aa439cc2d7c518e5e6e1119",
-    "name": "Tartan Check Brushed Cotton Flannel Shirt",
-    "price": 1599,
-    "originalPrice": 2199,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Men's Shirts",
-    "brand": "Wrangler",
-    "keywords": [
-      "flannel shirt",
-      "check shirt",
-      "men shirt",
-      "winter wear",
-      "cotton"
-    ],
-    "description": "Double-brushed heavyweight warm cotton flannel shirt with dual chest pockets and buttoned cuffs.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111a",
-    "id": "6aa439cc2d7c518e5e6e111a",
-    "name": "Bohemian Floral Printed Wrap Maxi Dress",
-    "price": 2499,
-    "originalPrice": 3499,
-    "rating": 4.8,
-    "sold": 1420,
-    "stock": 55,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Dresses",
-    "brand": "Zara",
-    "keywords": [
-      "maxi dress",
-      "boho dress",
-      "floral dress",
-      "women clothing",
-      "zara"
-    ],
-    "description": "Flowy viscose maxi dress with vintage paisley floral motifs, v-neckline, and flutter butterfly sleeves.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111b",
-    "id": "6aa439cc2d7c518e5e6e111b",
-    "name": "Quilted Lightweight Packable Puffer Jacket",
-    "price": 3999,
-    "originalPrice": 5599,
-    "rating": 4.8,
-    "sold": 1650,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Jackets & Coats",
-    "brand": "Puma",
-    "keywords": [
-      "puffer jacket",
-      "winter jacket",
-      "outerwear",
-      "quilted jacket",
-      "puma"
-    ],
-    "description": "Wind-resistant shell with DuPont thermal insulation. Compresses into an included drawstring pouch.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111c",
-    "id": "6aa439cc2d7c518e5e6e111c",
-    "name": "Relaxed Fit 6-Pocket Utility Cargo Trousers",
-    "price": 1899,
-    "originalPrice": 2699,
-    "rating": 4.6,
-    "sold": 1200,
-    "stock": 65,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Men's Pants",
-    "brand": "Levi's",
-    "keywords": [
-      "cargo pants",
-      "trousers",
-      "men pants",
-      "utility pants",
-      "levis"
-    ],
-    "description": "Heavy cotton ripstop cargo pants with articulated knees, deep bellowed thigh pockets, and drawcord hem.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111d",
-    "id": "6aa439cc2d7c518e5e6e111d",
-    "name": "Embroidered Cotton Peasant Tunic Blouse",
-    "price": 1199,
-    "originalPrice": 1699,
-    "rating": 4.7,
-    "sold": 840,
-    "stock": 60,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Tops",
-    "brand": "H&M",
-    "keywords": [
-      "blouse",
-      "tunic",
-      "peasant top",
-      "embroidered top",
-      "women wear"
-    ],
-    "description": "Sheer airy voile blouse featuring intricate floral thread embroidery, tassel ties, and gathered cuffs.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111e",
-    "id": "6aa439cc2d7c518e5e6e111e",
-    "name": "Seamless High-Impact Racerback Sports Bra",
-    "price": 999,
-    "originalPrice": 1499,
-    "rating": 4.8,
-    "sold": 1900,
-    "stock": 80,
-    "discount": "33% OFF",
-    "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Activewear",
-    "brand": "Nike",
-    "keywords": [
-      "sports bra",
-      "activewear",
-      "workout top",
-      "gym wear",
-      "nike"
-    ],
-    "description": "Sweat-wicking compressive sports bra with removable molded cups and wide anti-chafing bottom band.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e111f",
-    "id": "6aa439cc2d7c518e5e6e111f",
-    "name": "Classic Double-Breasted Long Trench Coat",
-    "price": 4999,
-    "originalPrice": 6999,
-    "rating": 4.9,
-    "sold": 760,
-    "stock": 30,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Jackets & Coats",
-    "brand": "Mango",
-    "keywords": [
-      "trench coat",
-      "overcoat",
-      "winter coat",
-      "raincoat",
-      "mango"
-    ],
-    "description": "Water-repellent cotton gabardine trench coat with storm flap, buckled waist belt, and signature horn buttons.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1120",
-    "id": "6aa439cc2d7c518e5e6e1120",
-    "name": "Retro Polka Dot Vintage A-Line Swing Dress",
-    "price": 2199,
-    "originalPrice": 2999,
-    "rating": 4.6,
-    "sold": 920,
-    "stock": 50,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Dresses",
-    "brand": "Zara",
-    "keywords": [
-      "polka dot dress",
-      "vintage dress",
-      "a line dress",
-      "retro dress"
-    ],
-    "description": "50s rockabilly inspired sweetheart neckline dress with flare circle skirt and contrast fabric belt.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1121",
-    "id": "6aa439cc2d7c518e5e6e1121",
-    "name": "Lustrous Satin Silk Tuxedo Evening Shirt",
-    "price": 1799,
-    "originalPrice": 2499,
-    "rating": 4.5,
-    "sold": 680,
-    "stock": 55,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Men's Shirts",
-    "brand": "Peter England",
-    "keywords": [
-      "satin shirt",
-      "silk shirt",
-      "party shirt",
-      "formal shirt",
-      "men wear"
-    ],
-    "description": "Drapey silk blend evening shirt with spread French cuffs and concealed covered front button placket.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1122",
-    "id": "6aa439cc2d7c518e5e6e1122",
-    "name": "High-Waist Wide-Leg Pleated Tailored Trousers",
-    "price": 1699,
-    "originalPrice": 2399,
-    "rating": 4.7,
-    "sold": 950,
-    "stock": 60,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Tops",
-    "brand": "ONLY",
-    "keywords": [
-      "wide leg pants",
-      "pleated trousers",
-      "women pants",
-      "formal wear"
-    ],
-    "description": "Flowing drapey crepe trousers with double front pleats, side slash pockets, and wide palazzo leg cut.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1123",
-    "id": "6aa439cc2d7c518e5e6e1123",
-    "name": "Anti-Odor Quick-Dry Training Gym T-Shirt",
-    "price": 799,
-    "originalPrice": 1199,
-    "rating": 4.8,
-    "sold": 2100,
-    "stock": 95,
-    "discount": "33% OFF",
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Activewear",
-    "brand": "Under Armour",
-    "keywords": [
-      "gym tshirt",
-      "activewear",
-      "training tee",
-      "quick dry",
-      "under armour"
-    ],
-    "description": "Silver-ion infused micro-mesh poly tee providing maximum ventilation and zero sweat odor during HIIT.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1124",
-    "id": "6aa439cc2d7c518e5e6e1124",
-    "name": "Thick Wale Corduroy Button-Down Overshirt",
-    "price": 2299,
-    "originalPrice": 3199,
-    "rating": 4.7,
-    "sold": 790,
-    "stock": 45,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Jackets & Coats",
-    "brand": "Dockers",
-    "keywords": [
-      "corduroy shirt",
-      "shacket",
-      "overshirt",
-      "winter shirt",
-      "dockers"
-    ],
-    "description": "Retro 8-wale plush cotton corduroy shacket with dual flap chest pockets and tortoiseshell buttons.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1125",
-    "id": "6aa439cc2d7c518e5e6e1125",
-    "name": "Breton Striped Pure Linen Boatneck Top",
-    "price": 1299,
-    "originalPrice": 1799,
-    "rating": 4.6,
-    "sold": 860,
-    "stock": 55,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Tops",
-    "brand": "H&M",
-    "keywords": [
-      "striped top",
-      "linen top",
-      "boatneck",
-      "summer wear",
-      "hm"
-    ],
-    "description": "Timeless French nautical striped top in breathable washed linen with three-quarter length sleeves.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1126",
-    "id": "6aa439cc2d7c518e5e6e1126",
-    "name": "Raw Indigo Selvedge Denim Slim Jeans",
-    "price": 2799,
-    "originalPrice": 3899,
-    "rating": 4.9,
-    "sold": 1650,
-    "stock": 50,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Men's Pants",
-    "brand": "Levi's",
-    "keywords": [
-      "selvedge jeans",
-      "raw denim",
-      "jeans",
-      "men pants",
-      "levis 501"
-    ],
-    "description": "14 oz Japanese shuttle-loom woven denim with red selvedge ID line that fades uniquely to your body.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1127",
-    "id": "6aa439cc2d7c518e5e6e1127",
-    "name": "Chiffon Tie-Strap Tiered Sundress",
-    "price": 1899,
-    "originalPrice": 2599,
-    "rating": 4.6,
-    "sold": 720,
-    "stock": 45,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Dresses",
-    "brand": "Mango",
-    "keywords": [
-      "sundress",
-      "chiffon dress",
-      "summer dress",
-      "vacation dress"
-    ],
-    "description": "Playful pastel floral print sundress with self-tie shoulder straps and ruffled tiered flounce skirt.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1128",
-    "id": "6aa439cc2d7c518e5e6e1128",
-    "name": "Sherpa-Lined Polar Fleece Outdoor Jacket",
-    "price": 2499,
-    "originalPrice": 3399,
-    "rating": 4.7,
-    "sold": 950,
-    "stock": 40,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Jackets & Coats",
-    "brand": "United Colors of Benetton",
-    "keywords": [
-      "fleece jacket",
-      "sherpa jacket",
-      "winter outerwear",
-      "benetton"
-    ],
-    "description": "Plush high-pile fleece with contrast taslan chest zip pocket, mock neck, and elasticated wind hem.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1129",
-    "id": "6aa439cc2d7c518e5e6e1129",
-    "name": "Pure Cotton Poplin Grandad Collar Shirt",
-    "price": 1499,
-    "originalPrice": 1999,
-    "rating": 4.5,
-    "sold": 840,
-    "stock": 65,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Men's Shirts",
-    "brand": "Arrow",
-    "keywords": [
-      "poplin shirt",
-      "band collar",
-      "men shirt",
-      "grandad shirt",
-      "arrow"
-    ],
-    "description": "Crisp garment-dyed poplin shirt with band collar, curved shirt-tail hem, and pearlized buttons.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112a",
-    "id": "6aa439cc2d7c518e5e6e112a",
-    "name": "Tapered Tech-Fleece Gym Joggers",
-    "price": 1399,
-    "originalPrice": 1899,
-    "rating": 4.8,
-    "sold": 1750,
-    "stock": 75,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Activewear",
-    "brand": "Nike",
-    "keywords": [
-      "joggers",
-      "sweatpants",
-      "tech fleece",
-      "activewear",
-      "nike"
-    ],
-    "description": "Thermal double-knit cotton fleece sweatpants with bonded zippered storage pocket and ribbed ankle cuffs.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112b",
-    "id": "6aa439cc2d7c518e5e6e112b",
-    "name": "Chunky Knit Ribbed Button-Up Cardigan",
-    "price": 1699,
-    "originalPrice": 2299,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 55,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Women's Tops",
-    "brand": "Zara",
-    "keywords": [
-      "cardigan",
-      "knitwear",
-      "sweater",
-      "women knit",
-      "zara"
-    ],
-    "description": "Soft cloud-knit cardigan with tortoiseshell buttons, dropped shoulders, and relaxed boxy silhouette.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112c",
-    "id": "6aa439cc2d7c518e5e6e112c",
-    "name": "Double-Breasted Peak Lapel Suit Blazer",
-    "price": 4499,
-    "originalPrice": 6299,
-    "rating": 4.8,
-    "sold": 670,
-    "stock": 35,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
-    ],
-    "category": "Apparel",
-    "subcategory": "Jackets & Coats",
-    "brand": "Raymond",
-    "keywords": [
-      "blazer",
-      "suit jacket",
-      "formal blazer",
-      "double breasted",
-      "raymond"
-    ],
-    "description": "Impeccably structured suit jacket with peak lapels, felt undercollar, and functioning 4-button cuffs.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112d",
-    "id": "6aa439cc2d7c518e5e6e112d",
-    "name": "Garlic Butter & Parsley Brioche Pull-Apart",
-    "price": 175,
-    "originalPrice": 230,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 40,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "garlic bread",
-      "brioche",
-      "bread",
-      "pull apart",
-      "bakery"
-    ],
-    "description": "Fluffy golden brioche rolls generously layered with roasted garlic herb butter and melted mozzarella.",
-    "featured": true,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112e",
-    "id": "6aa439cc2d7c518e5e6e112e",
-    "name": "Black Forest Kirsch Cherry Layer Cake – 1kg",
-    "price": 1099,
-    "originalPrice": 1499,
-    "rating": 4.8,
-    "sold": 2100,
-    "stock": 25,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cakes",
-    "brand": "MegaBakery",
-    "keywords": [
-      "black forest",
-      "chocolate cake",
-      "cherry cake",
-      "birthday cake",
-      "bakery"
-    ],
-    "description": "Layers of moist chocolate sponge, sweet-tart sour cherry compote, and fresh whipped dairy cream.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e112f",
-    "id": "6aa439cc2d7c518e5e6e112f",
-    "name": "Vanilla Bean French Fruit Tart",
-    "price": 249,
-    "originalPrice": 320,
-    "rating": 4.7,
-    "sold": 890,
-    "stock": 35,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "fruit tart",
-      "french pastry",
-      "tart",
-      "vanilla cream",
-      "bakery"
-    ],
-    "description": "Crispy sweet sablé crust filled with rich Tahitian vanilla bean pastry cream and glazed seasonal fruits.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1130",
-    "id": "6aa439cc2d7c518e5e6e1130",
-    "name": "Rosemary & Kalamata Olive Focaccia – 300g",
-    "price": 140,
-    "originalPrice": 180,
-    "rating": 4.6,
-    "sold": 720,
-    "stock": 45,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "focaccia",
-      "olive bread",
-      "italian bread",
-      "focaccia loaf"
-    ],
-    "description": "Traditional slow-fermented Genovese focaccia loaded with briny Greek olives and garden rosemary.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1131",
-    "id": "6aa439cc2d7c518e5e6e1131",
-    "name": "Belgian Chocolate Cream Éclairs – Pack of 3",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.8,
-    "sold": 1380,
-    "stock": 30,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "eclairs",
-      "chocolate eclair",
-      "choux pastry",
-      "french dessert"
-    ],
-    "description": "Crisp choux pastry fingers filled with dark chocolate crème pâtissière and dipped in chocolate fondant.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1132",
-    "id": "6aa439cc2d7c518e5e6e1132",
-    "name": "Handcrafted Italian Almond Biscotti – 250g",
-    "price": 260,
-    "originalPrice": 340,
-    "rating": 4.7,
-    "sold": 940,
-    "stock": 55,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cookies & Biscuits",
-    "brand": "Cookie Man",
-    "keywords": [
-      "biscotti",
-      "almond cookies",
-      "cantucci",
-      "italian cookies"
-    ],
-    "description": "Twice-baked crunchy cantucci packed with roasted whole almonds. Perfect for dipping into coffee or vin santo.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1133",
-    "id": "6aa439cc2d7c518e5e6e1133",
-    "name": "Whole Wheat Soft Pita Pocket Breads – Pack of 6",
-    "price": 99,
-    "originalPrice": 130,
-    "rating": 4.6,
-    "sold": 1650,
-    "stock": 60,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "pita bread",
-      "pocket bread",
-      "whole wheat pita",
-      "bread",
-      "bakery"
-    ],
-    "description": "Puffed oven-baked whole wheat pocket rounds ready to be stuffed with falafel, hummus, or paneer tikka.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1134",
-    "id": "6aa439cc2d7c518e5e6e1134",
-    "name": "Alphonso Mango & Passion Fruit Mousse Cake – 1kg",
-    "price": 1299,
-    "originalPrice": 1699,
-    "rating": 4.9,
-    "sold": 1540,
-    "stock": 20,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cakes",
-    "brand": "MegaBakery",
-    "keywords": [
-      "mango cake",
-      "mousse cake",
-      "fruit cake",
-      "birthday cake",
-      "bakery"
-    ],
-    "description": "Tropical Alphonso mango purée whipped into light mousse over coconut biscuit and passion fruit glaze.",
-    "featured": true,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1135",
-    "id": "6aa439cc2d7c518e5e6e1135",
-    "name": "Hazelnut Praline Danish Swirls – Pack of 2",
-    "price": 220,
-    "originalPrice": 290,
-    "rating": 4.7,
-    "sold": 760,
-    "stock": 35,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "danish",
-      "praline",
-      "pastry",
-      "breakfast pastry",
-      "hazelnut"
-    ],
-    "description": "Caramelized laminated pastry folded with Piedmont hazelnut praline paste and sprinkled with pearl sugar.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1136",
-    "id": "6aa439cc2d7c518e5e6e1136",
-    "name": "Parisian French Macarons Gift Box – 12 Pcs",
-    "price": 499,
-    "originalPrice": 650,
-    "rating": 4.9,
-    "sold": 1950,
-    "stock": 45,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Dolce Vita",
-    "keywords": [
-      "macarons",
-      "french cookies",
-      "gift box",
-      "macaroons",
-      "dessert"
-    ],
-    "description": "Delicate almond meringue shells filled with chocolate ganache, pistachio, raspberry, and salted caramel.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1137",
-    "id": "6aa439cc2d7c518e5e6e1137",
-    "name": "Spiced Walnut Carrot Cake with Cream Cheese – 500g",
-    "price": 450,
-    "originalPrice": 580,
-    "rating": 4.7,
-    "sold": 1120,
-    "stock": 30,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cakes",
-    "brand": "MegaBakery",
-    "keywords": [
-      "carrot cake",
-      "walnut cake",
-      "cream cheese",
-      "cake",
-      "bakery"
-    ],
-    "description": "Moist spiced sponge packed with grated carrots, toasted walnuts, and nutmeg, finished with cream cheese.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1138",
-    "id": "6aa439cc2d7c518e5e6e1138",
-    "name": "European Dark Rye Bread with Caraway – 450g",
-    "price": 160,
-    "originalPrice": 210,
-    "rating": 4.6,
-    "sold": 610,
-    "stock": 40,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "rye bread",
-      "dark bread",
-      "caraway",
-      "artisanal bread"
-    ],
-    "description": "Dense and hearty artisan rye loaf scented with crushed caraway seeds. Excellent for pastrami sandwiches.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1139",
-    "id": "6aa439cc2d7c518e5e6e1139",
-    "name": "Classic French Butter Madeleines – Pack of 8",
-    "price": 230,
-    "originalPrice": 300,
-    "rating": 4.8,
-    "sold": 1200,
-    "stock": 50,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cookies & Biscuits",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "madeleines",
-      "french sponge",
-      "tea cakes",
-      "biscuits",
-      "sweet"
-    ],
-    "description": "Traditional sponge tea cakes baked in scallop shell molds with a hint of fresh lemon zest and churned butter.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113a",
-    "id": "6aa439cc2d7c518e5e6e113a",
-    "name": "Zesty Lemon Meringue Pie Tart Slice",
-    "price": 280,
-    "originalPrice": 360,
-    "rating": 4.7,
-    "sold": 840,
-    "stock": 35,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "lemon tart",
-      "meringue",
-      "lemon pie",
-      "pastry",
-      "dessert"
-    ],
-    "description": "Buttery shortcrust filled with tart fresh Sicilian lemon curd and crowned with torched Italian meringue.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113b",
-    "id": "6aa439cc2d7c518e5e6e113b",
-    "name": "Crispy French Butter Palmiers (Elephant Ears) – 200g",
-    "price": 199,
-    "originalPrice": 260,
-    "rating": 4.7,
-    "sold": 990,
-    "stock": 60,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cookies & Biscuits",
-    "brand": "Walkers",
-    "keywords": [
-      "palmiers",
-      "elephant ears",
-      "puff pastry cookies",
-      "butter biscuits"
-    ],
-    "description": "Caramelized puff pastry hearts rolled in coarse sugar and baked to golden shatteringly crisp perfection.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113c",
-    "id": "6aa439cc2d7c518e5e6e113c",
-    "name": "Warm Cinnamon Apple Turnover Puff",
-    "price": 180,
-    "originalPrice": 240,
-    "rating": 4.6,
-    "sold": 720,
-    "stock": 40,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Pastries",
-    "brand": "Sweet Treats",
-    "keywords": [
-      "apple turnover",
-      "pastry",
-      "apple puff",
-      "cinnamon",
-      "breakfast"
-    ],
-    "description": "Flaky laminated French puff pastry pocket filled with slow-cooked spiced Bramley apples.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113d",
-    "id": "6aa439cc2d7c518e5e6e113d",
-    "name": "Everything Topped New York Style Bagels – Pack of 4",
-    "price": 180,
-    "originalPrice": 240,
-    "rating": 4.8,
-    "sold": 1400,
-    "stock": 45,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "bagels",
-      "everything bagel",
-      "bread",
-      "breakfast bread",
-      "bakery"
-    ],
-    "description": "Boiled and baked chewy bagels loaded with toasted garlic, onion, poppy seeds, and sesame seeds.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113e",
-    "id": "6aa439cc2d7c518e5e6e113e",
-    "name": "French Opera Coffee & Ganache Cake – Pack of 2",
-    "price": 399,
-    "originalPrice": 520,
-    "rating": 4.9,
-    "sold": 960,
-    "stock": 25,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cakes",
-    "brand": "MegaBakery",
-    "keywords": [
-      "opera cake",
-      "coffee cake",
-      "ganache",
-      "french pastry",
-      "dessert"
-    ],
-    "description": "Almond joconde sponge soaked in coffee syrup, layered with dark chocolate ganache and espresso buttercream.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e113f",
-    "id": "6aa439cc2d7c518e5e6e113f",
-    "name": "Spiced Ginger Snap Molasses Cookies – 250g",
-    "price": 160,
-    "originalPrice": 210,
-    "rating": 4.5,
-    "sold": 810,
-    "stock": 55,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Cookies & Biscuits",
-    "brand": "Sunfeast",
-    "keywords": [
-      "ginger snaps",
-      "ginger cookies",
-      "biscuits",
-      "spiced cookies"
-    ],
-    "description": "Crunchy cracked molasses cookies infused with ground ginger, clove, and cinnamon spice.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1140",
-    "id": "6aa439cc2d7c518e5e6e1140",
-    "name": "Cheddar & Pickled Jalapeño Cornbread Loaf",
-    "price": 190,
-    "originalPrice": 250,
-    "rating": 4.7,
-    "sold": 890,
-    "stock": 35,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?w=600&q=80"
-    ],
-    "category": "Bakery",
-    "subcategory": "Breads",
-    "brand": "The French Baker",
-    "keywords": [
-      "cornbread",
-      "jalapeno bread",
-      "cheese bread",
-      "savory loaf"
-    ],
-    "description": "Golden southern skillet style cornbread studded with sharp cheddar cheese and diced spicy jalapeños.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1141",
-    "id": "6aa439cc2d7c518e5e6e1141",
-    "name": "Matte Black Calligraphy Pen Set with 3 Nibs",
-    "price": 699,
-    "originalPrice": 999,
-    "rating": 4.8,
-    "sold": 1100,
-    "stock": 65,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Parker",
-    "keywords": [
-      "calligraphy pen",
-      "fountain pen",
-      "lettering",
-      "parker",
-      "stationery"
-    ],
-    "description": "Ergonomic fountain pen with 1.1mm, 1.5mm, and 1.9mm italic calligraphy nibs plus 6 ink cartridges.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1142",
-    "id": "6aa439cc2d7c518e5e6e1142",
-    "name": "Travelers Refillable Leather Notebook Journal",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 70,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Moleskine",
-    "keywords": [
-      "travelers notebook",
-      "leather journal",
-      "refillable diary",
-      "moleskine"
-    ],
-    "description": "Vegetable-tanned leather binder with elastic band and 3 interchangeable passport-size paper refills.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1143",
-    "id": "6aa439cc2d7c518e5e6e1143",
-    "name": "Artist Compressed Charcoal Sketch Pencils – Set of 12",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.7,
-    "sold": 1250,
-    "stock": 85,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Faber-Castell",
-    "keywords": [
-      "charcoal pencils",
-      "drawing pencils",
-      "sketching",
-      "art supplies"
-    ],
-    "description": "Assorted soft, medium, and hard charcoal pencils crafted with cedar wood for rich velvety black drawing.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1144",
-    "id": "6aa439cc2d7c518e5e6e1144",
-    "name": "Clear Acrylic Tiered Pen & Marker Stand",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.6,
-    "sold": 840,
-    "stock": 75,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "Classmate",
-    "keywords": [
-      "pen holder",
-      "acrylic stand",
-      "desk organizer",
-      "stationery"
-    ],
-    "description": "Heavy shatter-resistant transparent acrylic rack with 6 tiers to showcase up to 36 pens and markers.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1145",
-    "id": "6aa439cc2d7c518e5e6e1145",
-    "name": "Pastel Chisel Tip Highlighters – Pack of 6",
-    "price": 249,
-    "originalPrice": 320,
-    "rating": 4.7,
-    "sold": 2100,
-    "stock": 130,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1585336261026-7f4175390098?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1585336261026-7f4175390098?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Pilot",
-    "keywords": [
-      "highlighters",
-      "pastel pens",
-      "study supplies",
-      "stationery",
-      "pilot"
-    ],
-    "description": "Soft water-based eye-friendly pastel highlighters that do not bleed through notebook pages.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1146",
-    "id": "6aa439cc2d7c518e5e6e1146",
-    "name": "Hardbound Daily Gratitude & Mindfulness Journal",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.8,
-    "sold": 980,
-    "stock": 65,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Paperkraft",
-    "keywords": [
-      "gratitude journal",
-      "diary",
-      "mindfulness notebook",
-      "stationery"
-    ],
-    "description": "Guided daily prompts, reflection quotes, and habit trackers printed on 120 GSM thick bleeding-proof paper.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1147",
-    "id": "6aa439cc2d7c518e5e6e1147",
-    "name": "Soft Pastel Chalk Drawing Sticks – Set of 36",
-    "price": 599,
-    "originalPrice": 799,
-    "rating": 4.6,
-    "sold": 890,
-    "stock": 60,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Camlin",
-    "keywords": [
-      "soft pastels",
-      "chalk pastels",
-      "art supplies",
-      "drawing",
-      "camlin"
-    ],
-    "description": "Square velvety chalk pastels with high pigmentation and blendability on dark and textured art paper.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1148",
-    "id": "6aa439cc2d7c518e5e6e1148",
-    "name": "360° Rotating Desktop Pen & Brush Caddy",
-    "price": 449,
-    "originalPrice": 620,
-    "rating": 4.7,
-    "sold": 1450,
-    "stock": 80,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "MegaMart",
-    "keywords": [
-      "rotating organizer",
-      "pen caddy",
-      "desk tidy",
-      "stationery organizer"
-    ],
-    "description": "Smooth ball-bearing rotating organizer with 7 deep compartments for brushes, scissors, and pencils.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1149",
-    "id": "6aa439cc2d7c518e5e6e1149",
-    "name": "Precision Technical Fineliner Micro Pens – Set of 8",
-    "price": 549,
-    "originalPrice": 750,
-    "rating": 4.9,
-    "sold": 2300,
-    "stock": 95,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Pilot",
-    "keywords": [
-      "fineliners",
-      "technical pens",
-      "micro pens",
-      "drawing pens",
-      "ink"
-    ],
-    "description": "Waterproof archival black pigment ink pens in tip sizes 0.05mm to 0.8mm for architectural drafting and manga.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114a",
-    "id": "6aa439cc2d7c518e5e6e114a",
-    "name": "Waterproof All-Weather Field Notes Memo Books (3-Pack)",
-    "price": 399,
-    "originalPrice": 520,
-    "rating": 4.8,
-    "sold": 960,
-    "stock": 70,
-    "discount": "23% OFF",
-    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Moleskine",
-    "keywords": [
-      "field notes",
-      "pocket notebook",
-      "waterproof memo",
-      "notebooks"
-    ],
-    "description": "Tearproof synthetic stone paper that repels water, sweat, and grease. Pocket-sized 48 pages each.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114b",
-    "id": "6aa439cc2d7c518e5e6e114b",
-    "name": "Artist Gouache Opaque Watercolor Paint – 18 Tubes",
-    "price": 849,
-    "originalPrice": 1199,
-    "rating": 4.7,
-    "sold": 720,
-    "stock": 50,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Brustro",
-    "keywords": [
-      "gouache paint",
-      "opaque watercolors",
-      "art tubes",
-      "brustro",
-      "painting"
-    ],
-    "description": "Matte velvety opaque watercolor tubes offering supreme coverage, lightfastness, and rewettability.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114c",
-    "id": "6aa439cc2d7c518e5e6e114c",
-    "name": "Solid Brass Paperweight & Business Card Dock",
-    "price": 320,
-    "originalPrice": 450,
-    "rating": 4.6,
-    "sold": 580,
-    "stock": 55,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "Cross",
-    "keywords": [
-      "paperweight",
-      "brass accessory",
-      "desk decor",
-      "executive desk"
-    ],
-    "description": "Polished heavyweight pure brass desktop bar functioning as wind paperweight and angled card holder.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114d",
-    "id": "6aa439cc2d7c518e5e6e114d",
-    "name": "Smooth Gel Pen Quick-Dry Refills – Pack of 20",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.8,
-    "sold": 1890,
-    "stock": 140,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1585336261026-7f4175390098?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1585336261026-7f4175390098?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Pilot",
-    "keywords": [
-      "pen refills",
-      "gel refills",
-      "stationery",
-      "writing supplies"
-    ],
-    "description": "Japanese black 0.5mm tungsten ball refills compatible with standard click gel pens. Instant drying.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114e",
-    "id": "6aa439cc2d7c518e5e6e114e",
-    "name": "Decorative Japanese Gold Foil Washi Tapes – Set of 10",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.7,
-    "sold": 1350,
-    "stock": 90,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Classmate",
-    "keywords": [
-      "washi tape",
-      "craft tape",
-      "scrapbooking",
-      "decorative tape"
-    ],
-    "description": "Peel-and-stick natural rice paper masking tapes with gold metallic accents for scrapbooking and gifts.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e114f",
-    "id": "6aa439cc2d7c518e5e6e114f",
-    "name": "Large Dual-Sided Vegan Leather Desk Blotter Mat (80x40cm)",
-    "price": 799,
-    "originalPrice": 1099,
-    "rating": 4.8,
-    "sold": 2150,
-    "stock": 85,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "Portronics",
-    "keywords": [
-      "desk mat",
-      "mouse pad",
-      "desk blotter",
-      "leather desk pad"
-    ],
-    "description": "Waterproof PU leather desk pad protects desktop from scratches, serves as smooth optical mousepad.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1150",
-    "id": "6aa439cc2d7c518e5e6e1150",
-    "name": "Premium Cedarwood HB Graphite Pencils – Pack of 12",
-    "price": 180,
-    "originalPrice": 240,
-    "rating": 4.7,
-    "sold": 1980,
-    "stock": 150,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Pens & Pencils",
-    "brand": "Faber-Castell",
-    "keywords": [
-      "pencils",
-      "hb pencils",
-      "writing pencils",
-      "faber castell"
-    ],
-    "description": "Hexagonal pre-sharpened pencils with break-resistant bonded graphite cores and latex-free erasers.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1151",
-    "id": "6aa439cc2d7c518e5e6e1151",
-    "name": "Twin-Wirebound Perforated Grid Meeting Notebook",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.6,
-    "sold": 1120,
-    "stock": 80,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Paperkraft",
-    "keywords": [
-      "wirebound notebook",
-      "grid notebook",
-      "meeting pad",
-      "stationery"
-    ],
-    "description": "B5 size 160 pages micro-perforated quad ruled paper with hard poly front and back protective covers.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1152",
-    "id": "6aa439cc2d7c518e5e6e1152",
-    "name": "100% Pure Cotton Stretched Canvas Boards – Pack of 5",
-    "price": 420,
-    "originalPrice": 580,
-    "rating": 4.8,
-    "sold": 1400,
-    "stock": 75,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Art Supplies",
-    "brand": "Brustro",
-    "keywords": [
-      "canvas board",
-      "stretched canvas",
-      "painting boards",
-      "art supplies"
-    ],
-    "description": "Triple-gesso primed 10x12 inch acid-free medium-grain canvas boards for oils, acrylics, and tempera.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1153",
-    "id": "6aa439cc2d7c518e5e6e1153",
-    "name": "Heavy Natural Beechwood Desktop Tape Dispenser",
-    "price": 380,
-    "originalPrice": 500,
-    "rating": 4.6,
-    "sold": 690,
-    "stock": 60,
-    "discount": "24% OFF",
-    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Desk Accessories",
-    "brand": "MegaMart",
-    "keywords": [
-      "tape dispenser",
-      "wooden dispenser",
-      "desk accessory",
-      "office tools"
-    ],
-    "description": "Weighted solid beechwood dispenser with serrated stainless steel cutting blade and nonslip base.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1154",
-    "id": "6aa439cc2d7c518e5e6e1154",
-    "name": "Gold Embossed Border Certificate Parchment Paper – 50 Sheets",
-    "price": 349,
-    "originalPrice": 450,
-    "rating": 4.7,
-    "sold": 810,
-    "stock": 85,
-    "discount": "22% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Stationery",
-    "subcategory": "Notebooks & Diaries",
-    "brand": "Classmate",
-    "keywords": [
-      "parchment paper",
-      "certificate paper",
-      "diploma paper",
-      "stationery"
-    ],
-    "description": "160 GSM premium archival parchment paper with ornate metallic gold foil filigree border.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1155",
-    "id": "6aa439cc2d7c518e5e6e1155",
-    "name": "Hexagonal Rubber Cast Iron Dumbbells – 10kg Pair",
-    "price": 2199,
-    "originalPrice": 2999,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 45,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Nivia",
-    "keywords": [
-      "dumbbells",
-      "weights",
-      "hex dumbbells",
-      "gym equipment",
-      "fitness"
-    ],
-    "description": "Solid steel bar with anti-roll virgin rubber hexagonal heads that protect home workout floors.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1156",
-    "id": "6aa439cc2d7c518e5e6e1156",
-    "name": "Tournament Official Size 5 Volleyball",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 60,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Team Sports",
-    "brand": "Cosco",
-    "keywords": [
-      "volleyball",
-      "ball",
-      "team sports",
-      "beach volleyball",
-      "cosco"
-    ],
-    "description": "18-panel hand-sewn composite microfiber leather volleyball with cotton wrapped butyl bladder.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1157",
-    "id": "6aa439cc2d7c518e5e6e1157",
-    "name": "Professional Table Tennis Racket Set with 3 Balls",
-    "price": 999,
-    "originalPrice": 1399,
-    "rating": 4.8,
-    "sold": 1380,
-    "stock": 55,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Racket Sports",
-    "brand": "Stag",
-    "keywords": [
-      "table tennis",
-      "ping pong",
-      "racket",
-      "tt bat",
-      "stag"
-    ],
-    "description": "5-ply wooden blade with 2.0mm high-elasticity sponge and sticky rubber surface for extreme topspin.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1158",
-    "id": "6aa439cc2d7c518e5e6e1158",
-    "name": "Ultralight Collapsible Aluminum Trekking Poles Pair",
-    "price": 1499,
-    "originalPrice": 2099,
-    "rating": 4.7,
-    "sold": 720,
-    "stock": 40,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Outdoor & Camping",
-    "brand": "Quechua",
-    "keywords": [
-      "trekking poles",
-      "hiking sticks",
-      "hiking gear",
-      "outdoor",
-      "quechua"
-    ],
-    "description": "Quick-lock flip lever adjustable poles with natural cork moisture-absorbing grips and tungsten tips.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1159",
-    "id": "6aa439cc2d7c518e5e6e1159",
-    "name": "Silicone Resistance Swimming Hand Training Paddles",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.6,
-    "sold": 690,
-    "stock": 75,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Swimming",
-    "brand": "Speedo",
-    "keywords": [
-      "swim paddles",
-      "swimming gear",
-      "hand paddles",
-      "swim training",
-      "speedo"
-    ],
-    "description": "Hydrodynamic contoured paddles with dual strapping to develop stroke technique and upper body power.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115a",
-    "id": "6aa439cc2d7c518e5e6e115a",
-    "name": "Ergonomic Non-Slip Push-Up Stand Bars",
-    "price": 549,
-    "originalPrice": 750,
-    "rating": 4.7,
-    "sold": 1720,
-    "stock": 80,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Boldfit",
-    "keywords": [
-      "push up bars",
-      "calisthenics",
-      "home gym",
-      "fitness equipment"
-    ],
-    "description": "Heavy duty steel frame with angled foam grip handles to reduce wrist strain during deep chest presses.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115b",
-    "id": "6aa439cc2d7c518e5e6e115b",
-    "name": "Match Grade Alum Tanned Red Cricket Leather Ball",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.8,
-    "sold": 1650,
-    "stock": 90,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Team Sports",
-    "brand": "SG",
-    "keywords": [
-      "cricket ball",
-      "leather ball",
-      "cricket",
-      "sg",
-      "match ball"
-    ],
-    "description": "Four-piece alum tanned English leather ball with Portuguese cork core and linen thread seam.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115c",
-    "id": "6aa439cc2d7c518e5e6e115c",
-    "name": "Titanium Graphite Squash Racket with Full Cover",
-    "price": 2499,
-    "originalPrice": 3399,
-    "rating": 4.7,
-    "sold": 540,
-    "stock": 35,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Racket Sports",
-    "brand": "Wilson",
-    "keywords": [
-      "squash racket",
-      "squash",
-      "wilson",
-      "racket sports"
-    ],
-    "description": "140g tear-drop shaped squash racket with enlarged sweet spot and synthetic gut monofilament stringing.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115d",
-    "id": "6aa439cc2d7c518e5e6e115d",
-    "name": "Compact Portable Camping Stove with Piezo Ignition",
-    "price": 1199,
-    "originalPrice": 1699,
-    "rating": 4.8,
-    "sold": 890,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Outdoor & Camping",
-    "brand": "Quechua",
-    "keywords": [
-      "camping stove",
-      "gas stove",
-      "camp burner",
-      "outdoor cooking"
-    ],
-    "description": "Foldable windproof burner head compatible with standard butane canister cartridges. Heats 1L in 3 mins.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115e",
-    "id": "6aa439cc2d7c518e5e6e115e",
-    "name": "Waterproof Floating Dry Bag Backpack – 20L",
-    "price": 799,
-    "originalPrice": 1099,
-    "rating": 4.7,
-    "sold": 1420,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Swimming",
-    "brand": "Wildcraft",
-    "keywords": [
-      "dry bag",
-      "waterproof bag",
-      "swimming backpack",
-      "rafting bag"
-    ],
-    "description": "500D PVC tarpaulin roll-top sack that keeps clothes, towels, and electronics 100% dry when submerged.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e115f",
-    "id": "6aa439cc2d7c518e5e6e115f",
-    "name": "Multi-Grip Doorway Pull-Up & Chin-Up Bar",
-    "price": 1299,
-    "originalPrice": 1799,
-    "rating": 4.8,
-    "sold": 1980,
-    "stock": 50,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Decathlon",
-    "keywords": [
-      "pull up bar",
-      "chin up",
-      "calisthenics",
-      "home gym",
-      "fitness"
-    ],
-    "description": "Heavy duty steel doorway workout bar supporting up to 130kg without screws. Narrow, wide, and neutral grips.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1160",
-    "id": "6aa439cc2d7c518e5e6e1160",
-    "name": "Impact-Resistant Football Shin Guards with Ankle Sleeves",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.6,
-    "sold": 1150,
-    "stock": 85,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Team Sports",
-    "brand": "Cosco",
-    "keywords": [
-      "shin guards",
-      "football pads",
-      "soccer gear",
-      "cosco"
-    ],
-    "description": "Hard polypropylene outer shell with thick EVA cushioning layer and detachable elastic ankle brace.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1161",
-    "id": "6aa439cc2d7c518e5e6e1161",
-    "name": "Carbon Fiber Pickleball Paddle with 2 Indoor Balls",
-    "price": 1799,
-    "originalPrice": 2499,
-    "rating": 4.8,
-    "sold": 680,
-    "stock": 40,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Racket Sports",
-    "brand": "Yonex",
-    "keywords": [
-      "pickleball",
-      "pickleball paddle",
-      "racket sports",
-      "yonex"
-    ],
-    "description": "USAPA standard honeycomb core paddle with textured carbon face for superior ball control and power.",
-    "featured": true,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1162",
-    "id": "6aa439cc2d7c518e5e6e1162",
-    "name": "Self-Inflating Thermal Camping Sleep Mat",
-    "price": 899,
-    "originalPrice": 1250,
-    "rating": 4.7,
-    "sold": 630,
-    "stock": 45,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Outdoor & Camping",
-    "brand": "Wildcraft",
-    "keywords": [
-      "sleeping mat",
-      "camping mattress",
-      "self inflating mat",
-      "outdoor"
-    ],
-    "description": "1.5-inch thick high-density open-cell foam mattress that self-inflates upon twisting the brass air valve.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1163",
-    "id": "6aa439cc2d7c518e5e6e1163",
-    "name": "Neoprene Water Sports Life Vest Jacket",
-    "price": 1499,
-    "originalPrice": 2099,
-    "rating": 4.8,
-    "sold": 590,
-    "stock": 35,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Swimming",
-    "brand": "Speedo",
-    "keywords": [
-      "life jacket",
-      "buoyancy aid",
-      "swim vest",
-      "kayaking",
-      "water sports"
-    ],
-    "description": "Ergonomic quick-draining buoyancy flotation aid jacket with dual adjustable waist buckles and safety whistle.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1164",
-    "id": "6aa439cc2d7c518e5e6e1164",
-    "name": "Adjustable Hand Grip Strengthener with Rep Counter",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.7,
-    "sold": 2100,
-    "stock": 120,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Strauss",
-    "keywords": [
-      "hand gripper",
-      "grip strengthener",
-      "wrist workout",
-      "forearm exercise"
-    ],
-    "description": "Heavy duty stainless steel spring tension adjustable from 10kg to 60kg with mechanical rep counter.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1165",
-    "id": "6aa439cc2d7c518e5e6e1165",
-    "name": "Mesh Team Training Practice Scrimmage Pinnies (Set of 6)",
-    "price": 699,
-    "originalPrice": 950,
-    "rating": 4.6,
-    "sold": 780,
-    "stock": 60,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1519766304817-4f37bda74a29?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1519766304817-4f37bda74a29?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Team Sports",
-    "brand": "Nivia",
-    "keywords": [
-      "scrimmage vests",
-      "pinnies",
-      "training bibs",
-      "team sports",
-      "nivia"
-    ],
-    "description": "Breathable lightweight neon mesh bibs with open sides and reinforced seams for football and basketball.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1166",
-    "id": "6aa439cc2d7c518e5e6e1166",
-    "name": "Absorbent Sweat-Proof Tennis Racket Overgrips (Pack of 6)",
-    "price": 399,
-    "originalPrice": 540,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 110,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Racket Sports",
-    "brand": "Wilson",
-    "keywords": [
-      "overgrips",
-      "racket grip",
-      "tennis tape",
-      "badminton grip",
-      "wilson"
-    ],
-    "description": "0.6mm ultra-thin tacky polyurethane overgrips with moisture channel perforations to prevent racquet slippage.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1167",
-    "id": "6aa439cc2d7c518e5e6e1167",
-    "name": "Rechargeable Solar LED Camping Lantern & Powerbank",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.8,
-    "sold": 1620,
-    "stock": 65,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Outdoor & Camping",
-    "brand": "Quechua",
-    "keywords": [
-      "camping lantern",
-      "tent light",
-      "solar light",
-      "powerbank",
-      "outdoor"
-    ],
-    "description": "Collapsible 1000 lumen multi-mode camp light with solar panel, USB output to charge phones in emergency.",
-    "featured": true,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1168",
-    "id": "6aa439cc2d7c518e5e6e1168",
-    "name": "Core Abdominal Exercise Roller Wheel with Knee Mat",
-    "price": 599,
-    "originalPrice": 850,
-    "rating": 4.7,
-    "sold": 2300,
-    "stock": 90,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80"
-    ],
-    "category": "Sports",
-    "subcategory": "Fitness",
-    "brand": "Boldfit",
-    "keywords": [
-      "ab roller",
-      "ab wheel",
-      "core workout",
-      "fitness",
-      "boldfit"
-    ],
-    "description": "Dual wide rubberized wheel for maximum balance during core rollouts with ergonomic foam comfort handles.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1169",
-    "id": "6aa439cc2d7c518e5e6e1169",
-    "name": "Ergonomic Mesh Drafting High-Stool Chair",
-    "price": 6999,
-    "originalPrice": 9999,
-    "rating": 4.7,
-    "sold": 580,
-    "stock": 25,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Office",
-    "brand": "Green Soul",
-    "keywords": [
-      "drafting chair",
-      "high stool",
-      "standing desk chair",
-      "office furniture"
-    ],
-    "description": "Elevated height drafting chair with chrome foot ring, waterfall seat, and pneumatic gas lift for standing desks.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116a",
-    "id": "6aa439cc2d7c518e5e6e116a",
-    "name": "3-Tier Modular Wooden Shoe Rack Storage Bench",
-    "price": 3499,
-    "originalPrice": 4899,
-    "rating": 4.8,
-    "sold": 1100,
-    "stock": 35,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Storage",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "shoe rack",
-      "storage bench",
-      "entryway furniture",
-      "urban ladder"
-    ],
-    "description": "Slatted natural pine wood shoe cabinet with cushioned faux leather top bench to sit and put on shoes.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116b",
-    "id": "6aa439cc2d7c518e5e6e116b",
-    "name": "Modern L-Shaped Sectional Corner Fabric Sofa",
-    "price": 28999,
-    "originalPrice": 39999,
-    "rating": 4.9,
-    "sold": 340,
-    "stock": 10,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "sectional sofa",
-      "l shape couch",
-      "corner sofa",
-      "living room"
-    ],
-    "description": "Modular chaise lounger sofa with reversible ottoman, pocket spring cushions, and solid eucalyptus wood frame.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116c",
-    "id": "6aa439cc2d7c518e5e6e116c",
-    "name": "Engineered Wood 3-Drawer Bedroom Dresser Chest",
-    "price": 8499,
-    "originalPrice": 11999,
-    "rating": 4.7,
-    "sold": 490,
-    "stock": 20,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1532372998445-5f6e8384709d?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1532372998445-5f6e8384709d?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Bedroom",
-    "brand": "Godrej Interio",
-    "keywords": [
-      "dresser",
-      "chest of drawers",
-      "bedroom storage",
-      "cabinet"
-    ],
-    "description": "Spacious contemporary chest of drawers with soft-close metal runners and waterproof melamine top surface.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116d",
-    "id": "6aa439cc2d7c518e5e6e116d",
-    "name": "Compact Floating Wall-Mounted Computer Desk",
-    "price": 3299,
-    "originalPrice": 4599,
-    "rating": 4.6,
-    "sold": 860,
-    "stock": 35,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Office",
-    "brand": "Ikea",
-    "keywords": [
-      "wall desk",
-      "floating desk",
-      "wfh desk",
-      "compact desk",
-      "ikea"
-    ],
-    "description": "Space-saving drop-leaf foldout desk with integrated cable port and built-in mail organizer shelves.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116e",
-    "id": "6aa439cc2d7c518e5e6e116e",
-    "name": "Industrial Pipe & Reclaimed Wood Bookshelf",
-    "price": 4999,
-    "originalPrice": 6999,
-    "rating": 4.8,
-    "sold": 520,
-    "stock": 25,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Storage",
-    "brand": "Pepperfry",
-    "keywords": [
-      "industrial bookshelf",
-      "pipe shelf",
-      "bookcase",
-      "pepperfry"
-    ],
-    "description": "Sturdy black cast iron plumbing pipe framework anchoring four solid distressed pine wood display boards.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e116f",
-    "id": "6aa439cc2d7c518e5e6e116f",
-    "name": "Tufted Leather Manual Recliner Lounge Armchair",
-    "price": 14999,
-    "originalPrice": 20999,
-    "rating": 4.8,
-    "sold": 670,
-    "stock": 15,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Home Centre",
-    "keywords": [
-      "recliner",
-      "armchair",
-      "leather chair",
-      "lounge chair",
-      "home centre"
-    ],
-    "description": "Generously padded push-back recliner with extended footrest, split backrest, and cup holder armrests.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1170",
-    "id": "6aa439cc2d7c518e5e6e1170",
-    "name": "Modern Upholstered Bed with LED Ambient Headboard",
-    "price": 24999,
-    "originalPrice": 33999,
-    "rating": 4.9,
-    "sold": 410,
-    "stock": 12,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Bedroom",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "hydraulic bed",
-      "led bed",
-      "king size bed",
-      "storage bed"
-    ],
-    "description": "King size hydraulic storage bed with integrated warm LED headboard lighting and USB charging ports.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1171",
-    "id": "6aa439cc2d7c518e5e6e1171",
-    "name": "Mobile 3-Drawer Heavy Steel Filing Pedestal Cabinet",
-    "price": 4499,
-    "originalPrice": 6199,
-    "rating": 4.7,
-    "sold": 530,
-    "stock": 30,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1580481077194-c7104b2b0056?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1580481077194-c7104b2b0056?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Office",
-    "brand": "Featherlite",
-    "keywords": [
-      "filing cabinet",
-      "drawer unit",
-      "office storage",
-      "featherlite"
-    ],
-    "description": "Central lockable cold-rolled steel under-desk cabinet with anti-tip fifth caster and stationery tray.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1172",
-    "id": "6aa439cc2d7c518e5e6e1172",
-    "name": "Hexagonal Geometric Wall Floating Shelves (Set of 3)",
-    "price": 1899,
-    "originalPrice": 2599,
-    "rating": 4.6,
-    "sold": 1350,
-    "stock": 55,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Storage",
-    "brand": "Pepperfry",
-    "keywords": [
-      "floating shelves",
-      "honeycomb shelf",
-      "wall shelf",
-      "wall decor"
-    ],
-    "description": "Honeycomb floating shelves with black metal wire rim and natural paulownia wood display platforms.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1173",
-    "id": "6aa439cc2d7c518e5e6e1173",
-    "name": "Natural Rattan Cane Weave Accent Armchair",
-    "price": 6499,
-    "originalPrice": 8999,
-    "rating": 4.8,
-    "sold": 720,
-    "stock": 22,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "rattan chair",
-      "cane chair",
-      "accent chair",
-      "living room"
-    ],
-    "description": "Solid ash wood frame with handwoven Indonesian cane webbing backrest and off-white linen seat cushion.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1174",
-    "id": "6aa439cc2d7c518e5e6e1174",
-    "name": "Tufted Linen Wall-Mounted Queen Headboard Cushion",
-    "price": 4999,
-    "originalPrice": 6999,
-    "rating": 4.7,
-    "sold": 480,
-    "stock": 28,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Bedroom",
-    "brand": "Home Centre",
-    "keywords": [
-      "headboard",
-      "queen headboard",
-      "bedroom furniture",
-      "upholstered"
-    ],
-    "description": "Thick diamond-quilted upholstered headboard with faux leather hanging straps and wooden hanging rod.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1175",
-    "id": "6aa439cc2d7c518e5e6e1175",
-    "name": "Solid Natural Oak Dual Monitor Riser with Drawer",
-    "price": 1699,
-    "originalPrice": 2399,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Office",
-    "brand": "Jin Office",
-    "keywords": [
-      "monitor stand",
-      "desk riser",
-      "office accessory",
-      "solid wood"
-    ],
-    "description": "Heavy duty desktop elevation shelf supporting two 27-inch monitors with sliding organizer slot.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1176",
-    "id": "6aa439cc2d7c518e5e6e1176",
-    "name": "Collapsible Fabric Closet Storage Bins (Pack of 4)",
-    "price": 899,
-    "originalPrice": 1299,
-    "rating": 4.6,
-    "sold": 1980,
-    "stock": 90,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Storage",
-    "brand": "Ikea",
-    "keywords": [
-      "storage boxes",
-      "closet organizer",
-      "fabric bins",
-      "ikea"
-    ],
-    "description": "Reinforced linen fabric organizing cubes with dual metal grommet handles and folding base insert.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1177",
-    "id": "6aa439cc2d7c518e5e6e1177",
-    "name": "Solid Mango Wood Stacking Nesting Stools (Set of 3)",
-    "price": 2999,
-    "originalPrice": 4199,
-    "rating": 4.8,
-    "sold": 680,
-    "stock": 35,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Pepperfry",
-    "keywords": [
-      "nesting stools",
-      "wooden stools",
-      "side tables",
-      "living room"
-    ],
-    "description": "Multipurpose compact round stools carved from kiln-dried mango wood that tuck underneath one another.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1178",
-    "id": "6aa439cc2d7c518e5e6e1178",
-    "name": "Under-Bed Rolling Wooden Storage Bins (Set of 2)",
-    "price": 2199,
-    "originalPrice": 2999,
-    "rating": 4.6,
-    "sold": 520,
-    "stock": 40,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Bedroom",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "under bed storage",
-      "rolling drawer",
-      "bedroom storage"
-    ],
-    "description": "Smooth gliding 360-degree wheeled drawers designed to slide neatly beneath bed frames for blankets.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1179",
-    "id": "6aa439cc2d7c518e5e6e1179",
-    "name": "Ergonomic Kneeling Posture Balancing Chair",
-    "price": 4299,
-    "originalPrice": 5899,
-    "rating": 4.5,
-    "sold": 430,
-    "stock": 25,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Office",
-    "brand": "Green Soul",
-    "keywords": [
-      "kneeling chair",
-      "posture chair",
-      "ergonomic stool",
-      "wfh"
-    ],
-    "description": "Angled thick foam knee pads and seat cushion designed to distribute weight and relieve lower back pain.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117a",
-    "id": "6aa439cc2d7c518e5e6e117a",
-    "name": "A-Frame Leaning Bamboo Ladder Bookshelf",
-    "price": 2699,
-    "originalPrice": 3799,
-    "rating": 4.7,
-    "sold": 890,
-    "stock": 45,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Storage",
-    "brand": "Pepperfry",
-    "keywords": [
-      "ladder shelf",
-      "bamboo shelf",
-      "bookcase",
-      "living room"
-    ],
-    "description": "Modern 5-tier tapering ladder shelf crafted from moisture-resistant laminated bamboo.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117b",
-    "id": "6aa439cc2d7c518e5e6e117b",
-    "name": "Round Velvet Footstool Pouf with Concealed Storage",
-    "price": 1599,
-    "originalPrice": 2199,
-    "rating": 4.7,
-    "sold": 1200,
-    "stock": 50,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Living Room",
-    "brand": "Nilkamal",
-    "keywords": [
-      "storage pouf",
-      "ottoman",
-      "velvet stool",
-      "living room decor"
-    ],
-    "description": "Gold metal band wrapped around a soft pleated velvet footrest with removable lid for magazines and throws.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117c",
-    "id": "6aa439cc2d7c518e5e6e117c",
-    "name": "Contour Orthopedic Memory Foam Pillow Pair",
-    "price": 1999,
-    "originalPrice": 2799,
-    "rating": 4.8,
-    "sold": 1850,
-    "stock": 75,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80"
-    ],
-    "category": "Furniture",
-    "subcategory": "Bedroom",
-    "brand": "Urban Ladder",
-    "keywords": [
-      "memory foam pillow",
-      "orthopedic pillow",
-      "bedroom",
-      "pillows"
-    ],
-    "description": "Therapeutic cervical neck contour pillows with cooling gel infused memory foam and washable bamboo covers.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117d",
-    "id": "6aa439cc2d7c518e5e6e117d",
-    "name": "Fiddle Leaf Fig (Ficus Lyrata) in Ceramic Planter",
-    "price": 1199,
-    "originalPrice": 1699,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 50,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Indoor Plants",
-    "brand": "Ugaoo",
-    "keywords": [
-      "fiddle leaf fig",
-      "indoor plant",
-      "ficus",
-      "air purifier",
-      "ugaoo"
-    ],
-    "description": "Glossy violin-shaped structural leaves that create an instant architectural focal point indoors.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117e",
-    "id": "6aa439cc2d7c518e5e6e117e",
-    "name": "String of Pearls Trailing Hanging Succulent",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.7,
-    "sold": 890,
-    "stock": 65,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Succulents & Cacti",
-    "brand": "Nurserylive",
-    "keywords": [
-      "string of pearls",
-      "hanging plant",
-      "succulent",
-      "indoor trailing"
-    ],
-    "description": "Cascading bead-like spherical pea leaves draping beautifully over hanging macrame baskets.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e117f",
-    "id": "6aa439cc2d7c518e5e6e117f",
-    "name": "Fresh Aromatic Lemongrass Live Kitchen Plant",
-    "price": 220,
-    "originalPrice": 300,
-    "rating": 4.6,
-    "sold": 760,
-    "stock": 80,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Herbs & Edibles",
-    "brand": "Root Bridges",
-    "keywords": [
-      "lemongrass",
-      "herbs",
-      "kitchen garden",
-      "edible plants",
-      "tea herb"
-    ],
-    "description": "Potted organic East Indian lemongrass providing citrus fragrance and culinary stems for teas and soups.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1180",
-    "id": "6aa439cc2d7c518e5e6e1180",
-    "name": "Geometric Wall-Mounted Hanging Planters – Set of 2",
-    "price": 699,
-    "originalPrice": 950,
-    "rating": 4.8,
-    "sold": 1200,
-    "stock": 55,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Planters & Pots",
-    "brand": "TrustBasket",
-    "keywords": [
-      "wall planters",
-      "hanging pots",
-      "geometric pots",
-      "gardening"
-    ],
-    "description": "Modern diamond wire frame holders with removable white matte ceramic containers for succulents.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1181",
-    "id": "6aa439cc2d7c518e5e6e1181",
-    "name": "Fragrant Night Blooming Jasmine (Raat Ki Rani)",
-    "price": 320,
-    "originalPrice": 450,
-    "rating": 4.8,
-    "sold": 1650,
-    "stock": 75,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Outdoor Plants",
-    "brand": "Nurserylive",
-    "keywords": [
-      "raat ki rani",
-      "night jasmine",
-      "fragrant plant",
-      "flowering plant"
-    ],
-    "description": "Tubular greenish-white blooms that open after sunset releasing an enchanting nocturnal perfume.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1182",
-    "id": "6aa439cc2d7c518e5e6e1182",
-    "name": "ZZ Plant (Zamioculcas Zamiifolia) Air Purifier",
-    "price": 649,
-    "originalPrice": 899,
-    "rating": 4.9,
-    "sold": 2400,
-    "stock": 110,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1593482892290-f54927ae1bf6?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593482892290-f54927ae1bf6?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Indoor Plants",
-    "brand": "Ugaoo",
-    "keywords": [
-      "zz plant",
-      "low light plant",
-      "office plant",
-      "air purifier",
-      "ugaoo"
-    ],
-    "description": "Indestructible waxy deep green leaves that thrive in almost total darkness and require water once a month.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1183",
-    "id": "6aa439cc2d7c518e5e6e1183",
-    "name": "Medicinal Organic Aloe Vera in Handcrafted Terracotta",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.8,
-    "sold": 2100,
-    "stock": 130,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Succulents & Cacti",
-    "brand": "Ugaoo",
-    "keywords": [
-      "aloe vera",
-      "succulent",
-      "medicinal plant",
-      "skincare plant"
-    ],
-    "description": "Fleshy serrated leaves bursting with nutrient-rich soothing gel for skincare, sunburns, and wellness.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1184",
-    "id": "6aa439cc2d7c518e5e6e1184",
-    "name": "Fresh Organic Curry Leaf (Kadi Patta) Plant",
-    "price": 180,
-    "originalPrice": 250,
-    "rating": 4.6,
-    "sold": 1850,
-    "stock": 100,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Herbs & Edibles",
-    "brand": "Root Bridges",
-    "keywords": [
-      "curry leaves",
-      "kadi patta",
-      "herbs",
-      "kitchen plant",
-      "edible plants"
-    ],
-    "description": "Live sweet neem plant yielding intensely fragrant fresh leaves essential for authentic South Indian tadka.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1185",
-    "id": "6aa439cc2d7c518e5e6e1185",
-    "name": "Handcrafted Boho Macrame Plant Hangers – Set of 3",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 70,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Planters & Pots",
-    "brand": "TrustBasket",
-    "keywords": [
-      "macrame hanger",
-      "plant hanger",
-      "boho decor",
-      "hanging pots"
-    ],
-    "description": "100% natural braided cotton cord plant suspensions with wooden beads fitting 6-inch to 10-inch pots.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1186",
-    "id": "6aa439cc2d7c518e5e6e1186",
-    "name": "Vibrant Scarlet Red Hibiscus Flowering Shrub",
-    "price": 299,
-    "originalPrice": 420,
-    "rating": 4.7,
-    "sold": 1350,
-    "stock": 80,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Outdoor Plants",
-    "brand": "Nurserylive",
-    "keywords": [
-      "hibiscus",
-      "red flower",
-      "outdoor plant",
-      "flowering shrub"
-    ],
-    "description": "Evergreen tropical shrub boasting large 5-inch crimson blossoms beloved by butterflies and hummingbirds.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1187",
-    "id": "6aa439cc2d7c518e5e6e1187",
-    "name": "Monstera Deliciosa (Swiss Cheese Plant)",
-    "price": 849,
-    "originalPrice": 1199,
-    "rating": 4.9,
-    "sold": 2150,
-    "stock": 65,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1545241047-6083a3684587?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Indoor Plants",
-    "brand": "Ugaoo",
-    "keywords": [
-      "monstera",
-      "swiss cheese plant",
-      "indoor plant",
-      "tropical plant"
-    ],
-    "description": "Iconic glossy tropical foliage that naturally develops magnificent architectural splits and fenestrations.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1188",
-    "id": "6aa439cc2d7c518e5e6e1188",
-    "name": "Colorful Grafted Moon Cactus Tabletop Plant",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.6,
-    "sold": 840,
-    "stock": 60,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Succulents & Cacti",
-    "brand": "Rolling Nature",
-    "keywords": [
-      "moon cactus",
-      "grafted cactus",
-      "mini succulent",
-      "desk plant"
-    ],
-    "description": "Bright neon ruby grafted ball cactus atop a green hylocereus rootstock. Fun desk accent.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1189",
-    "id": "6aa439cc2d7c518e5e6e1189",
-    "name": "Fresh English Thyme Culinary Herb Plant",
-    "price": 260,
-    "originalPrice": 360,
-    "rating": 4.6,
-    "sold": 620,
-    "stock": 75,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1515586000433-45406d8e6662?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Herbs & Edibles",
-    "brand": "Root Bridges",
-    "keywords": [
-      "thyme plant",
-      "culinary herbs",
-      "kitchen garden",
-      "fresh herbs"
-    ],
-    "description": "Woody aromatic herb with tiny aromatic leaves. Indispensable for marinades, roasted vegetables, and stews.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118a",
-    "id": "6aa439cc2d7c518e5e6e118a",
-    "name": "Fluted Matte Ceramic Planters with Drainage (Set of 2)",
-    "price": 799,
-    "originalPrice": 1099,
-    "rating": 4.8,
-    "sold": 1250,
-    "stock": 50,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Planters & Pots",
-    "brand": "TrustBasket",
-    "keywords": [
-      "ceramic planters",
-      "fluted pots",
-      "indoor pots",
-      "planters"
-    ],
-    "description": "Minimalist ridged ceramic plant pots with attached overflow saucers in neutral cream stone finish.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118b",
-    "id": "6aa439cc2d7c518e5e6e118b",
-    "name": "Dwarf Orange Ixora Flowering Balcony Shrub",
-    "price": 320,
-    "originalPrice": 440,
-    "rating": 4.7,
-    "sold": 790,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Outdoor Plants",
-    "brand": "Nurserylive",
-    "keywords": [
-      "ixora",
-      "orange flowers",
-      "balcony plants",
-      "outdoor shrub"
-    ],
-    "description": "Compact perennial producing dense spherical clusters of star-shaped fiery orange flowers year-round.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118c",
-    "id": "6aa439cc2d7c518e5e6e118c",
-    "name": "Rubber Tree Plant (Ficus Elastica Burgundy)",
-    "price": 699,
-    "originalPrice": 999,
-    "rating": 4.8,
-    "sold": 1540,
-    "stock": 55,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1599685315640-9ceab2f58944?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1599685315640-9ceab2f58944?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Indoor Plants",
-    "brand": "Ugaoo",
-    "keywords": [
-      "rubber plant",
-      "ficus elastica",
-      "burgundy rubber plant",
-      "indoor plants"
-    ],
-    "description": "Dramatic thick oval leaves in deep dark burgundy with bronze undertones that filter formaldehyde.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118d",
-    "id": "6aa439cc2d7c518e5e6e118d",
-    "name": "Echeveria Elegans Mexican Snowball Succulent",
-    "price": 299,
-    "originalPrice": 420,
-    "rating": 4.7,
-    "sold": 1100,
-    "stock": 80,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Succulents & Cacti",
-    "brand": "Ugaoo",
-    "keywords": [
-      "echeveria",
-      "succulents",
-      "mexican snowball",
-      "desk plant"
-    ],
-    "description": "Pristine compact rosette of powdery pale blue-green fleshy leaves that produces pink bell flowers.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118e",
-    "id": "6aa439cc2d7c518e5e6e118e",
-    "name": "Greek Oregano Live Herb Kitchen Plant",
-    "price": 240,
-    "originalPrice": 330,
-    "rating": 4.6,
-    "sold": 590,
-    "stock": 70,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Herbs & Edibles",
-    "brand": "Root Bridges",
-    "keywords": [
-      "oregano",
-      "herbs",
-      "kitchen plant",
-      "mediterranean herb"
-    ],
-    "description": "Pungent perennial herb with fragrant rounded leaves essential for homemade pizza sauces and Greek salads.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e118f",
-    "id": "6aa439cc2d7c518e5e6e118f",
-    "name": "Heavy Duty Metal Rolling Plant Caddy with Lock Wheels",
-    "price": 649,
-    "originalPrice": 899,
-    "rating": 4.7,
-    "sold": 940,
-    "stock": 60,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Planters & Pots",
-    "brand": "TrustBasket",
-    "keywords": [
-      "plant caddy",
-      "pot stand",
-      "plant roller",
-      "garden tools"
-    ],
-    "description": "Solid powder-coated iron round plant dolly holding up to 80kg to move heavy potted trees effortlessly.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1190",
-    "id": "6aa439cc2d7c518e5e6e1190",
-    "name": "White Frangipani (Champa) Fragrant Tree Sapling",
-    "price": 449,
-    "originalPrice": 620,
-    "rating": 4.8,
-    "sold": 1450,
-    "stock": 50,
-    "discount": "28% OFF",
-    "image": "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593691509543-c55fb32e7355?w=600&q=80"
-    ],
-    "category": "Plants",
-    "subcategory": "Outdoor Plants",
-    "brand": "Nurserylive",
-    "keywords": [
-      "champa",
-      "frangipani",
-      "plumeria",
-      "fragrant tree",
-      "outdoor plant"
-    ],
-    "description": "Velvety cream-white pinwheel blossoms with sunny yellow centers exuding a sweet citrus perfume.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1191",
-    "id": "6aa439cc2d7c518e5e6e1191",
-    "name": "Can't Hurt Me: Master Your Mind – David Goggins",
-    "price": 449,
-    "originalPrice": 650,
-    "rating": 4.9,
-    "sold": 4900,
-    "stock": 140,
-    "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Self-Help",
-    "brand": "Lioncrest",
-    "keywords": [
-      "cant hurt me",
-      "david goggins",
-      "mindset",
-      "self help",
-      "motivation"
-    ],
-    "description": "For David Goggins, childhood was a nightmare. Through self-discipline and mental toughness, he transformed.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1192",
-    "id": "6aa439cc2d7c518e5e6e1192",
-    "name": "Guns, Germs, and Steel – Jared Diamond",
-    "price": 499,
-    "originalPrice": 699,
-    "rating": 4.8,
-    "sold": 2800,
-    "stock": 90,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Non-Fiction",
-    "brand": "W.W. Norton",
-    "keywords": [
-      "guns germs and steel",
-      "history",
-      "anthropology",
-      "non fiction"
-    ],
-    "description": "Pulitzer Prize-winning book examining geographical and environmental factors that shaped modern civilizations.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1193",
-    "id": "6aa439cc2d7c518e5e6e1193",
-    "name": "1984 – George Orwell (Centennial Edition)",
-    "price": 249,
-    "originalPrice": 350,
-    "rating": 4.9,
-    "sold": 6200,
-    "stock": 190,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Fiction",
-    "brand": "Signet Classic",
-    "keywords": [
-      "1984",
-      "george orwell",
-      "dystopian",
-      "classic fiction",
-      "literature"
-    ],
-    "description": "The haunting prophetic dystopian masterpiece on Big Brother, thoughtcrime, and the ultimate surveillance state.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1194",
-    "id": "6aa439cc2d7c518e5e6e1194",
-    "name": "Introduction to Algorithms (CLRS) – 4th Edition",
-    "price": 1899,
-    "originalPrice": 2599,
-    "rating": 4.9,
-    "sold": 2100,
-    "stock": 75,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Academic & Technical",
-    "brand": "MIT Press",
-    "keywords": [
-      "clrs",
-      "algorithms",
-      "computer science",
-      "programming",
-      "academic"
-    ],
-    "description": "The comprehensive global textbook covering algorithms, data structures, dynamic programming, and graph theory.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1195",
-    "id": "6aa439cc2d7c518e5e6e1195",
-    "name": "Charlotte's Web – E.B. White (Classic Hardcover)",
-    "price": 299,
-    "originalPrice": 399,
-    "rating": 4.9,
-    "sold": 3800,
-    "stock": 120,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Children's",
-    "brand": "HarperCollins",
-    "keywords": [
-      "charlottes web",
-      "childrens book",
-      "classic kids book",
-      "fiction"
-    ],
-    "description": "The timeless heartwarming tale of Wilbur the pig and his clever spider friend Charlotte.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1196",
-    "id": "6aa439cc2d7c518e5e6e1196",
-    "name": "The 7 Habits of Highly Effective People – Stephen R. Covey",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.8,
-    "sold": 4200,
-    "stock": 150,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Self-Help",
-    "brand": "Free Press",
-    "keywords": [
-      "7 habits",
-      "stephen covey",
-      "effectiveness",
-      "leadership",
-      "self help"
-    ],
-    "description": "A principle-centered approach for solving personal and professional problems with proven character ethics.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1197",
-    "id": "6aa439cc2d7c518e5e6e1197",
-    "name": "Factfulness: Ten Reasons We're Wrong About the World – Hans Rosling",
-    "price": 425,
-    "originalPrice": 599,
-    "rating": 4.8,
-    "sold": 2600,
-    "stock": 95,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Non-Fiction",
-    "brand": "Flatiron Books",
-    "keywords": [
-      "factfulness",
-      "hans rosling",
-      "data",
-      "world statistics",
-      "non fiction"
-    ],
-    "description": "Radical data-driven insights explaining why things are better than you think and overcoming cognitive biases.",
-    "featured": false,
-    "isNew": true
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e1198",
-    "id": "6aa439cc2d7c518e5e6e1198",
+    "_id": "6aa440688c7704ade4edfacd",
+    "id": "6aa440688c7704ade4edfacd",
     "name": "To Kill a Mockingbird – Harper Lee",
-    "price": 299,
-    "originalPrice": 399,
+    "price": 320,
+    "originalPrice": 450,
     "rating": 4.9,
-    "sold": 5100,
-    "stock": 140,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80",
+    "sold": 5200,
+    "stock": 150,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80"
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Fiction",
@@ -8384,77 +4646,79 @@ export const products = [
       "classic novel",
       "fiction"
     ],
-    "description": "Atticus Finch defends a wrongly accused Black man in depression-era Alabama in this Pulitzer-winning drama.",
+    "description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.",
     "featured": true,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e1199",
-    "id": "6aa439cc2d7c518e5e6e1199",
-    "name": "Eloquent JavaScript: Modern Introduction to Programming (3rd Edition)",
-    "price": 799,
-    "originalPrice": 1199,
-    "rating": 4.8,
-    "sold": 1900,
-    "stock": 80,
-    "discount": "33% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
+    "_id": "6aa440688c7704ade4edface",
+    "id": "6aa440688c7704ade4edface",
+    "name": "Introduction to Algorithms (CLRS) – 4th Edition",
+    "price": 1899,
+    "originalPrice": 2599,
+    "rating": 4.9,
+    "sold": 2200,
+    "stock": 70,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
+      "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Academic & Technical",
-    "brand": "No Starch Press",
+    "brand": "MIT Press",
     "keywords": [
-      "eloquent javascript",
-      "programming",
-      "web development",
-      "technical book"
+      "algorithms",
+      "clrs",
+      "computer science",
+      "coding",
+      "academic"
     ],
-    "description": "Marijn Haverbeke takes you on a deep dive into JS fundamentals, browser DOM, asynchronous code, and Node.",
-    "featured": false,
+    "description": "The world-renowned comprehensive handbook covering sorting, graphs, dynamic programming, and data structures.",
+    "featured": true,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e119a",
-    "id": "6aa439cc2d7c518e5e6e119a",
-    "name": "Matilda – Roald Dahl (Illustrated by Quentin Blake)",
-    "price": 320,
-    "originalPrice": 450,
-    "rating": 4.9,
-    "sold": 3600,
-    "stock": 130,
-    "discount": "29% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "_id": "6aa440688c7704ade4edfacf",
+    "id": "6aa440688c7704ade4edfacf",
+    "name": "The 7 Habits of Highly Effective People – Stephen Covey",
+    "price": 399,
+    "originalPrice": 550,
+    "rating": 4.8,
+    "sold": 4300,
+    "stock": 140,
+    "discount": "27% OFF",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80"
     ],
     "category": "Books",
-    "subcategory": "Children's",
-    "brand": "Puffin",
+    "subcategory": "Self-Help",
+    "brand": "Free Press",
     "keywords": [
-      "matilda",
-      "roald dahl",
-      "childrens novel",
-      "kids fantasy"
+      "7 habits",
+      "stephen covey",
+      "leadership",
+      "productivity",
+      "self help"
     ],
-    "description": "The story of an extraordinary girl with a magical mind and her tyrannical headmistress Miss Trunchbull.",
+    "description": "One of the most inspiring and impactful personal development books ever written on integrity and leadership.",
     "featured": false,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e119b",
-    "id": "6aa439cc2d7c518e5e6e119b",
+    "_id": "6aa440688c7704ade4edfad0",
+    "id": "6aa440688c7704ade4edfad0",
     "name": "The Power of Now: Spiritual Enlightenment – Eckhart Tolle",
     "price": 350,
     "originalPrice": 499,
     "rating": 4.8,
-    "sold": 3400,
+    "sold": 3200,
     "stock": 110,
     "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80",
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&q=80"
+      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Self-Help",
@@ -8463,219 +4727,133 @@ export const products = [
       "power of now",
       "eckhart tolle",
       "mindfulness",
-      "spirituality",
-      "self help"
+      "spirituality"
     ],
-    "description": "A transformative guide to living in the present moment, freeing yourself from psychological pain and anxiety.",
+    "description": "Transform your thoughts and awaken to a much higher dimension of conscious awareness in daily life.",
     "featured": false,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e119c",
-    "id": "6aa439cc2d7c518e5e6e119c",
-    "name": "Educated: A Memoir – Tara Westover",
-    "price": 399,
-    "originalPrice": 550,
+    "_id": "6aa440688c7704ade4edfad1",
+    "id": "6aa440688c7704ade4edfad1",
+    "name": "Thinking, Fast and Slow – Daniel Kahneman",
+    "price": 499,
+    "originalPrice": 699,
     "rating": 4.8,
-    "sold": 2900,
+    "sold": 2700,
     "stock": 95,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
+      "https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Non-Fiction",
-    "brand": "Random House",
+    "brand": "FSG",
     "keywords": [
-      "educated",
-      "tara westover",
-      "memoir",
-      "biography",
-      "bestseller"
+      "thinking fast and slow",
+      "daniel kahneman",
+      "psychology",
+      "behavioral economics"
     ],
-    "description": "The unforgettable story of a young woman who escapes her survivalist family in the mountains to earn a PhD.",
+    "description": "Nobel laureate Daniel Kahneman takes us on a tour of the intuitive System 1 and deliberative System 2 minds.",
     "featured": false,
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e119d",
-    "id": "6aa439cc2d7c518e5e6e119d",
-    "name": "The Great Gatsby – F. Scott Fitzgerald",
-    "price": 220,
-    "originalPrice": 299,
-    "rating": 4.7,
-    "sold": 4600,
-    "stock": 160,
-    "discount": "26% OFF",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Fiction",
-    "brand": "Scribner",
-    "keywords": [
-      "the great gatsby",
-      "fitzgerald",
-      "classic literature",
-      "jazz age",
-      "novel"
-    ],
-    "description": "The definitive tale of jazz-age decadence, idealistic love, obsessions, and the illusions of the American Dream.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e119e",
-    "id": "6aa439cc2d7c518e5e6e119e",
-    "name": "System Design Interview – Alex Xu (Volume 1)",
-    "price": 999,
-    "originalPrice": 1499,
+    "_id": "6aa440688c7704ade4edfad2",
+    "id": "6aa440688c7704ade4edfad2",
+    "name": "Designing Data-Intensive Applications – Martin Kleppmann",
+    "price": 1199,
+    "originalPrice": 1699,
     "rating": 4.9,
-    "sold": 2600,
-    "stock": 85,
-    "discount": "33% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
+    "sold": 2100,
+    "stock": 75,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
+      "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Academic & Technical",
-    "brand": "ByteDance Press",
+    "brand": "O'Reilly",
     "keywords": [
+      "data systems",
       "system design",
-      "alex xu",
-      "software engineer",
-      "coding interview"
+      "distributed systems",
+      "oreilly"
     ],
-    "description": "Step-by-step insider guide to designing large scale systems: rate limiters, key-value stores, and chat apps.",
+    "description": "Examines replication, partitioning, stream processing, consistency, and database internal storage engines.",
     "featured": true,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e119f",
-    "id": "6aa439cc2d7c518e5e6e119f",
-    "name": "Where the Wild Things Are – Maurice Sendak (50th Anniversary)",
-    "price": 349,
-    "originalPrice": 480,
+    "_id": "6aa440688c7704ade4edfad3",
+    "id": "6aa440688c7704ade4edfad3",
+    "name": "Guns, Germs, and Steel: The Fates of Human Societies",
+    "price": 499,
+    "originalPrice": 699,
+    "rating": 4.7,
+    "sold": 2400,
+    "stock": 85,
+    "discount": "29% OFF",
+    "image": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=600&q=80"
+    ],
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "brand": "W.W. Norton",
+    "keywords": [
+      "guns germs and steel",
+      "jared diamond",
+      "history",
+      "societies"
+    ],
+    "description": "Jared Diamond answers why Eurasian peoples conquered or displaced Native Americans, Africans, and Australians.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfad4",
+    "id": "6aa440688c7704ade4edfad4",
+    "name": "Charlotte's Web – E.B. White Illustrated Classic",
+    "price": 280,
+    "originalPrice": 380,
     "rating": 4.9,
     "sold": 3900,
-    "stock": 110,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "stock": 130,
+    "discount": "26% OFF",
+    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80"
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Children's",
     "brand": "HarperCollins",
     "keywords": [
-      "where the wild things are",
-      "picture book",
-      "childrens literature"
+      "charlottes web",
+      "childrens book",
+      "kids book",
+      "classic literature"
     ],
-    "description": "Max sails off to the land of the Wild Things where he is crowned king, in this iconic picture book classic.",
+    "description": "The heartwarming, gentle children story of friendship between Wilbur the pig and Charlotte A. Cavatica.",
     "featured": false,
     "isNew": false
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e11a0",
-    "id": "6aa439cc2d7c518e5e6e11a0",
-    "name": "Man's Search for Meaning – Viktor E. Frankl",
-    "price": 280,
-    "originalPrice": 399,
-    "rating": 4.9,
-    "sold": 5200,
-    "stock": 140,
-    "discount": "30% OFF",
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Self-Help",
-    "brand": "Beacon Press",
-    "keywords": [
-      "mans search for meaning",
-      "viktor frankl",
-      "logotherapy",
-      "self help",
-      "psychology"
-    ],
-    "description": "Psychiatrist Viktor Frankl’s immortal memoir of surviving Auschwitz and discovering our will to meaning.",
-    "featured": true,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e11a1",
-    "id": "6aa439cc2d7c518e5e6e11a1",
-    "name": "Quiet: The Power of Introverts – Susan Cain",
-    "price": 399,
-    "originalPrice": 550,
-    "rating": 4.8,
-    "sold": 2400,
-    "stock": 90,
-    "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Non-Fiction",
-    "brand": "Crown Publishing",
-    "keywords": [
-      "quiet",
-      "susan cain",
-      "introverts",
-      "psychology",
-      "non fiction"
-    ],
-    "description": "Passionately argued exploration of how Western culture dramatically undervalues the traits of introverts.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e11a2",
-    "id": "6aa439cc2d7c518e5e6e11a2",
-    "name": "Pride and Prejudice – Jane Austen (Clothbound Classic)",
-    "price": 240,
-    "originalPrice": 320,
-    "rating": 4.8,
-    "sold": 4800,
-    "stock": 150,
-    "discount": "25% OFF",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"
-    ],
-    "category": "Books",
-    "subcategory": "Fiction",
-    "brand": "Penguin Classics",
-    "keywords": [
-      "pride and prejudice",
-      "jane austen",
-      "romance",
-      "classic literature",
-      "fiction"
-    ],
-    "description": "The sparkling battle of wits between spirited Elizabeth Bennet and proud aristocrat Mr. Darcy.",
-    "featured": false,
-    "isNew": false
-  },
-  {
-    "_id": "6aa439cc2d7c518e5e6e11a3",
-    "id": "6aa439cc2d7c518e5e6e11a3",
-    "name": "Refactoring: Improving the Design of Existing Code – Martin Fowler",
+    "_id": "6aa440688c7704ade4edfad5",
+    "id": "6aa440688c7704ade4edfad5",
+    "name": "Refactoring: Improving Code Design – Martin Fowler",
     "price": 1099,
     "originalPrice": 1599,
-    "rating": 4.9,
-    "sold": 1850,
-    "stock": 70,
+    "rating": 4.8,
+    "sold": 1750,
+    "stock": 65,
     "discount": "31% OFF",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80",
+    "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=600&q=80"
+      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Academic & Technical",
@@ -8683,39 +4861,120 @@ export const products = [
     "keywords": [
       "refactoring",
       "martin fowler",
-      "software design",
       "clean code",
-      "technical"
+      "programming",
+      "architecture"
     ],
-    "description": "The master blueprint on code smells, bad architecture detection, and systematic safe refactorings.",
+    "description": "Fully updated second edition demonstrating refactoring principles in JavaScript with step-by-step examples.",
     "featured": false,
     "isNew": true
   },
   {
-    "_id": "6aa439cc2d7c518e5e6e11a4",
-    "id": "6aa439cc2d7c518e5e6e11a4",
-    "name": "Percy Jackson & The Olympians: The Lightning Thief – Rick Riordan",
-    "price": 349,
-    "originalPrice": 480,
-    "rating": 4.9,
-    "sold": 4100,
-    "stock": 120,
+    "_id": "6aa440688c7704ade4edfad6",
+    "id": "6aa440688c7704ade4edfad6",
+    "name": "Quiet: The Power of Introverts – Susan Cain",
+    "price": 399,
+    "originalPrice": 550,
+    "rating": 4.8,
+    "sold": 2900,
+    "stock": 100,
     "discount": "27% OFF",
-    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80",
+    "image": "https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?w=600&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80"
+      "https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?w=600&q=80"
+    ],
+    "category": "Books",
+    "subcategory": "Non-Fiction",
+    "brand": "Crown",
+    "keywords": [
+      "quiet",
+      "susan cain",
+      "introverts",
+      "psychology",
+      "personality"
+    ],
+    "description": "A revolutionary look at introversion that will change how you see introverts—and how introverts see themselves.",
+    "featured": false,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfad7",
+    "id": "6aa440688c7704ade4edfad7",
+    "name": "Pride and Prejudice – Jane Austen (Collector Edition)",
+    "price": 240,
+    "originalPrice": 320,
+    "rating": 4.9,
+    "sold": 5800,
+    "stock": 160,
+    "discount": "25% OFF",
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&q=80"
+    ],
+    "category": "Books",
+    "subcategory": "Fiction",
+    "brand": "Penguin Classics",
+    "keywords": [
+      "pride and prejudice",
+      "jane austen",
+      "classic novel",
+      "romance fiction"
+    ],
+    "description": "Jane Austen’s wit and romantic genius sparkle in this enduring classic battle between Lizzie and Darcy.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfad8",
+    "id": "6aa440688c7704ade4edfad8",
+    "name": "Harry Potter: Illustrated Sorcerer's Stone – Jim Kay",
+    "price": 799,
+    "originalPrice": 1199,
+    "rating": 4.9,
+    "sold": 4500,
+    "stock": 120,
+    "discount": "33% OFF",
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&q=80"
     ],
     "category": "Books",
     "subcategory": "Children's",
-    "brand": "Disney-Hyperion",
+    "brand": "Bloomsbury",
     "keywords": [
-      "percy jackson",
-      "lightning thief",
-      "greek mythology",
-      "fantasy",
-      "childrens"
+      "harry potter",
+      "illustrated edition",
+      "childrens fantasy",
+      "magic"
     ],
-    "description": "Percy discovers he is a demigod son of Poseidon and must retrieve Zeus’s stolen master bolt.",
+    "description": "J.K. Rowling’s original full text accompanied by Jim Kay’s astonishing full-color visual paintings.",
+    "featured": true,
+    "isNew": false
+  },
+  {
+    "_id": "6aa440688c7704ade4edfad9",
+    "id": "6aa440688c7704ade4edfad9",
+    "name": "Cracking the Coding Interview – 6th Edition (189 Questions)",
+    "price": 899,
+    "originalPrice": 1299,
+    "rating": 4.9,
+    "sold": 3400,
+    "stock": 90,
+    "discount": "31% OFF",
+    "image": "https://images.unsplash.com/photo-1509021436665-8f07dbf76572?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509021436665-8f07dbf76572?w=600&q=80"
+    ],
+    "category": "Books",
+    "subcategory": "Academic & Technical",
+    "brand": "CareerCup",
+    "keywords": [
+      "cracking coding interview",
+      "algorithms",
+      "software engineering",
+      "interview prep"
+    ],
+    "description": "The software engineer’s holy grail covering big-O notation, algorithm design, system architecture, and behavioral rounds.",
     "featured": false,
     "isNew": false
   }
