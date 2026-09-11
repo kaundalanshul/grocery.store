@@ -8,6 +8,7 @@
     "start": "cd ecommerce-project/backend && npm start",
     "build:backend": "cd ecommerce-project/backend && npm install",
     "start:backend": "cd ecommerce-project/backend && npm start",
+    "start:admin": "cd ecommerce-project/admin && npm start",
     "build:frontend": "cd ecommerce-project/frontend && npm install && npm run build",
     "start:frontend": "cd ecommerce-project/frontend && npm run start:prod"
   },

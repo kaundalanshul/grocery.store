@@ -359,6 +359,9 @@ const Products = ({ theme, onToggleTheme }) => {
                       {product.name}
                     </Link>
                   </h3>
+                  {product.description && (
+                    <p className="products-card-desc">{product.description}</p>
+                  )}
                   <div className="products-rating">
                     <span className="stars">★</span> {product.rating}
                     <span className="sold-count"> · {product.sold} sold</span>
