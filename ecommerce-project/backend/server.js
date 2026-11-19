@@ -16,7 +16,20 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get('/api', (req, res) => {
-  res.json({ message: 'Welcome to Ecommerce API' });
+  res.json({
+    message: 'Welcome to Ecommerce API',
+    endpoints: {
+      users: '/api/users',
+      products: '/api/products',
+      orders: '/api/orders',
+      payments: '/api/payments',
+      blockchain: '/api/blockchain',
+      admin: '/api/admin',
+      tracking: '/api/tracking',
+      chatbot: '/api/chatbot',
+      recommendations: '/api/recommendations',
+    },
+  });
 });
 
 // User Routes
@@ -52,6 +65,13 @@ app.use('/api/recommendations', require('./routes/recommendationRoutes'));
 
 // Order Tracking Routes
 app.use('/api/tracking', require('./routes/trackingRoutes'));
+
+// Blockchain Ledger Routes
+app.use('/api/blockchain', require('./routes/blockchainRoutes'));
+
+// Initialize Blockchain Service
+const { blockchain } = require('./services/blockchainService');
+blockchain.init().catch((err) => console.warn('⚠️ Blockchain init deferred:', err.message));
 
 // Error handling middleware
 app.use((err, req, res, next) => {

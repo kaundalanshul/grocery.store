@@ -30,6 +30,9 @@ const orderSchema = new mongoose.Schema(
     },
     trackingNumber: { type: String },
     notes: { type: String },
+    blockchainTxHash: { type: String },
+    blockchainBlockIndex: { type: Number },
+    blockchainVerified: { type: Boolean, default: true },
   },
   { timestamps: true }
 );

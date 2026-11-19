@@ -1,4 +1,5 @@
 const Order = require('../models/Order');
+const { blockchain } = require('../services/blockchainService');
 
 // POST /api/orders — place an order
 const createOrder = async (req, res) => {
@@ -16,6 +17,17 @@ const createOrder = async (req, res) => {
       shippingAddress,
       paymentMethod: paymentMethod || 'card',
     });
+
+    // Record order creation on the immutable blockchain ledger
+    try {
+      const bcRecord = await blockchain.recordOrderEvent(order, 'ORDER_CREATED');
+      order.blockchainTxHash = bcRecord.txHash;
+      order.blockchainBlockIndex = bcRecord.blockIndex;
+      order.blockchainVerified = true;
+      await order.save();
+    } catch (bcError) {
+      console.warn('⚠️ Blockchain logging error on order creation:', bcError.message);
+    }
 
     return res.status(201).json({ success: true, order });
   } catch (error) {
@@ -54,6 +66,17 @@ const updateOrderStatus = async (req, res) => {
       { new: true }
     );
     if (!order) return res.status(404).json({ success: false, message: 'Order not found.' });
+
+    // Record status transition on blockchain
+    try {
+      await blockchain.recordOrderEvent(order, 'ORDER_STATUS_UPDATED', {
+        newStatus: orderStatus,
+        updatedAt: new Date().toISOString(),
+      });
+    } catch (bcError) {
+      console.warn('⚠️ Blockchain logging error on status update:', bcError.message);
+    }
+
     return res.status(200).json({ success: true, order });
   } catch (error) {
     return res.status(500).json({ success: false, message: 'Failed to update order.', error: error.message });
