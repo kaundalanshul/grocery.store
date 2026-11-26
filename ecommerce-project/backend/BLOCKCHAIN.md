@@ -1,4 +1,4 @@
-# Blockchain Ledger Architecture & API Reference
+ # Blockchain Ledger Architecture & API Reference
 
 MegaMart backend includes a native, cryptographically secure **Proof-of-Work Blockchain Ledger** to guarantee tamper-proof audit trails, order integrity, and supply chain verification.
 
